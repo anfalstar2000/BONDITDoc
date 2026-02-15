@@ -261,7 +261,7 @@ export default function SuccessStoriesPage() {
  </div>
  <div className="bg-gray-50 p-6">
  <div className="flex items-start gap-3 mb-4">
- <div className="size-10 bg-black flex items-center justify-center shrink-0">
+ <div className="size-10 bg-[#3B82F6] flex items-center justify-center shrink-0">
  <Crown className="size-6 text-white" />
  </div>
  <div>

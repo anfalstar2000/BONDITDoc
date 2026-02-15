@@ -237,9 +237,9 @@ export default function WhyLoyaltyPage() {
  <span className="text-black">يرغب ببناء علاقة طويلة المدى مع العملاء</span>
  </div>
  </div>
- <div className="bg-black rounded-none text-white p-6 my-8 not-prose">
+ <div className="bg-gradient-to-br from-[#3B82F6] to-[#2563EB] rounded-3xl text-white p-6 my-8 not-prose">
  <h3 className="text-2xl font-bold mb-4">الخلاصة</h3>
- <p className="text-gray-500 text-lg mb-3">
+ <p className="text-white/90 text-lg mb-3">
  برنامج الولاء ليس أداة خصم.
  </p>
  <p className="text-white text-xl font-semibold mb-6">
