@@ -5,7 +5,7 @@ export function PrevNext() {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-12 pt-8">
       <a
         href="#"
-        className="flex items-center gap-3 p-4 rounded-lg bg-white hover:bg-[#F7F7F7] transition-all group"
+        className="flex items-center gap-3 p-4 rounded-none bg-white hover:bg-[#F7F7F7] transition-all group"
       >
         <ChevronRight className="size-5 text-[#939393] group-hover:text-[#3B82F6] flex-shrink-0" />
         <div>
@@ -16,7 +16,7 @@ export function PrevNext() {
 
       <a
         href="#"
-        className="flex items-center justify-end gap-3 p-4 rounded-lg bg-white hover:bg-[#F7F7F7] transition-all group text-right"
+        className="flex items-center justify-end gap-3 p-4 rounded-none bg-white hover:bg-[#F7F7F7] transition-all group text-right"
       >
         <div>
           <div className="text-xs text-[#939393] mb-1">التالي</div>

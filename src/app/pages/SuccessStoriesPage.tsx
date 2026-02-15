@@ -13,7 +13,7 @@ export default function SuccessStoriesPage() {
       </div>
 
       <div className="prose prose-lg max-w-none">
-        <div className="bg-white rounded-lg p-6 my-8 not-prose">
+        <div className="bg-white rounded-none p-6 my-8 not-prose">
           <p className="text-black text-lg">
             نوفر لك ثلاث باقات مصممة لتناسب احتياجات متجرك حسب حجم النشاط وعدد الطلبات الشهرية.
             اختار الباقة اللي تناسب طموحاتك، وترقّى وقتما تحتاج!
@@ -25,9 +25,9 @@ export default function SuccessStoriesPage() {
         {/* Pricing Cards */}
         <div className="grid md:grid-cols-3 gap-6 my-12 not-prose">
           {/* Lite Plan */}
-          <div className="bg-white rounded-lg overflow-hidden">
+          <div className="bg-white rounded-none overflow-hidden">
             <div className="bg-white p-6">
-              <div className="inline-block bg-[#F7F7F7] rounded-lg text-black px-4 py-1 text-sm font-semibold mb-4">
+              <div className="inline-block bg-[#F7F7F7] rounded-none text-black px-4 py-1 text-sm font-semibold mb-4">
                 متاجر صغيرة
               </div>
               <h3 className="text-3xl font-bold text-black mb-2">باقة بوند لايت</h3>
@@ -42,7 +42,7 @@ export default function SuccessStoriesPage() {
             </div>
 
             <div className="p-6">
-              <div className="bg-[#F7F7F7] rounded-lg p-4 mb-6 text-center">
+              <div className="bg-[#F7F7F7] rounded-none p-4 mb-6 text-center">
                 <p className="text-sm text-[#939393] mb-1">ونش نقدم لك فيها:</p>
                 <p className="text-2xl font-bold text-black">250 طلب شهرياً</p>
               </div>
@@ -94,7 +94,7 @@ export default function SuccessStoriesPage() {
                 href="https://apps.salla.sa/ar/app/1944068071" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="block w-full py-3 bg-[#F7F7F7] hover:bg-[#3B82F6] hover:text-white text-black font-bold transition-all text-center rounded-lg"
+                className="block w-full py-3 bg-[#F7F7F7] hover:bg-[#3B82F6] hover:text-white text-black font-bold transition-all text-center rounded-none"
               >
                 اختر هذه الباقة
               </a>
@@ -102,12 +102,12 @@ export default function SuccessStoriesPage() {
           </div>
 
           {/* Plus Plan - Recommended */}
-          <div className="bg-white rounded-lg overflow-hidden relative">
-            <div className="absolute top-4 left-4 bg-[#3B82F6] text-white px-4 py-1 text-sm font-bold rounded-lg">
+          <div className="bg-white rounded-none overflow-hidden relative">
+            <div className="absolute top-4 left-4 bg-[#3B82F6] text-white px-4 py-1 text-sm font-bold rounded-none">
               ننصح بها ⭐
             </div>
             <div className="bg-[#3B82F6] p-6 text-white">
-              <div className="inline-block bg-white/20 rounded-lg text-white px-4 py-1 text-sm font-semibold mb-4">
+              <div className="inline-block bg-white/20 rounded-none text-white px-4 py-1 text-sm font-semibold mb-4">
                 ننصح بها
               </div>
               <h3 className="text-3xl font-bold mb-2">باقة بوند بلس</h3>
@@ -122,7 +122,7 @@ export default function SuccessStoriesPage() {
             </div>
 
             <div className="p-6">
-              <div className="bg-[#F7F7F7] rounded-lg p-4 mb-6 text-center">
+              <div className="bg-[#F7F7F7] rounded-none p-4 mb-6 text-center">
                 <p className="text-sm text-[#939393] mb-1">ونش نقدم لك فيها:</p>
                 <p className="text-2xl font-bold text-black">1,000 طلب شهرياً</p>
               </div>
@@ -174,9 +174,9 @@ export default function SuccessStoriesPage() {
           </div>
 
           {/* Pro Plan */}
-          <div className="bg-white rounded-lg overflow-hidden">
+          <div className="bg-white rounded-none overflow-hidden">
             <div className="bg-white p-6">
-              <div className="inline-block bg-[#F7F7F7] rounded-lg text-black px-4 py-1 text-sm font-semibold mb-4">
+              <div className="inline-block bg-[#F7F7F7] rounded-none text-black px-4 py-1 text-sm font-semibold mb-4">
                 متاجر كبيرة
               </div>
               <h3 className="text-3xl font-bold text-black mb-2">باقة بوند برو</h3>
@@ -191,7 +191,7 @@ export default function SuccessStoriesPage() {
             </div>
 
             <div className="p-6">
-              <div className="bg-[#F7F7F7] rounded-lg p-4 mb-6 text-center">
+              <div className="bg-[#F7F7F7] rounded-none p-4 mb-6 text-center">
                 <p className="text-sm text-[#939393] mb-1">ونش نقدم لك فيها:</p>
                 <p className="text-2xl font-bold text-black">5,000 طلب شهرياً</p>
               </div>
@@ -227,7 +227,7 @@ export default function SuccessStoriesPage() {
                 href="https://apps.salla.sa/ar/app/1944068071" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="block w-full py-3 bg-[#F7F7F7] hover:bg-[#3B82F6] hover:text-white text-black font-bold transition-all text-center rounded-lg"
+                className="block w-full py-3 bg-[#F7F7F7] hover:bg-[#3B82F6] hover:text-white text-black font-bold transition-all text-center rounded-none"
               >
                 اختر هذه الباقة
               </a>

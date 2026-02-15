@@ -11,7 +11,7 @@ export default function ReportsPage() {
       </div>
 
       <div className="prose prose-lg max-w-none">
-        <div className="bg-white rounded-lg p-6">
+        <div className="bg-white rounded-none p-6">
           <p className="text-black font-semibold">
             📝 المحتوى قيد الإعداد
           </p>

@@ -17,12 +17,12 @@ export function TopNav() {
             <input
               type="text"
               placeholder="البحث في التوثيق..."
-              className="w-[400px] pr-10 pl-4 py-2 bg-white text-sm focus:outline-none rounded-lg"
+              className="w-[400px] pr-10 pl-4 py-2 bg-white text-sm focus:outline-none rounded-none"
             />
           </div>
         </div>
 
-        <button className="px-6 py-2 bg-[#3B82F6] text-white text-xs md:text-sm rounded-lg hover:opacity-90 transition-all flex items-center gap-2">
+        <button className="px-6 py-2 bg-[#3B82F6] text-white text-xs md:text-sm rounded-none hover:opacity-90 transition-all flex items-center gap-2">
           <ExternalLink className="size-4" />
           <span className="hidden sm:inline">انتقل إلى لوحة التحكم</span>
           <span className="sm:hidden">لوحة التحكم</span>

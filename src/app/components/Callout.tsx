@@ -27,7 +27,7 @@ export function Callout({ type, children }: CalloutProps) {
   const style = styles[type];
 
   return (
-    <div className={`flex gap-3 p-4 rounded-lg ${style.container} ${style.text}`}>
+    <div className={`flex gap-3 p-4 rounded-none ${style.container} ${style.text}`}>
       <div className="flex-shrink-0 mt-0.5">{style.icon}</div>
       <div className="text-sm leading-relaxed">{children}</div>
     </div>

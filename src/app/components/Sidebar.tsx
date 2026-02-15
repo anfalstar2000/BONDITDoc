@@ -95,7 +95,7 @@ export function Sidebar() {
                   <li key={item.path}>
                     <Link
                       to={item.path}
-                      className={`block px-3 py-2 rounded-lg text-sm transition-colors ${
+                      className={`block px-3 py-2 rounded-none text-sm transition-colors ${
                         location.pathname === item.path
                           ? 'bg-[#3B82F6] text-white font-medium'
                           : 'text-black hover:bg-white hover:text-[#3B82F6]'
