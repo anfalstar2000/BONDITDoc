@@ -150,10 +150,15 @@ export function MobileNav() {
               </nav>
 
               <div className="mt-6 pt-6">
-                <button className="w-full px-4 py-2 bg-[#3B82F6] text-white text-sm rounded-none hover:opacity-90 transition-all flex items-center justify-center gap-2">
+                <a 
+                  href="https://app.bonditloyalty.io/login"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full px-4 py-2 bg-[#3B82F6] text-white text-sm rounded-none hover:opacity-90 transition-all flex items-center justify-center gap-2"
+                >
                   <ExternalLink className="size-4" />
                   انتقل إلى لوحة التحكم
-                </button>
+                </a>
               </div>
             </div>
           </div>

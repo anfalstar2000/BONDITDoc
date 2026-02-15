@@ -22,11 +22,16 @@ export function TopNav() {
           </div>
         </div>
 
-        <button className="px-6 py-2 bg-[#3B82F6] text-white text-xs md:text-sm rounded-none hover:opacity-90 transition-all flex items-center gap-2">
+        <a 
+          href="https://app.bonditloyalty.io/login"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-2 bg-[#3B82F6] text-white text-xs md:text-sm rounded-none hover:opacity-90 transition-all flex items-center gap-2"
+        >
           <ExternalLink className="size-4" />
           <span className="hidden sm:inline">انتقل إلى لوحة التحكم</span>
           <span className="sm:hidden">لوحة التحكم</span>
-        </button>
+        </a>
       </div>
     </nav>
   );
