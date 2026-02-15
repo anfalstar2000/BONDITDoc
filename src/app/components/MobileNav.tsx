@@ -49,7 +49,7 @@ const navigationData: NavSection[] = [
     ],
   },
   {
-    title: 'قصص النجاح',
+    title: 'الباقات',
     items: [
       { title: 'كيف اختار الباقة المناسبة', path: '/success-stories' },
     ],
