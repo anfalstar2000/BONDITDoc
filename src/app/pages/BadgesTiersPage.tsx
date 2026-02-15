@@ -1,4 +1,4 @@
-import { Award, Star, Trophy, TrendingUp, Gift, MessageCircle, Power, CheckCircle2, Play, Lightbulb, Crown } from 'lucide-react';
+import { Award, Star, Trophy, TrendingUp, Gift, MessageCircle, Power, CheckCircle2, Lightbulb, Crown } from 'lucide-react';
 export default function BadgesTiersPage() {
  return (
  <div className="w-full">
@@ -413,18 +413,19 @@ export default function BadgesTiersPage() {
  </div>
  </div>
  </div>
- {/* Video Placeholder */}
+ {/* Video Section */}
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors overflow-hidden my-8 not-prose">
- <div className="aspect-video bg-gray-50 flex items-center justify-center relative">
- <div className="text-center">
- <div className="size-20 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-4">
- <Play className="size-10 text-white mr-[-4px]" />
- </div>
- <p className="text-black font-semibold text-lg">شرح فيديو: إعداد الشارات والمستويات</p>
- <p className="text-gray-500 text-sm mt-2">سيتم إضافة الفيديو قريبًا</p>
- </div>
+ <div className="aspect-video w-full">
+ <iframe
+ className="w-full h-full"
+ src="https://www.youtube.com/embed/gOmLtaqTDF0"
+ title="شرح فيديو: إعداد الشارات والمستويات"
+ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+ allowFullScreen
+ />
  </div>
  <div className="p-5 bg-white">
+ <p className="text-black font-semibold text-lg mb-2">شرح فيديو: إعداد الشارات والمستويات</p>
  <p className="text-gray-500 text-sm text-center">
  شاهد شرح عملي خطوة بخطوة لإعداد نظام المستويات في متجرك
  </p>
