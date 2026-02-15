@@ -10,7 +10,7 @@ export default function ReportsPage() {
  </p>
  </div>
  <div className="prose prose-lg max-w-none">
- <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors p-6">
  <p className="text-black font-semibold">
  المحتوى قيد الإعداد
  </p>

@@ -40,7 +40,7 @@ export function PrevNext() {
       {prevPage ? (
         <Link
           to={prevPage.path}
-          className="group flex items-center gap-3 px-6 py-4 bg-white border-2 border-gray-200 rounded hover:border-[#3B82F6] transition-all flex-1"
+          className="group flex items-center gap-3 px-6 py-4 bg-white  rounded hover:border-[#3B82F6] transition-all flex-1"
         >
           <div className="size-10 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-[#3B82F6] transition-colors">
             <ChevronRight className="size-5 text-gray-600 group-hover:text-white transition-colors" />

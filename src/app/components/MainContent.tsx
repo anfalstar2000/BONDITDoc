@@ -71,7 +71,7 @@ export function MainContent() {
  <LinkIcon className="size-5 text-gray-500 hover:text-gray-700" />
  </button>
  </h2>
- <div className="bg-gradient-to-br from-gray-50 to-gray-100 p-6 rounded-none border border-gray-200 mb-6">
+ <div className="bg-gradient-to-br from-gray-50 to-gray-100 p-6 rounded-none mb-6">
  <h3 className="font-bold text-lg text-gray-900 mb-3">الحقيقة الصعبة:</h3>
  <p className="text-gray-700 leading-relaxed mb-3">
  80% من عملاء المتاجر الإلكترونية يشترون مرة واحدة فقط ولا يعودون أبدًا.
@@ -142,7 +142,7 @@ export function MainContent() {
  <span className="flex-shrink-0 w-7 h-7 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center text-sm font-bold">2</span>
  استلام بيانات الدخول
  </h3>
- <div className="bg-gray-50 p-4 rounded-none border border-gray-200">
+ <div className="bg-gray-50 p-4 rounded-none">
  <p className="text-sm text-gray-700 mb-2">ستصلك رسالة على بريدك الإلكتروني تحتوي على:</p>
  <ul className="space-y-1 mr-4">
  <li className="text-sm text-gray-700">رابط لوحة التحكم الخاصة بك</li>
@@ -225,7 +225,7 @@ export function MainContent() {
  <p className="font-bold text-green-700">الحقيقة:</p>
  <p className="text-gray-700">المكافأة ليست خسارة، بل <span className="font-semibold">أداة لإعادة العميل للشراء مرة أخرى</span>.</p>
  </div>
- <div className="bg-white border border-gray-200 rounded-none p-6 mb-6">
+ <div className="bg-white rounded-none p-6 mb-6">
  <h4 className="font-semibold text-gray-900 mb-3">مثال ذكي لفهم الربحية:</h4>
  <div className="space-y-3">
  <div className="flex items-start gap-3">
@@ -293,7 +293,7 @@ export function MainContent() {
  <p className="text-gray-700 leading-relaxed mb-4">
  أحد أهم المخاوف لأي تاجر: "كيف أتحكم في تكلفة المكافآت وما تطلع عن السيطرة؟"
  </p>
- <div className="bg-gray-50 border border-gray-200 rounded-none p-6">
+ <div className="bg-gray-50 rounded-none p-6">
  <h4 className="font-semibold text-gray-900 mb-4">أدوات التحكم المتاحة لك:</h4>
  <div className="space-y-3">
  <div className="flex gap-3 items-start">
@@ -703,7 +703,7 @@ export function MainContent() {
  <div id="assistant-help">
  <h3 className="text-lg font-semibold text-gray-900 mb-4">كيف يساعدك المساعد الذكي؟</h3>
  <div className="space-y-4">
- <div className="flex gap-4 items-start bg-white border border-gray-200 p-5 rounded-none">
+ <div className="flex gap-4 items-start bg-white p-5 rounded-none">
  <div className="flex-shrink-0 text-2xl"></div>
  <div>
  <h4 className="font-semibold text-gray-900 mb-1">كتابة وصف منتجات احترافي</h4>
@@ -711,7 +711,7 @@ export function MainContent() {
  <p className="text-xs text-blue-600">مثال: "اكتب وصف لعطر عود ملكي 100 مل"</p>
  </div>
  </div>
- <div className="flex gap-4 items-start bg-white border border-gray-200 p-5 rounded-none">
+ <div className="flex gap-4 items-start bg-white p-5 rounded-none">
  <div className="flex-shrink-0 text-2xl"></div>
  <div>
  <h4 className="font-semibold text-gray-900 mb-1">إنشاء مقالات SEO</h4>
@@ -719,7 +719,7 @@ export function MainContent() {
  <p className="text-xs text-green-600">يساعد في تحسين ظهور متجرك في جوجل</p>
  </div>
  </div>
- <div className="flex gap-4 items-start bg-white border border-gray-200 p-5 rounded-none">
+ <div className="flex gap-4 items-start bg-white p-5 rounded-none">
  <div className="flex-shrink-0 text-2xl"></div>
  <div>
  <h4 className="font-semibold text-gray-900 mb-1">اقتراح أفكار حملات</h4>
@@ -727,14 +727,14 @@ export function MainContent() {
  <p className="text-xs text-purple-600">بما فيها التحديات والمكافآت المناسبة</p>
  </div>
  </div>
- <div className="flex gap-4 items-start bg-white border border-gray-200 p-5 rounded-none">
+ <div className="flex gap-4 items-start bg-white p-5 rounded-none">
  <div className="flex-shrink-0 text-2xl"></div>
  <div>
  <h4 className="font-semibold text-gray-900 mb-1">كتابة كابشنات سوشيال ميديا</h4>
  <p className="text-sm text-gray-700">يكتب لك منشورات جاهزة لتويتر وإنستقرام وسناب شات</p>
  </div>
  </div>
- <div className="flex gap-4 items-start bg-white border border-gray-200 p-5 rounded-none">
+ <div className="flex gap-4 items-start bg-white p-5 rounded-none">
  <div className="flex-shrink-0 text-2xl"></div>
  <div>
  <h4 className="font-semibold text-gray-900 mb-1">اقتراح أفكار تحديات</h4>

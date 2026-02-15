@@ -6,7 +6,7 @@ import { PrevNext } from './PrevNext';
 import { ScrollToTop } from './ScrollToTop';
 export default function Layout() {
  return (
- <div className="min-h-screen bg-gray-50" dir="rtl">
+ <div className="min-h-screen bg-[#F8F9FA]" dir="rtl">
  <TopNav />
  <div className="flex">
  <Sidebar />
