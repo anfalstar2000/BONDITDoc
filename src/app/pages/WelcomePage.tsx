@@ -220,11 +220,6 @@ export default function WelcomePage() {
  ابدأ الآن
  </button>
  </div>
-
- <div className="bg-black rounded-none text-white p-6 my-8 text-center not-prose bg-[#ededed]">
- <p className="text-2xl font-bold mb-2">BOND IT ليس مجرد نظام نقاط…</p>
- <p className="text-xl text-gray-500">بل أداة لبناء ولاء حقيقي داخل متجرك.</p>
- </div>
  </div>
  </div>
  );
