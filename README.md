@@ -1,11 +1,61 @@
+# BOND IT Guide
 
-  # SaaS Documentation Page
-
-  This is a code bundle for SaaS Documentation Page. The original project is available at https://www.figma.com/design/pcyG8wOjacYjX5xlsQ8N37/SaaS-Documentation-Page.
-
-  ## Running the code
-
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
+<div align="center">
+  <img src="public/favicon.png" alt="BOND IT Logo" width="120" />
   
+  <h3>الدليل الرسمي لنظام BOND IT</h3>
+  <p>دليل شامل لإعداد وتشغيل برنامج الولاء خطوة بخطوة</p>
+</div>
+
+## 📖 عن المشروع
+
+الدليل الرسمي لإعداد وتشغيل نظام BOND IT وبرنامج الولاء خطوة بخطوة. يحتوي على شرح تفصيلي لجميع الميزات والإعدادات.
+
+## ✨ المحتويات
+
+- مقدمة عن BOND IT
+- كيف يعمل النظام
+- النقاط والمكافآت
+- الشارات والمستويات
+- التحديات
+- برنامج الإحالة
+- المساعد الذكي
+- التكاملات والإعدادات
+- دليل اختيار الباقة المناسبة
+
+## 🚀 التشغيل المحلي
+
+```bash
+# تثبيت المكتبات
+npm install
+
+# تشغيل المشروع
+npm run dev
+```
+
+## 🛠️ التقنيات المستخدمة
+
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- React Router
+- Lucide Icons
+
+## 🎨 التصميم
+
+- خط Expo Arabic
+- نظام ألوان متناسق
+- Soft UI Design
+- Responsive على جميع الأجهزة
+
+## 📱 الروابط
+
+- [لوحة التحكم](https://app.bonditloyalty.io/login)
+- [صفحة التطبيق على سلة](https://apps.salla.sa/ar/app/1944068071)
+- [الدعم الفني](mailto:Support@bonditloyalty.io)
+
+---
+
+<div align="center">
+  Made with ❤️ by BOND IT Team
+</div>
