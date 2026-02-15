@@ -417,15 +417,15 @@ export default function SuccessStoriesPage() {
  </div>
  </div>
 
- <div className="bg-black text-white p-10 my-8 not-prose">
+ <div className="bg-gradient-to-br from-[#3B82F6] to-[#2563EB] text-white p-10 my-8 not-prose rounded-none">
  <h3 className="text-3xl font-bold mb-4">محتار؟ نساعدك! </h3>
- <p className="text-gray-500 text-lg mb-6">
+ <p className="text-white/90 text-lg mb-6">
  إذا ما زلت محتار أي باقة تناسبك، فريق الدعم جاهز لمساعدتك في اختيار الباقة المثالية بناءً على حجم متجرك وأهدافك.
  </p>
  <div className="flex flex-wrap gap-4">
  <a 
  href="mailto:Support@bonditloyalty.io"
- className="px-6 py-3 bg-[#3B82F6] text-white hover:opacity-90 rounded-full font-bold transition-all inline-block"
+ className="px-6 py-3 bg-white text-[#3B82F6] hover:bg-gray-50 rounded-full font-bold transition-all inline-block"
  >
  تواصل مع الدعم
  </a>
@@ -433,7 +433,7 @@ export default function SuccessStoriesPage() {
  href="https://apps.salla.sa/ar/app/1944068071"
  target="_blank"
  rel="noopener noreferrer"
- className="px-6 py-3 bg-white text-black hover:bg-gray-50 rounded-full font-bold transition-all inline-block"
+ className="px-6 py-3 bg-white/20 text-white hover:bg-white/30 rounded-full font-bold transition-all inline-block"
  >
  اشترك الآن
  </a>
