@@ -13,7 +13,7 @@ export default function PointsRewardsPage() {
       </div>
 
       <div className="prose prose-lg max-w-none">
-        <div className="bg-white rounded-2xl p-6 my-8 not-prose">
+        <div className="bg-white rounded-lg p-6 my-8 not-prose">
           <p className="text-black text-lg mb-4">
             توفر صفحة النقاط والمكافآت في نظام BOND IT الأدوات الأساسية لإدارة برنامج الولاء داخل متجرك، من خلال ضبط طريقة احتساب النقاط، إنشاء المكافآت، تحديد شروط الاستبدال، ومتابعة سجل العمليات بالكامل.
           </p>
@@ -28,7 +28,7 @@ export default function PointsRewardsPage() {
           هذا القسم مخصص للتحكم في طريقة احتساب النقاط التي يحصل عليها العميل عند الشراء.
         </p>
 
-        <div className="bg-white rounded-2xl p-6 my-6 not-prose">
+        <div className="bg-white rounded-lg p-6 my-6 not-prose">
           <div className="flex items-center gap-3 mb-5">
             <div className="size-10 bg-[#3B82F6] rounded-lg flex items-center justify-center">
               <Settings className="size-6 text-white" />
@@ -37,25 +37,25 @@ export default function PointsRewardsPage() {
           </div>
           
           <div className="space-y-3">
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
               <p className="text-black">تفعيل نظام النقاط في المتجر.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
               <p className="text-black">تحديد قيمة النقاط مقابل كل ريال يتم إنفاقه.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
               <p className="text-black">جعل احتساب النقاط تلقائيًا بعد إتمام الطلب، دون تدخل يدوي.</p>
             </div>
           </div>
         </div>
 
-        <div className="bg-white rounded-2xl p-6 my-8 not-prose">
+        <div className="bg-white rounded-lg p-6 my-8 not-prose">
           <h4 className="text-lg font-bold text-black mb-4">مثال عملي</h4>
           
-          <div className="bg-[#F7F7F7] rounded-2xl p-5 mb-4">
+          <div className="bg-[#F7F7F7] rounded-lg p-5 mb-4">
             <p className="text-black mb-3">إذا قمت بتحديد:</p>
             <p className="text-2xl font-bold text-[#3B82F6] text-center py-3">
               1 نقطة لكل 1 ريال
@@ -65,11 +65,11 @@ export default function PointsRewardsPage() {
           <p className="text-black font-semibold mb-3">فسيحصل العميل على:</p>
           
           <div className="space-y-3">
-            <div className="flex items-center justify-between p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-center justify-between p-4 bg-[#F7F7F7] rounded-lg">
               <span className="text-black">طلب بقيمة 100 ريال</span>
               <span className="text-[#3B82F6] font-bold">→ 100 نقطة</span>
             </div>
-            <div className="flex items-center justify-between p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-center justify-between p-4 bg-[#F7F7F7] rounded-lg">
               <span className="text-black">طلب بقيمة 250 ريال</span>
               <span className="text-[#3B82F6] font-bold">→ 250 نقطة</span>
             </div>
@@ -109,7 +109,7 @@ export default function PointsRewardsPage() {
                 <p className="text-black mb-3">
                   هذا خيار ذكي يمنع تضاعف التحفيز عندما تكون هناك تحديات تمنح نقاطًا إضافية، ويضمن عدم تراكم نقاط زائدة قد تؤثر على ربحية المتجر.
                 </p>
-                <div className="bg-[#F7F7F7] rounded-2xl p-3">
+                <div className="bg-[#F7F7F7] rounded-lg p-3">
                   <p className="text-black text-sm font-semibold">
                     💡 هذا الخيار يحميك من تضخم النقاط خلال الحملات المكثفة
                   </p>
@@ -125,7 +125,7 @@ export default function PointsRewardsPage() {
           المكافآت هي ما يحصل عليه العميل عند استبدال نقاطه.
         </p>
 
-        <div className="bg-white rounded-2xl p-6 my-6 not-prose">
+        <div className="bg-white rounded-lg p-6 my-6 not-prose">
           <div className="flex items-center gap-3 mb-5">
             <div className="size-10 bg-[#3B82F6] rounded-lg flex items-center justify-center">
               <Gift className="size-6 text-white" />
@@ -169,31 +169,31 @@ export default function PointsRewardsPage() {
               <p className="text-white/80">في هذا القسم تحدد البيانات الأساسية التي تظهر للعميل:</p>
             </div>
             <div className="p-6 space-y-3">
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
                 <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
                 <p className="text-black">اسم المكافأة (يظهر للعميل).</p>
               </div>
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
                 <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                 <div className="flex-1">
                   <p className="text-black mb-3">نوع المكافأة، مثل:</p>
                   <div className="grid grid-cols-2 gap-2">
-                    <div className="p-2 bg-white rounded-2xl text-sm text-black text-center">خصم</div>
-                    <div className="p-2 bg-white rounded-2xl text-sm text-black text-center">شحن مجاني</div>
-                    <div className="p-2 bg-white rounded-2xl text-sm text-black text-center">منتج مجاني</div>
-                    <div className="p-2 bg-white rounded-2xl text-sm text-black text-center">كاش باك</div>
+                    <div className="p-2 bg-white rounded-lg text-sm text-black text-center">خصم</div>
+                    <div className="p-2 bg-white rounded-lg text-sm text-black text-center">شحن مجاني</div>
+                    <div className="p-2 bg-white rounded-lg text-sm text-black text-center">منتج مجاني</div>
+                    <div className="p-2 bg-white rounded-lg text-sm text-black text-center">كاش باك</div>
                   </div>
                 </div>
               </div>
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
                 <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
                 <p className="text-black">وصف مختصر يوضح قيمة المكافأة.</p>
               </div>
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
                 <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
                 <p className="text-black">عدد النقاط المطلوبة للاستبدال.</p>
               </div>
-              <div className="bg-[#F7F7F7] rounded-2xl p-4 text-sm">
+              <div className="bg-[#F7F7F7] rounded-lg p-4 text-sm">
                 <p className="font-semibold text-black">💡 ملاحظة مهمة:</p>
                 <p className="text-black">يتم إصدار المكافأة على شكل كوبون للعميل بعد الاستبدال.</p>
               </div>
@@ -214,17 +214,17 @@ export default function PointsRewardsPage() {
             <div className="p-6 space-y-4">
               <p className="text-black font-semibold">يمكنك تحديد:</p>
               <div className="space-y-3">
-                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
                   <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
                   <p className="text-black">حد أدنى لقيمة الطلب حتى يتم استخدام المكافأة.</p>
                 </div>
-                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
                   <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                   <p className="text-black">عدد مرات استخدام المكافأة لكل عميل.</p>
                 </div>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-2xl p-5">
+              <div className="bg-[#F7F7F7] rounded-lg p-5">
                 <p className="text-black font-semibold mb-3">مثال:</p>
                 <div className="space-y-2 text-black">
                   <div className="flex items-start gap-2">
@@ -253,17 +253,17 @@ export default function PointsRewardsPage() {
             </div>
             <div className="p-6 space-y-4">
               <div className="space-y-3">
-                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
                   <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
                   <p className="text-black">تحديد منتجات يسمح بتطبيق المكافأة عليها.</p>
                 </div>
-                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
                   <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                   <p className="text-black">أو استثناء منتجات معينة من تطبيق المكافأة.</p>
                 </div>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-2xl p-4 text-sm">
+              <div className="bg-[#F7F7F7] rounded-lg p-4 text-sm">
                 <p className="font-semibold mb-2 text-black">💡 متى يكون هذا مفيدًا؟</p>
                 <p className="text-black">
                   عندما ترغب بتوجيه الاستبدال نحو منتجات محددة، أو حماية منتجات هامش ربحها منخفض.
@@ -285,21 +285,21 @@ export default function PointsRewardsPage() {
             </div>
             <div className="p-6 space-y-4">
               <div className="space-y-3">
-                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
                   <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
                   <p className="text-black">تاريخ بداية للمكافأة.</p>
                 </div>
-                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
                   <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                   <p className="text-black">تاريخ نهاية للمكافأة.</p>
                 </div>
-                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
                   <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
                   <p className="text-black">أو تركها نشطة بدون تاريخ انتهاء.</p>
                 </div>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-2xl p-4 text-sm">
+              <div className="bg-[#F7F7F7] rounded-lg p-4 text-sm">
                 <p className="font-semibold mb-2 text-black">⚙️ مرونة إضافية:</p>
                 <p className="text-black">
                   يمكنك إيقاف المكافأة مؤقتًا دون حذفها، ثم إعادة تفعيلها لاحقًا.
@@ -315,7 +315,7 @@ export default function PointsRewardsPage() {
           سجل النقاط يعرض لك كل العمليات المرتبطة بالنقاط داخل المتجر، مثل:
         </p>
 
-        <div className="bg-white rounded-2xl p-6 my-6 not-prose">
+        <div className="bg-white rounded-lg p-6 my-6 not-prose">
           <div className="flex items-center gap-3 mb-5">
             <div className="size-10 bg-[#3B82F6] rounded-lg flex items-center justify-center">
               <FileText className="size-6 text-white" />
@@ -324,22 +324,22 @@ export default function PointsRewardsPage() {
           </div>
           
           <div className="space-y-3">
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
               <p className="text-black">النقاط التي اكتسبها العميل.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
               <p className="text-black">النقاط التي تم استبدالها.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
               <p className="text-black">مصدر العملية وتاريخها.</p>
             </div>
           </div>
         </div>
 
-        <div className="bg-white rounded-2xl p-6 my-6 not-prose">
+        <div className="bg-white rounded-lg p-6 my-6 not-prose">
           <p className="text-black font-semibold mb-3">هذا السجل يساعدك على:</p>
           <div className="space-y-2 text-black">
             <div className="flex items-start gap-2">
@@ -359,30 +359,30 @@ export default function PointsRewardsPage() {
 
         <h2 id="tips">نصائح عملية للتاجر</h2>
 
-        <div className="bg-white rounded-2xl p-8 my-8 not-prose">
+        <div className="bg-white rounded-lg p-8 my-8 not-prose">
           <div className="flex items-start gap-4 mb-6">
             <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
             <h3 className="text-xl font-bold text-black">نصائح لإدارة فعّالة</h3>
           </div>
           
           <div className="space-y-4">
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
               <p className="text-black">ابدأ بقيمة نقاط بسيطة وواضحة للعملاء.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
               <p className="text-black">اجعل المكافأة قابلة للتحقيق، لكن لا تكون سهلة جدًا حتى لا تفقد قيمتها.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
               <p className="text-black">اربط شروط المكافآت بهدف تجاري مثل رفع متوسط السلة أو تصريف منتجات محددة.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
               <p className="text-black">استخدم خيار تعطيل النقاط أثناء التحديات عند تشغيل حملات مكثفة لتجنب تضخم النقاط.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">5</span>
               <p className="text-black">راقب سجل النقاط بشكل دوري لتقييم نتائج البرنامج وتحسينه.</p>
             </div>
@@ -390,7 +390,7 @@ export default function PointsRewardsPage() {
         </div>
 
         {/* Video Placeholder */}
-        <div className="bg-white rounded-2xl overflow-hidden my-12 not-prose">
+        <div className="bg-white rounded-lg overflow-hidden my-12 not-prose">
           <div className="aspect-video bg-[#F7F7F7] flex items-center justify-center relative">
             <div className="text-center">
               <div className="size-20 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-4">

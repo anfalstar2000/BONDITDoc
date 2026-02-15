@@ -13,7 +13,7 @@ export default function ProgramTypesPage() {
       </div>
 
       <div className="prose prose-lg max-w-none">
-        <div className="bg-white rounded-2xl p-6 my-6">
+        <div className="bg-white rounded-lg p-6 my-6">
           <p className="text-black font-semibold mb-2">💡 مرونة كاملة:</p>
           <p className="text-black mb-2">
             BOND IT لا يفرض عليك برنامجًا واحدًا.
@@ -42,7 +42,7 @@ export default function ProgramTypesPage() {
                 يمكن استبدال النقاط بمكافآت على شكل كوبونات.
               </p>
 
-              <div className="bg-[#F7F7F7] rounded-2xl p-5 mb-4">
+              <div className="bg-[#F7F7F7] rounded-lg p-5 mb-4">
                 <p className="font-semibold text-black mb-3">متى تستخدمها؟</p>
                 <div className="space-y-2">
                   <div className="flex items-start gap-2 text-black">
@@ -60,7 +60,7 @@ export default function ProgramTypesPage() {
                 </div>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-2xl p-4">
+              <div className="bg-[#F7F7F7] rounded-lg p-4">
                 <p className="font-semibold mb-2 text-black">لماذا تعتبر الأساس؟</p>
                 <p className="text-black text-sm">
                   لأنها تربط كل عملية شراء بمكافأة مستقبلية، مما يمنح العميل سببًا دائمًا للعودة.
@@ -86,22 +86,22 @@ export default function ProgramTypesPage() {
               </p>
 
               <div className="grid md:grid-cols-3 gap-3 mb-4">
-                <div className="p-3 bg-[#F7F7F7] rounded-2xl text-center">
+                <div className="p-3 bg-[#F7F7F7] rounded-lg text-center">
                   <p className="text-black font-semibold">إجمالي الإنفاق</p>
                 </div>
-                <div className="p-3 bg-[#F7F7F7] rounded-2xl text-center">
+                <div className="p-3 bg-[#F7F7F7] rounded-lg text-center">
                   <p className="text-black font-semibold">عدد النقاط</p>
                 </div>
-                <div className="p-3 bg-[#F7F7F7] rounded-2xl text-center">
+                <div className="p-3 bg-[#F7F7F7] rounded-lg text-center">
                   <p className="text-black font-semibold">عدد الزيارات</p>
                 </div>
               </div>
 
-              <p className="text-sm text-[#939393] mb-4 bg-[#F7F7F7] rounded-2xl p-3">
+              <p className="text-sm text-[#939393] mb-4 bg-[#F7F7F7] rounded-lg p-3">
                 كل مستوى يمنح مزايا إضافية.
               </p>
 
-              <div className="bg-[#F7F7F7] rounded-2xl p-5 mb-4">
+              <div className="bg-[#F7F7F7] rounded-lg p-5 mb-4">
                 <p className="font-semibold text-black mb-3">متى تستخدمها؟</p>
                 <div className="space-y-2">
                   <div className="flex items-start gap-2 text-black">
@@ -119,7 +119,7 @@ export default function ProgramTypesPage() {
                 </div>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-2xl p-4">
+              <div className="bg-[#F7F7F7] rounded-lg p-4">
                 <p className="font-semibold mb-2 text-black">الهدف منها</p>
                 <p className="text-black text-sm">
                   تحفيز العملاء على الوصول للمستوى التالي وزيادة إنفاقهم تدريجيًا.
@@ -144,21 +144,21 @@ export default function ProgramTypesPage() {
                 التحديات أداة مخصصة لحملات محددة بفترة زمنية.
               </p>
 
-              <div className="bg-[#F7F7F7] rounded-2xl p-5 mb-4">
+              <div className="bg-[#F7F7F7] rounded-lg p-5 mb-4">
                 <p className="font-semibold text-black mb-3">مثال:</p>
                 <div className="space-y-2">
-                  <div className="flex items-start gap-2 text-black p-3 bg-white rounded-2xl">
+                  <div className="flex items-start gap-2 text-black p-3 bg-white rounded-lg">
                     <ArrowRight className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
                     <span>أكمل 3 طلبات خلال شهر</span>
                   </div>
-                  <div className="flex items-start gap-2 text-black p-3 bg-white rounded-2xl">
+                  <div className="flex items-start gap-2 text-black p-3 bg-white rounded-lg">
                     <ArrowRight className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
                     <span>أنفق 1500 ريال خلال 20 يومًا</span>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-2xl p-5 mb-4">
+              <div className="bg-[#F7F7F7] rounded-lg p-5 mb-4">
                 <p className="font-semibold text-black mb-3">متى تستخدمها؟</p>
                 <div className="space-y-2">
                   <div className="flex items-start gap-2 text-black">
@@ -176,7 +176,7 @@ export default function ProgramTypesPage() {
                 </div>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-2xl p-4">
+              <div className="bg-[#F7F7F7] rounded-lg p-4">
                 <p className="font-semibold mb-2 text-black">الهدف منها</p>
                 <p className="text-black text-sm">
                   توجيه السلوك الشرائي نحو هدف محدد خلال فترة معينة.
@@ -202,7 +202,7 @@ export default function ProgramTypesPage() {
                 عند إتمام أول طلب من شخص مدعو، يحصل على مكافأة.
               </p>
 
-              <div className="bg-[#F7F7F7] rounded-2xl p-5 mb-4">
+              <div className="bg-[#F7F7F7] rounded-lg p-5 mb-4">
                 <p className="font-semibold text-black mb-3">متى تستخدمه؟</p>
                 <div className="space-y-2">
                   <div className="flex items-start gap-2 text-black">
@@ -216,7 +216,7 @@ export default function ProgramTypesPage() {
                 </div>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-2xl p-4">
+              <div className="bg-[#F7F7F7] rounded-lg p-4">
                 <p className="font-semibold mb-2 text-black">الهدف منه</p>
                 <p className="text-black text-sm">
                   تحويل عملائك إلى مسوقين لك بطريقة طبيعية.
@@ -242,21 +242,21 @@ export default function ProgramTypesPage() {
               </p>
 
               <div className="grid md:grid-cols-2 gap-3 mb-4">
-                <div className="p-3 bg-[#F7F7F7] rounded-2xl">
+                <div className="p-3 bg-[#F7F7F7] rounded-lg">
                   <p className="text-black">📈 ترقية مستوى</p>
                 </div>
-                <div className="p-3 bg-[#F7F7F7] rounded-2xl">
+                <div className="p-3 bg-[#F7F7F7] rounded-lg">
                   <p className="text-black">✅ إكمال تحدي</p>
                 </div>
-                <div className="p-3 bg-[#F7F7F7] rounded-2xl">
+                <div className="p-3 bg-[#F7F7F7] rounded-lg">
                   <p className="text-black">🎁 استبدال مكافأة</p>
                 </div>
-                <div className="p-3 bg-[#F7F7F7] rounded-2xl">
+                <div className="p-3 bg-[#F7F7F7] rounded-lg">
                   <p className="text-black">⏰ اقتراب العميل من مكافأة</p>
                 </div>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-2xl p-4">
+              <div className="bg-[#F7F7F7] rounded-lg p-4">
                 <p className="font-semibold mb-2 text-black">الهدف منها</p>
                 <p className="text-black text-sm">
                   الحفاظ على تفاعل العميل وعدم نسيان متجرك.
@@ -287,21 +287,21 @@ export default function ProgramTypesPage() {
               </p>
 
               <div className="grid md:grid-cols-2 gap-3 mb-4">
-                <div className="p-3 bg-[#F7F7F7] rounded-2xl">
+                <div className="p-3 bg-[#F7F7F7] rounded-lg">
                   <p className="text-black">📝 كتابة محتوى SEO</p>
                 </div>
-                <div className="p-3 bg-[#F7F7F7] rounded-2xl">
+                <div className="p-3 bg-[#F7F7F7] rounded-lg">
                   <p className="text-black">🏷️ وصف المنتجات</p>
                 </div>
-                <div className="p-3 bg-[#F7F7F7] rounded-2xl">
+                <div className="p-3 bg-[#F7F7F7] rounded-lg">
                   <p className="text-black">💡 أفكار حملات</p>
                 </div>
-                <div className="p-3 bg-[#F7F7F7] rounded-2xl">
+                <div className="p-3 bg-[#F7F7F7] rounded-lg">
                   <p className="text-black">📱 كابشنات للسوشيال</p>
                 </div>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-2xl p-4">
+              <div className="bg-[#F7F7F7] rounded-lg p-4">
                 <p className="font-semibold mb-2 text-black">الهدف منه</p>
                 <p className="text-black text-sm">
                   دعمك تسويقيًا إلى جانب نظام الولاء.
@@ -314,28 +314,28 @@ export default function ProgramTypesPage() {
         <h2 id="how-to-choose">كيف تختار الأداة المناسبة؟</h2>
 
         <div className="grid md:grid-cols-2 gap-4 my-6 not-prose">
-          <div className="p-5 bg-white rounded-2xl">
+          <div className="p-5 bg-white rounded-lg">
             <p className="font-semibold text-black mb-2">إذا كنت في بداية متجرك:</p>
             <p className="text-black">ابدأ بـ <strong>النقاط والمكافآت</strong>.</p>
           </div>
 
-          <div className="p-5 bg-white rounded-2xl">
+          <div className="p-5 bg-white rounded-lg">
             <p className="font-semibold text-black mb-2">إذا لديك عملاء متكررون:</p>
             <p className="text-black">أضف <strong>المستويات</strong>.</p>
           </div>
 
-          <div className="p-5 bg-white rounded-2xl">
+          <div className="p-5 bg-white rounded-lg">
             <p className="font-semibold text-black mb-2">إذا تطلق منتجات باستمرار:</p>
             <p className="text-black">استخدم <strong>التحديات</strong>.</p>
           </div>
 
-          <div className="p-5 bg-white rounded-2xl">
+          <div className="p-5 bg-white rounded-lg">
             <p className="font-semibold text-black mb-2">إذا تريد نمو أسرع:</p>
             <p className="text-black">فعّل <strong>برنامج الإحالة</strong>.</p>
           </div>
         </div>
 
-        <div className="bg-white rounded-2xl p-8 my-8 not-prose">
+        <div className="bg-white rounded-lg p-8 my-8 not-prose">
           <div className="flex items-start gap-4">
             <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
             <div>

@@ -13,7 +13,7 @@ export default function IntegrationsPage() {
       </div>
 
       <div className="prose prose-lg max-w-none">
-        <div className="bg-white rounded-2xl p-6 my-8 not-prose">
+        <div className="bg-white rounded-lg p-6 my-8 not-prose">
           <p className="text-black text-lg">
             هذه الصفحة مخصصة لتفعيل تكامل BOND IT مع متجر سلة. عند اشتراك العميل والدفع من داخل سلة، يتم ربط المتجر تلقائيًا وسحب بياناته مباشرة دون الحاجة لإعدادات معقدة.
           </p>
@@ -21,7 +21,7 @@ export default function IntegrationsPage() {
 
         <h2 id="salla-integration">أولًا: تفعيل التكامل مع سلة</h2>
 
-        <div className="bg-white rounded-2xl overflow-hidden my-8 not-prose">
+        <div className="bg-white rounded-lg overflow-hidden my-8 not-prose">
           <div className="bg-[#3B82F6] p-6">
             <div className="flex items-center gap-4">
               <div className="size-12 bg-white/20 rounded-lg flex items-center justify-center">
@@ -34,24 +34,24 @@ export default function IntegrationsPage() {
             </div>
           </div>
           <div className="p-6 space-y-3">
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
               <p className="text-black">سحب اسم المتجر ورابطه.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
               <p className="text-black">سحب جميع المنتجات.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
               <p className="text-black">مزامنة صفحات المنتجات.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
               <p className="text-black">تحديث البيانات بشكل مستمر.</p>
             </div>
 
-            <div className="bg-[#F7F7F7] rounded-2xl p-4">
+            <div className="bg-[#F7F7F7] rounded-lg p-4">
               <p className="font-semibold text-black">✅ ملاحظة:</p>
               <p className="text-black text-sm">
                 يُعد تفعيل التكامل خطوة أساسية لتشغيل معظم مزايا النظام.
@@ -60,7 +60,7 @@ export default function IntegrationsPage() {
           </div>
         </div>
 
-        <div className="bg-white rounded-2xl p-6 my-8 not-prose">
+        <div className="bg-white rounded-lg p-6 my-8 not-prose">
           <div className="flex items-start gap-4">
             <AlertTriangle className="size-8 text-[#3B82F6] shrink-0" />
             <div>
@@ -79,7 +79,7 @@ export default function IntegrationsPage() {
         </p>
 
         <div className="grid md:grid-cols-2 gap-4 my-8 not-prose">
-          <div className="bg-white rounded-2xl p-6">
+          <div className="bg-white rounded-lg p-6">
             <div className="flex items-center gap-3 mb-4">
               <div className="size-10 bg-[#3B82F6] rounded-lg flex items-center justify-center">
                 <Eye className="size-6 text-white" />
@@ -89,7 +89,7 @@ export default function IntegrationsPage() {
             <p className="text-black">إظهار أو إخفاء الودجت داخل المتجر.</p>
           </div>
 
-          <div className="bg-white rounded-2xl p-6">
+          <div className="bg-white rounded-lg p-6">
             <div className="flex items-center gap-3 mb-4">
               <div className="size-10 bg-[#3B82F6] rounded-lg flex items-center justify-center">
                 <RefreshCw className="size-6 text-white" />
@@ -102,7 +102,7 @@ export default function IntegrationsPage() {
 
         <h2 id="openai-integration">ثانيًا: ربط OpenAI (المساعد الذكي)</h2>
 
-        <div className="bg-white rounded-2xl p-6 my-8 not-prose">
+        <div className="bg-white rounded-lg p-6 my-8 not-prose">
           <div className="flex items-center gap-4 mb-5">
             <div className="size-12 bg-[#3B82F6] rounded-lg flex items-center justify-center">
               <Sparkles className="size-7 text-white" />
@@ -115,21 +115,21 @@ export default function IntegrationsPage() {
           </p>
 
           <div className="space-y-3">
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
               <p className="text-black">إنشاء محتوى تسويقي احترافي.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
               <p className="text-black">كتابة أوصاف منتجات محسّنة لمحركات البحث.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
               <p className="text-black">إنتاج محتوى متوافق مع SEO بسهولة.</p>
             </div>
           </div>
 
-          <div className="bg-[#F7F7F7] rounded-2xl p-4 mt-4">
+          <div className="bg-[#F7F7F7] rounded-lg p-4 mt-4">
             <p className="font-semibold text-black">🧠 كيف يعمل؟</p>
             <p className="text-black text-sm">
               يعمل المساعد بناءً على بيانات متجرك بالإضافة إلى البرومبت الذي تكتبه.
@@ -139,13 +139,13 @@ export default function IntegrationsPage() {
 
         <h3 id="what-you-need">ما الذي تحتاجه؟</h3>
 
-        <div className="bg-white rounded-2xl p-6 my-6 not-prose">
+        <div className="bg-white rounded-lg p-6 my-6 not-prose">
           <div className="space-y-3">
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <Key className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
               <p className="text-black">مفتاح OpenAI API.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <CheckCircle2 className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
               <p className="text-black">إدخاله مرة واحدة فقط داخل النظام.</p>
             </div>
@@ -154,9 +154,9 @@ export default function IntegrationsPage() {
 
         <h3 id="connection-steps">خطوات الربط:</h3>
 
-        <div className="bg-white rounded-2xl p-6 my-8 not-prose">
+        <div className="bg-white rounded-lg p-6 my-8 not-prose">
           <div className="space-y-4">
-            <div className="flex items-start gap-4 p-5 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-4 p-5 bg-[#F7F7F7] rounded-lg">
               <div className="size-10 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center font-bold">1</div>
               <div className="flex-1">
                 <p className="text-black font-semibold mb-1">اضغط على "ربط"</p>
@@ -168,7 +168,7 @@ export default function IntegrationsPage() {
               <div className="h-8 w-0.5 bg-[#939393]"></div>
             </div>
 
-            <div className="flex items-start gap-4 p-5 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-4 p-5 bg-[#F7F7F7] rounded-lg">
               <div className="size-10 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center font-bold">2</div>
               <div className="flex-1">
                 <p className="text-black font-semibold mb-1">أدخل مفتاح OpenAI API</p>
@@ -180,7 +180,7 @@ export default function IntegrationsPage() {
               <div className="h-8 w-0.5 bg-[#939393]"></div>
             </div>
 
-            <div className="flex items-start gap-4 p-5 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-4 p-5 bg-[#F7F7F7] rounded-lg">
               <div className="size-10 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center font-bold">3</div>
               <div className="flex-1">
                 <p className="text-black font-semibold mb-1">اضغط "اختبار والمتابعة"</p>
@@ -192,7 +192,7 @@ export default function IntegrationsPage() {
               <div className="h-8 w-0.5 bg-[#939393]"></div>
             </div>
 
-            <div className="flex items-start gap-4 p-5 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-4 p-5 bg-[#F7F7F7] rounded-lg">
               <div className="size-10 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center font-bold">4</div>
               <div className="flex-1">
                 <p className="text-black font-semibold mb-1">التفعيل التلقائي</p>
@@ -202,7 +202,7 @@ export default function IntegrationsPage() {
           </div>
         </div>
 
-        <div className="bg-white rounded-2xl p-6 my-8 not-prose">
+        <div className="bg-white rounded-lg p-6 my-8 not-prose">
           <div className="flex items-start gap-4">
             <Shield className="size-8 text-[#3B82F6] shrink-0" />
             <div>
@@ -216,26 +216,26 @@ export default function IntegrationsPage() {
 
         <h2 id="tips">نصائح</h2>
 
-        <div className="bg-white rounded-2xl p-8 my-8 not-prose">
+        <div className="bg-white rounded-lg p-8 my-8 not-prose">
           <div className="flex items-start gap-4 mb-6">
             <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
             <h3 className="text-xl font-bold text-black">نصائح للاستخدام الأمثل</h3>
           </div>
           
           <div className="space-y-4">
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
               <p className="text-black">تأكد من اكتمال الربط مع سلة قبل استخدام أي ميزة أخرى.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
               <p className="text-black">قم بتحديث البيانات يدويًا إذا أضفت منتجات جديدة.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
               <p className="text-black">استخدم المساعد الذكي ببرومبت واضح لتحصل على نتائج أفضل.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-lg">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
               <p className="text-black">لا تشارك مفتاح API مع أي شخص للحفاظ على أمان حسابك.</p>
             </div>
@@ -243,7 +243,7 @@ export default function IntegrationsPage() {
         </div>
 
         {/* Video Placeholder */}
-        <div className="bg-white rounded-2xl overflow-hidden my-12 not-prose">
+        <div className="bg-white rounded-lg overflow-hidden my-12 not-prose">
           <div className="aspect-video bg-[#F7F7F7] flex items-center justify-center relative">
             <div className="text-center">
               <div className="size-20 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-4">
