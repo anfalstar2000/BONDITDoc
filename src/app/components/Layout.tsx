@@ -10,8 +10,8 @@ export default function Layout() {
  <div className="flex">
  <Sidebar />
  <main className="flex-1 lg:mr-64">
- <div className="max-w-[1400px] mx-auto">
- <div className="px-4 md:px-8 py-8">
+ <div className="w-full">
+ <div className="px-6 md:px-12 py-8 max-w-7xl mx-auto">
  <Breadcrumbs />
  <Outlet />
  </div>

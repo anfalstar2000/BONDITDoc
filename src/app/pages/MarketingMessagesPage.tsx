@@ -1,7 +1,7 @@
 import { Mail, Send, Bell, MessageSquare, Award, CheckCircle2, Play, Lightbulb, Sparkles, TrendingUp, Shield, Edit3 } from 'lucide-react';
 export default function MarketingMessagesPage() {
  return (
- <div className="max-w-4xl">
+ <div className="w-full">
  <div className="mb-8">
  <h1 className="text-4xl font-bold text-black mb-4">
  الرسائل التسويقية

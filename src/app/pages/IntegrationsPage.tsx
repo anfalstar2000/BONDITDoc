@@ -1,7 +1,7 @@
 import { Link2, RefreshCw, Eye, EyeOff, ShoppingBag, Sparkles, Key, CheckCircle2, AlertTriangle, Play, Lightbulb, Zap, Shield, FileText } from 'lucide-react';
 export default function IntegrationsPage() {
  return (
- <div className="max-w-4xl">
+ <div className="w-full">
  <div className="mb-8">
  <h1 className="text-4xl font-bold text-black mb-4">
  التكاملات

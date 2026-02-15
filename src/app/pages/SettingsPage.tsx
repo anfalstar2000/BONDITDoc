@@ -1,7 +1,7 @@
 import { Settings, Building2, User, Shield, Bell, Users, CreditCard, Globe, Calendar, Clock, DollarSign, Activity, FileText, Lock, Mail, Phone, MapPin, AlertCircle, CheckCircle2, Lightbulb, Key, Smartphone, TrendingUp, Crown, UserCheck } from 'lucide-react';
 export default function SettingsPage() {
  return (
- <div className="max-w-4xl">
+ <div className="w-full">
  <div className="mb-8">
  <h1 className="text-4xl font-bold text-black mb-4">
  الإعدادات

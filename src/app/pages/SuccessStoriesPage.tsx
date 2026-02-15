@@ -1,7 +1,7 @@
 import { Check, X, Star, Sparkles, Crown, Users, Target, TrendingUp, Shield, Lightbulb } from 'lucide-react';
 export default function SuccessStoriesPage() {
  return (
- <div className="max-w-5xl">
+ <div className="w-full">
  <div className="mb-8">
  <h1 className="text-4xl font-bold text-black mb-4">
  كيف اختار الباقة المناسبة لي؟

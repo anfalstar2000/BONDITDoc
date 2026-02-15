@@ -1,7 +1,7 @@
 import { Download, ShoppingCart, Gift, BarChart3, CheckCircle2, Zap, Settings, TrendingUp } from 'lucide-react';
 export default function HowItWorksPage() {
  return (
- <div className="max-w-4xl">
+ <div className="w-full">
  <div className="mb-8">
  <h1 className="text-4xl font-bold text-black mb-4">
  كيف يعمل النظام؟

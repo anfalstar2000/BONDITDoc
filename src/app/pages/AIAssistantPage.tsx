@@ -1,7 +1,7 @@
 import { Sparkles, Wand2, FileText, Search, MessageCircle, Target, CheckCircle2, Play, Lightbulb, ShoppingBag, TrendingUp, Share2, Zap } from 'lucide-react';
 export default function AIAssistantPage() {
  return (
- <div className="max-w-4xl">
+ <div className="w-full">
  <div className="mb-8">
  <h1 className="text-4xl font-bold text-black mb-4">
  المساعد الذكي

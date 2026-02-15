@@ -1,7 +1,7 @@
 import { Users, Activity, Award, TrendingUp, User, FileText, Filter, CheckCircle2, Lightbulb, Target, BarChart3 } from 'lucide-react';
 export default function CustomersPage() {
  return (
- <div className="max-w-4xl">
+ <div className="w-full">
  <div className="mb-8">
  <h1 className="text-4xl font-bold text-black mb-4">
  العملاء

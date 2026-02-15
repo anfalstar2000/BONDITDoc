@@ -1,7 +1,7 @@
 import { Share2, Users, Gift, TrendingUp, CheckCircle2, Play, Lightbulb, Link2, Award, BarChart3, DollarSign } from 'lucide-react';
 export default function ReferralPage() {
  return (
- <div className="max-w-4xl">
+ <div className="w-full">
  <div className="mb-8">
  <h1 className="text-4xl font-bold text-black mb-4">
  برنامج الإحالة

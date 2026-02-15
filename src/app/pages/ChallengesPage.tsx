@@ -1,7 +1,7 @@
 import { Target, Trophy, Calendar, Gift, MessageCircle, CheckCircle2, Play, Lightbulb, Zap, TrendingUp, Clock, Users } from 'lucide-react';
 export default function ChallengesPage() {
  return (
- <div className="max-w-4xl">
+ <div className="w-full">
  <div className="mb-8">
  <h1 className="text-4xl font-bold text-black mb-4">
  التحديات

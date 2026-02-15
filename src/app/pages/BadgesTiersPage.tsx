@@ -1,7 +1,7 @@
 import { Award, Star, Trophy, TrendingUp, Gift, MessageCircle, Power, CheckCircle2, Play, Lightbulb, Crown } from 'lucide-react';
 export default function BadgesTiersPage() {
  return (
- <div className="max-w-4xl">
+ <div className="w-full">
  <div className="mb-8">
  <h1 className="text-4xl font-bold text-black mb-4">
  الشارات والمستويات
