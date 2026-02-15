@@ -27,7 +27,7 @@ export default function SettingsPage() {
  <div className="grid md:grid-cols-3 gap-4 my-8 not-prose">
  <div className="bg-white rounded-none border border-gray-100 p-5">
  <div className="flex items-center gap-3 mb-2">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Building2 className="size-6 text-white" />
  </div>
  <h4 className="text-lg font-bold text-black">عام</h4>
@@ -36,7 +36,7 @@ export default function SettingsPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-5">
  <div className="flex items-center gap-3 mb-2">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <User className="size-6 text-white" />
  </div>
  <h4 className="text-lg font-bold text-black">الحساب</h4>
@@ -45,7 +45,7 @@ export default function SettingsPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-5">
  <div className="flex items-center gap-3 mb-2">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Shield className="size-6 text-white" />
  </div>
  <h4 className="text-lg font-bold text-black">الأمان</h4>
@@ -54,7 +54,7 @@ export default function SettingsPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-5">
  <div className="flex items-center gap-3 mb-2">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Bell className="size-6 text-white" />
  </div>
  <h4 className="text-lg font-bold text-black">الإشعارات</h4>
@@ -63,7 +63,7 @@ export default function SettingsPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-5">
  <div className="flex items-center gap-3 mb-2">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Users className="size-6 text-white" />
  </div>
  <h4 className="text-lg font-bold text-black">الفريق</h4>
@@ -72,7 +72,7 @@ export default function SettingsPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-5">
  <div className="flex items-center gap-3 mb-2">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <CreditCard className="size-6 text-white" />
  </div>
  <h4 className="text-lg font-bold text-black">الفواتير</h4>
@@ -148,7 +148,7 @@ export default function SettingsPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <User className="size-6 text-white" />
  </div>
  <h3 className="text-xl font-bold text-black">البيانات الشخصية</h3>
@@ -244,7 +244,7 @@ export default function SettingsPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Bell className="size-6 text-white" />
  </div>
  <h3 className="text-xl font-bold text-black">أنواع الإشعارات</h3>
@@ -369,7 +369,7 @@ export default function SettingsPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <CreditCard className="size-6 text-white" />
  </div>
  <h3 className="text-xl font-bold text-black">معلومات الاشتراك</h3>

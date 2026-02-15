@@ -30,7 +30,7 @@ export default function PointsRewardsPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6 my-6 not-prose">
  <div className="flex items-center gap-3 mb-5">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Settings className="size-6 text-white" />
  </div>
  <h3 className="text-xl font-bold text-black">ماذا يمكنك ضبطه هنا؟</h3>
@@ -127,7 +127,7 @@ export default function PointsRewardsPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6 my-6 not-prose">
  <div className="flex items-center gap-3 mb-5">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Gift className="size-6 text-white" />
  </div>
  <h3 className="text-xl font-bold text-black">في هذا القسم يمكنك:</h3>
@@ -317,7 +317,7 @@ export default function PointsRewardsPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6 my-6 not-prose">
  <div className="flex items-center gap-3 mb-5">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <FileText className="size-6 text-white" />
  </div>
  <h3 className="text-xl font-bold text-black">ماذا يعرض السجل؟</h3>

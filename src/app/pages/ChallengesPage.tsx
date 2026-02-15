@@ -30,7 +30,7 @@ export default function ChallengesPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Target className="size-6 text-white" />
  </div>
  <h3 className="text-xl font-bold text-black">مثال:</h3>
@@ -345,7 +345,7 @@ export default function ChallengesPage() {
  <div className="grid md:grid-cols-2 gap-6 my-8 not-prose">
  <div className="bg-white rounded-none border border-gray-100 p-6">
  <div className="flex items-center gap-3 mb-4">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Gift className="size-6 text-white" />
  </div>
  <h4 className="text-lg font-bold text-black">النقاط</h4>
@@ -357,7 +357,7 @@ export default function ChallengesPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6">
  <div className="flex items-center gap-3 mb-4">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Target className="size-6 text-white" />
  </div>
  <h4 className="text-lg font-bold text-black">التحديات</h4>

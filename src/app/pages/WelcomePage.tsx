@@ -31,7 +31,7 @@ export default function WelcomePage() {
 
  <div className="grid md:grid-cols-2 gap-6 my-8 not-prose">
  <div className="p-6 bg-white rounded-none border border-gray-100">
- <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center mb-4">
+ <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mb-4">
  <Gift className="size-6 text-white" />
  </div>
  <h3 className="text-lg font-semibold text-black mb-2">
@@ -43,7 +43,7 @@ export default function WelcomePage() {
  </div>
 
  <div className="p-6 bg-white rounded-none border border-gray-100">
- <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center mb-4">
+ <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mb-4">
  <TrendingUp className="size-6 text-white" />
  </div>
  <h3 className="text-lg font-semibold text-black mb-2">
@@ -55,7 +55,7 @@ export default function WelcomePage() {
  </div>
 
  <div className="p-6 bg-white rounded-none border border-gray-100">
- <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center mb-4">
+ <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mb-4">
  <Target className="size-6 text-white" />
  </div>
  <h3 className="text-lg font-semibold text-black mb-2">
@@ -67,7 +67,7 @@ export default function WelcomePage() {
  </div>
 
  <div className="p-6 bg-white rounded-none border border-gray-100">
- <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center mb-4">
+ <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mb-4">
  <UserPlus className="size-6 text-white" />
  </div>
  <h3 className="text-lg font-semibold text-black mb-2">
@@ -79,7 +79,7 @@ export default function WelcomePage() {
  </div>
 
  <div className="p-6 bg-white rounded-none border border-gray-100">
- <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center mb-4">
+ <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mb-4">
  <Zap className="size-6 text-white" />
  </div>
  <h3 className="text-lg font-semibold text-black mb-2">
@@ -91,7 +91,7 @@ export default function WelcomePage() {
  </div>
 
  <div className="p-6 bg-white rounded-none border border-gray-100">
- <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center mb-4">
+ <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mb-4">
  <Lightbulb className="size-6 text-white" />
  </div>
  <h3 className="text-lg font-semibold text-black mb-2">

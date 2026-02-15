@@ -25,7 +25,7 @@ export default function HowItWorksPage() {
  <div className="relative">
  <div className="flex items-start gap-6">
  <div className="shrink-0">
- <div className="size-16 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-16 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Download className="size-8 text-white" />
  </div>
  </div>
@@ -63,7 +63,7 @@ export default function HowItWorksPage() {
  <div className="relative">
  <div className="flex items-start gap-6">
  <div className="shrink-0">
- <div className="size-16 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-16 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <ShoppingCart className="size-8 text-white" />
  </div>
  </div>
@@ -114,7 +114,7 @@ export default function HowItWorksPage() {
  <div className="relative">
  <div className="flex items-start gap-6">
  <div className="shrink-0">
- <div className="size-16 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-16 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Gift className="size-8 text-white" />
  </div>
  </div>
@@ -168,7 +168,7 @@ export default function HowItWorksPage() {
  <div className="relative">
  <div className="flex items-start gap-6">
  <div className="shrink-0">
- <div className="size-16 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-16 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <BarChart3 className="size-8 text-white" />
  </div>
  </div>

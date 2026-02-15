@@ -81,7 +81,7 @@ export default function IntegrationsPage() {
  <div className="grid md:grid-cols-2 gap-4 my-8 not-prose">
  <div className="bg-white rounded-none border border-gray-100 p-6">
  <div className="flex items-center gap-3 mb-4">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Eye className="size-6 text-white" />
  </div>
  <h4 className="text-lg font-bold text-black">الودجت</h4>
@@ -91,7 +91,7 @@ export default function IntegrationsPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6">
  <div className="flex items-center gap-3 mb-4">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <RefreshCw className="size-6 text-white" />
  </div>
  <h4 className="text-lg font-bold text-black">التحديث اليدوي</h4>
@@ -104,7 +104,7 @@ export default function IntegrationsPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
  <div className="flex items-center gap-4 mb-5">
- <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Sparkles className="size-7 text-white" />
  </div>
  <h3 className="text-xl font-bold text-black">فعّل المساعد الذكي</h3>

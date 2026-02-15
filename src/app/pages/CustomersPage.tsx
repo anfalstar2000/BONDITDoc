@@ -31,7 +31,7 @@ export default function CustomersPage() {
  <div className="grid md:grid-cols-2 gap-4 my-8 not-prose">
  <div className="bg-white rounded-none border border-gray-100 p-6">
  <div className="flex items-center gap-3 mb-3">
- <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Users className="size-7 text-white" />
  </div>
  <div>
@@ -43,7 +43,7 @@ export default function CustomersPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6">
  <div className="flex items-center gap-3 mb-3">
- <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Activity className="size-7 text-white" />
  </div>
  <div>
@@ -55,7 +55,7 @@ export default function CustomersPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6">
  <div className="flex items-center gap-3 mb-3">
- <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Award className="size-7 text-white" />
  </div>
  <div>
@@ -67,7 +67,7 @@ export default function CustomersPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6">
  <div className="flex items-center gap-3 mb-3">
- <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <TrendingUp className="size-7 text-white" />
  </div>
  <div>
@@ -136,7 +136,7 @@ export default function CustomersPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <User className="size-6 text-white" />
  </div>
  <h3 className="text-xl font-bold text-black">معلومات الملف الشخصي</h3>
@@ -220,7 +220,7 @@ export default function CustomersPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Target className="size-6 text-white" />
  </div>
  <h3 className="text-xl font-bold text-black">الفوائد الرئيسية</h3>
@@ -251,7 +251,7 @@ export default function CustomersPage() {
  <div className="grid md:grid-cols-2 gap-6 my-8 not-prose">
  <div className="bg-white rounded-none border border-gray-100 p-6">
  <div className="flex items-center gap-3 mb-4">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Award className="size-6 text-white" />
  </div>
  <h4 className="text-lg font-bold text-black">المستويات</h4>
@@ -263,7 +263,7 @@ export default function CustomersPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6">
  <div className="flex items-center gap-3 mb-4">
- <div className="size-10 bg-[#3B82F6] rounded-none flex items-center justify-center">
+ <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Filter className="size-6 text-white" />
  </div>
  <h4 className="text-lg font-bold text-black">المجموعات</h4>

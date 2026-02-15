@@ -134,7 +134,7 @@ export default function WhyLoyaltyPage() {
  <div className="space-y-6 my-8 not-prose">
  <div className="bg-white rounded-none border border-gray-100 p-6">
  <div className="flex items-start gap-4">
- <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center shrink-0">
+ <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center shrink-0">
  <TrendingUp className="size-6 text-white" />
  </div>
  <div className="flex-1">
@@ -149,7 +149,7 @@ export default function WhyLoyaltyPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6">
  <div className="flex items-start gap-4">
- <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center shrink-0">
+ <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center shrink-0">
  <DollarSign className="size-6 text-white" />
  </div>
  <div className="flex-1">
@@ -164,7 +164,7 @@ export default function WhyLoyaltyPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6">
  <div className="flex items-start gap-4">
- <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center shrink-0">
+ <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center shrink-0">
  <Award className="size-6 text-white" />
  </div>
  <div className="flex-1">
@@ -179,7 +179,7 @@ export default function WhyLoyaltyPage() {
 
  <div className="bg-white rounded-none border border-gray-100 p-6">
  <div className="flex items-start gap-4">
- <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center shrink-0">
+ <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center shrink-0">
  <Zap className="size-6 text-white" />
  </div>
  <div className="flex-1">
