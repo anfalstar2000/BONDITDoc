@@ -13,7 +13,7 @@ export default function PointsRewardsPage() {
  </div>
 
  <div className="prose prose-lg max-w-none">
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg mb-4">
  توفر صفحة النقاط والمكافآت في نظام BOND IT الأدوات الأساسية لإدارة برنامج الولاء داخل متجرك، من خلال ضبط طريقة احتساب النقاط، إنشاء المكافآت، تحديد شروط الاستبدال، ومتابعة سجل العمليات بالكامل.
  </p>
@@ -28,7 +28,7 @@ export default function PointsRewardsPage() {
  هذا القسم مخصص للتحكم في طريقة احتساب النقاط التي يحصل عليها العميل عند الشراء.
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-6 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Settings className="size-6 text-white" />
@@ -52,7 +52,7 @@ export default function PointsRewardsPage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <h4 className="text-lg font-bold text-black mb-4">مثال عملي</h4>
  
  <div className="bg-gray-50 rounded-none p-5 mb-4">
@@ -125,7 +125,7 @@ export default function PointsRewardsPage() {
  المكافآت هي ما يحصل عليه العميل عند استبدال نقاطه.
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-6 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Gift className="size-6 text-white" />
@@ -178,10 +178,10 @@ export default function PointsRewardsPage() {
  <div className="flex-1">
  <p className="text-black mb-3">نوع المكافأة، مثل:</p>
  <div className="grid grid-cols-2 gap-2">
- <div className="p-2 bg-white rounded-none border border-gray-100 text-sm text-black text-center">خصم</div>
- <div className="p-2 bg-white rounded-none border border-gray-100 text-sm text-black text-center">شحن مجاني</div>
- <div className="p-2 bg-white rounded-none border border-gray-100 text-sm text-black text-center">منتج مجاني</div>
- <div className="p-2 bg-white rounded-none border border-gray-100 text-sm text-black text-center">كاش باك</div>
+ <div className="p-2 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 text-sm text-black text-center">خصم</div>
+ <div className="p-2 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 text-sm text-black text-center">شحن مجاني</div>
+ <div className="p-2 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 text-sm text-black text-center">منتج مجاني</div>
+ <div className="p-2 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 text-sm text-black text-center">كاش باك</div>
  </div>
  </div>
  </div>
@@ -315,7 +315,7 @@ export default function PointsRewardsPage() {
  سجل النقاط يعرض لك كل العمليات المرتبطة بالنقاط داخل المتجر، مثل:
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-6 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <FileText className="size-6 text-white" />
@@ -339,7 +339,7 @@ export default function PointsRewardsPage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-6 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <p className="text-black font-semibold mb-3">هذا السجل يساعدك على:</p>
  <div className="space-y-2 text-black">
  <div className="flex items-start gap-2">
@@ -359,7 +359,7 @@ export default function PointsRewardsPage() {
 
  <h2 id="tips">نصائح عملية للتاجر</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4 mb-6">
  <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
  <h3 className="text-xl font-bold text-black">نصائح لإدارة فعّالة</h3>
@@ -390,7 +390,7 @@ export default function PointsRewardsPage() {
  </div>
 
  {/* Video Placeholder */}
- <div className="bg-white rounded-none border border-gray-100 overflow-hidden my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="aspect-video bg-gray-50 flex items-center justify-center relative">
  <div className="text-center">
  <div className="size-20 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-4">

@@ -13,7 +13,7 @@ export default function MarketingMessagesPage() {
  </div>
 
  <div className="prose prose-lg max-w-none">
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg mb-4">
  توفر صفحة الرسائل التسويقية في BOND IT إمكانية إرسال رسائل تلقائية للعملاء بناءً على تفاعلهم مع برنامج الولاء.
  </p>
@@ -31,7 +31,7 @@ export default function MarketingMessagesPage() {
  هي رسائل يتم إرسالها تلقائيًا عند تحقق شرط معين داخل النظام.
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Bell className="size-6 text-white" />
@@ -71,7 +71,7 @@ export default function MarketingMessagesPage() {
  من صفحة الرسائل التسويقية يمكنك:
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-6 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -177,22 +177,22 @@ export default function MarketingMessagesPage() {
  <p className="text-black font-semibold">أمثلة للعناصر الديناميكية:</p>
  </div>
  <div className="grid md:grid-cols-2 gap-3">
- <div className="p-3 bg-white rounded-none border border-gray-100 text-center">
+ <div className="p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 text-center">
  <p className="text-sm text-black font-mono">اسم العميل</p>
  </div>
- <div className="p-3 bg-white rounded-none border border-gray-100 text-center">
+ <div className="p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 text-center">
  <p className="text-sm text-black font-mono">اسم المستوى</p>
  </div>
- <div className="p-3 bg-white rounded-none border border-gray-100 text-center">
+ <div className="p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 text-center">
  <p className="text-sm text-black font-mono">عنوان التحدي</p>
  </div>
- <div className="p-3 bg-white rounded-none border border-gray-100 text-center">
+ <div className="p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 text-center">
  <p className="text-sm text-black font-mono">عدد النقاط المكتسبة</p>
  </div>
- <div className="p-3 bg-white rounded-none border border-gray-100 text-center">
+ <div className="p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 text-center">
  <p className="text-sm text-black font-mono">رصيد النقاط الحالي</p>
  </div>
- <div className="p-3 bg-white rounded-none border border-gray-100 text-center">
+ <div className="p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 text-center">
  <p className="text-sm text-black font-mono">اسم المتجر</p>
  </div>
  </div>
@@ -220,14 +220,14 @@ export default function MarketingMessagesPage() {
  <div className="p-6 space-y-4">
  <div className="bg-gray-50 rounded-none p-5">
  <p className="text-black font-semibold mb-3">العنوان:</p>
- <div className="bg-white rounded-none border border-gray-100 p-4">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-4">
  <p className="text-black"> مبروك! وصلت لمستوى جديد</p>
  </div>
  </div>
 
  <div className="bg-gray-50 rounded-none p-5">
  <p className="text-black font-semibold mb-3">النص:</p>
- <div className="bg-white rounded-none border border-gray-100 p-4">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-4">
  <p className="text-black leading-relaxed">
  مرحبًا <strong className="text-[#3B82F6]">[اسم العميل]</strong> 👋<br /><br />
  تهانينا! لقد تمت ترقيتك إلى مستوى <strong className="text-[#3B82F6]">[اسم المستوى]</strong> في <strong>[اسم المتجر]</strong>.<br /><br />
@@ -284,7 +284,7 @@ export default function MarketingMessagesPage() {
 
  <h2 id="why-messages">لماذا تُعتبر الرسائل التسويقية مهمة؟</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <TrendingUp className="size-8 text-[#3B82F6]" />
  <h3 className="text-xl font-bold text-black">الفوائد الأساسية</h3>
@@ -324,7 +324,7 @@ export default function MarketingMessagesPage() {
 
  <h2 id="best-practices">أفضل الممارسات</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <Shield className="size-8 text-[#3B82F6]" />
  <h3 className="text-xl font-bold text-black">نصائح مهمة</h3>
@@ -356,7 +356,7 @@ export default function MarketingMessagesPage() {
 
  <h2 id="tips">نصائح عملية</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4 mb-6">
  <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
  <h3 className="text-xl font-bold text-black">نصائح لإدارة فعّالة</h3>
@@ -387,7 +387,7 @@ export default function MarketingMessagesPage() {
  </div>
 
  {/* Video Placeholder */}
- <div className="bg-white rounded-none border border-gray-100 overflow-hidden my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="aspect-video bg-gray-50 flex items-center justify-center relative">
  <div className="text-center">
  <div className="size-20 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-4">

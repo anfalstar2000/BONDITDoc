@@ -13,7 +13,7 @@ export default function ReferralPage() {
  </div>
 
  <div className="prose prose-lg max-w-none">
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg mb-4">
  يوفر برنامج الإحالة في BOND IT وسيلة لنمو متجرك عبر عملائك الحاليين، من خلال منحهم مكافأة عند دعوة أصدقائهم للشراء.
  </p>
@@ -28,7 +28,7 @@ export default function ReferralPage() {
  برنامج ا��إحالة يسمح لكل عميل بالحصول على رابط دعوة خاص به.
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Link2 className="size-6 text-white" />
@@ -64,7 +64,7 @@ export default function ReferralPage() {
  في صفحة برنامج الإحالة يمكنك:
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-6 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -102,19 +102,19 @@ export default function ReferralPage() {
  <div className="bg-gray-50 rounded-none p-5">
  <p className="text-black font-semibold mb-3">أنواع المكافآت الممكنة:</p>
  <div className="space-y-2">
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
  <span className="text-black">نقاط إضافية.</span>
  </div>
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
  <span className="text-black">خصم على شكل كوبون.</span>
  </div>
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
  <span className="text-black">شحن مجاني.</span>
  </div>
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
  <span className="text-black">مكافأة مخصصة حسب استراتيجيتك.</span>
  </div>
@@ -229,7 +229,7 @@ export default function ReferralPage() {
 
  <h2 id="why-referral">لماذا يعتبر برنامج الإحالة مهمًا؟</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <TrendingUp className="size-8 text-[#3B82F6]" />
  <h3 className="text-xl font-bold text-black">الفوائد الأساسية</h3>
@@ -269,7 +269,7 @@ export default function ReferralPage() {
 
  <h2 id="when-to-use">متى تستخدم برنامج الإحالة؟</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black font-semibold mb-4">برنامج الإحالة فعّال عندما:</p>
  
  <div className="space-y-3">
@@ -294,7 +294,7 @@ export default function ReferralPage() {
 
  <h2 id="example">مثال عملي</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <h4 className="text-lg font-bold text-black mb-4 text-center">سيناريو كامل</h4>
  
  <div className="space-y-4">
@@ -342,7 +342,7 @@ export default function ReferralPage() {
 
  <h2 id="cost-calculation">حساب تكلفة الاكتساب</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <DollarSign className="size-8 text-[#3B82F6]" />
  <h3 className="text-xl font-bold text-black">مقارنة التكلفة</h3>
@@ -377,7 +377,7 @@ export default function ReferralPage() {
 
  <h2 id="tips">نصائح عملية</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4 mb-6">
  <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
  <h3 className="text-xl font-bold text-black">نصائح لإدارة فعّالة</h3>
@@ -408,7 +408,7 @@ export default function ReferralPage() {
  </div>
 
  {/* Video Placeholder */}
- <div className="bg-white rounded-none border border-gray-100 overflow-hidden my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="aspect-video bg-gray-50 flex items-center justify-center relative">
  <div className="text-center">
  <div className="size-20 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-4">

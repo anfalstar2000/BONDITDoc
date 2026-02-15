@@ -13,7 +13,7 @@ export default function SuccessStoriesPage() {
  </div>
 
  <div className="prose prose-lg max-w-none">
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg">
  نوفر لك ثلاث باقات مصممة لتناسب احتياجات متجرك حسب حجم النشاط وعدد الطلبات الشهرية.
  اختار الباقة اللي تناسب طموحاتك، وترقّى وقتما تحتاج!
@@ -25,7 +25,7 @@ export default function SuccessStoriesPage() {
  {/* Pricing Cards */}
  <div className="grid md:grid-cols-3 gap-6 my-8 not-prose">
  {/* Lite Plan */}
- <div className="bg-white rounded-none border border-gray-100 overflow-hidden">
+ <div className="bg-white rounded-none border border-gray-200 overflow-hidden">
  <div className="bg-white p-6">
  <div className="inline-block bg-gray-50 rounded-none text-black px-4 py-1 text-sm font-semibold mb-4">
  متاجر صغيرة
@@ -102,7 +102,7 @@ export default function SuccessStoriesPage() {
  </div>
 
  {/* Plus Plan - Recommended */}
- <div className="bg-white rounded-none border border-gray-100 overflow-hidden relative">
+ <div className="bg-white rounded-none border border-gray-200 overflow-hidden relative">
  <div className="bg-[#3B82F6] p-6 text-white">
  <div className="inline-block bg-white/20 rounded-none text-white px-4 py-1 text-sm font-semibold mb-4">
  ننصح بها
@@ -171,7 +171,7 @@ export default function SuccessStoriesPage() {
  </div>
 
  {/* Pro Plan */}
- <div className="bg-white rounded-none border border-gray-100 overflow-hidden">
+ <div className="bg-white rounded-none border border-gray-200 overflow-hidden">
  <div className="bg-white p-6">
  <div className="inline-block bg-gray-50 rounded-none text-black px-4 py-1 text-sm font-semibold mb-4">
  متاجر كبيرة

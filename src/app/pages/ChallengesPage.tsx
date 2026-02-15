@@ -13,7 +13,7 @@ export default function ChallengesPage() {
  </div>
 
  <div className="prose prose-lg max-w-none">
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg mb-4">
  توفر صفحة التحديات في نظام BOND IT أداة تحفيزية قصيرة المدى تساعدك على توجيه سلوك العملاء نحو هدف محدد خلال فترة زمنية معينة.
  </p>
@@ -28,7 +28,7 @@ export default function ChallengesPage() {
  التحدي هو هدف محدد تمنحه لعملائك، وعند إكماله يحصلون على مكافأة.
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Target className="size-6 text-white" />
@@ -64,7 +64,7 @@ export default function ChallengesPage() {
  في صفحة التحديات يمكنك:
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-6 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -110,7 +110,7 @@ export default function ChallengesPage() {
  <h5 className="text-black font-bold mb-3">عنوان التحدي</h5>
  <p className="text-black mb-3">اسم واضح ومباشر يشرح المطلوب.</p>
  
- <div className="bg-white rounded-none border border-gray-100 p-4 mb-3">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-4 mb-3">
  <p className="text-black font-semibold mb-2">أمثلة:</p>
  <div className="space-y-2">
  <div className="bg-gray-50 rounded-none p-3 text-black">أكمل 3 طلبات</div>
@@ -130,15 +130,15 @@ export default function ChallengesPage() {
  <p className="text-black mb-3">تحدد هنا طريقة احتساب التقدم، مثل:</p>
  
  <div className="space-y-2">
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
  <span className="text-black">عدد الطلبات</span>
  </div>
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
  <span className="text-black">قيمة الإنفاق</span>
  </div>
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
  <span className="text-black">عدد الزيارات</span>
  </div>
@@ -175,11 +175,11 @@ export default function ChallengesPage() {
  <p className="text-black font-semibold mb-3">الهدف المطلوب</p>
  <p className="text-black mb-3">مثال:</p>
  <div className="space-y-2">
- <div className="flex items-center justify-between p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-center justify-between p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <span className="text-black">إكمال 3 طلبات</span>
  <Zap className="size-5 text-[#3B82F6]" />
  </div>
- <div className="flex items-center justify-between p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-center justify-between p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <span className="text-black">الإنفاق 2000 ريال</span>
  <TrendingUp className="size-5 text-[#3B82F6]" />
  </div>
@@ -190,15 +190,15 @@ export default function ChallengesPage() {
  <p className="text-black font-semibold mb-3">المكافأة</p>
  <p className="text-black mb-3">يمكنك منح:</p>
  <div className="space-y-2">
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span className="text-black">نقاط إضافية (مثل 500 نقطة).</span>
  </div>
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span className="text-black">كوبون خصم محدد.</span>
  </div>
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span className="text-black">شحن مجاني.</span>
  </div>
@@ -302,7 +302,7 @@ export default function ChallengesPage() {
 
  <h2 id="when-to-use">متى تستخدم التحديات؟</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <Clock className="size-8 text-[#3B82F6]" />
  <h3 className="text-xl font-bold text-black">أفضل الأوقات</h3>
@@ -343,7 +343,7 @@ export default function ChallengesPage() {
  <h2 id="difference">الفرق بين التحديات والنقاط</h2>
 
  <div className="grid md:grid-cols-2 gap-6 my-8 not-prose">
- <div className="bg-white rounded-none border border-gray-100 p-6">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-4">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Gift className="size-6 text-white" />
@@ -355,7 +355,7 @@ export default function ChallengesPage() {
  </p>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-6">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-4">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Target className="size-6 text-white" />
@@ -370,7 +370,7 @@ export default function ChallengesPage() {
 
  <h2 id="tips">نصائح عملية</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4 mb-6">
  <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
  <h3 className="text-xl font-bold text-black">نصائح لإدارة فعّالة</h3>
@@ -401,7 +401,7 @@ export default function ChallengesPage() {
  </div>
 
  {/* Video Placeholder */}
- <div className="bg-white rounded-none border border-gray-100 overflow-hidden my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="aspect-video bg-gray-50 flex items-center justify-center relative">
  <div className="text-center">
  <div className="size-20 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-4">

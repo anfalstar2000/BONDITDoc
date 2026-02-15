@@ -67,7 +67,7 @@ export function MobileSearchBar({ onNavigate }: MobileSearchBarProps) {
           placeholder="البحث في التوثيق..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          className="w-full pr-10 pl-10 py-2 bg-white border border-gray-200 text-sm focus:outline-none focus:border-[#3B82F6] rounded-none transition-colors"
+          className="w-full pr-10 pl-10 py-2 bg-white border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-[#3B82F6] focus:ring-offset-2 focus:border-[#3B82F6] rounded-none transition-colors"
         />
         {query && (
           <button
@@ -85,7 +85,7 @@ export function MobileSearchBar({ onNavigate }: MobileSearchBarProps) {
             <button
               key={index}
               onClick={() => handleSelect(result.path)}
-              className="w-full text-right px-3 py-2 hover:bg-white transition-colors border-b border-gray-100 last:border-b-0"
+              className="w-full text-right px-3 py-2 hover:bg-white transition-colors border-b border-gray-200 last:border-b-0"
             >
               <p className="text-sm font-medium text-black">{result.title}</p>
               <p className="text-xs text-gray-500 mt-0.5">{result.section}</p>

@@ -13,7 +13,7 @@ export default function IntegrationsPage() {
  </div>
 
  <div className="prose prose-lg max-w-none">
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg">
  هذه الصفحة مخصصة لتفعيل تكامل BOND IT مع متجر سلة. عند اشتراك العميل والدفع من داخل سلة، يتم ربط المتجر تلقائيًا وسحب بياناته مباشرة دون الحاجة لإعدادات معقدة.
  </p>
@@ -21,7 +21,7 @@ export default function IntegrationsPage() {
 
  <h2 id="salla-integration">أولًا: تفعيل التكامل مع سلة</h2>
 
- <div className="bg-white rounded-none border border-gray-100 overflow-hidden my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="bg-[#3B82F6] p-6">
  <div className="flex items-center gap-4">
  <div className="size-12 bg-white/20 rounded-none flex items-center justify-center">
@@ -60,7 +60,7 @@ export default function IntegrationsPage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4">
  <AlertTriangle className="size-8 text-[#3B82F6] shrink-0" />
  <div>
@@ -79,7 +79,7 @@ export default function IntegrationsPage() {
  </p>
 
  <div className="grid md:grid-cols-2 gap-4 my-8 not-prose">
- <div className="bg-white rounded-none border border-gray-100 p-6">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-4">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Eye className="size-6 text-white" />
@@ -89,7 +89,7 @@ export default function IntegrationsPage() {
  <p className="text-black">إظهار أو إخفاء الودجت داخل المتجر.</p>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-6">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-4">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <RefreshCw className="size-6 text-white" />
@@ -102,7 +102,7 @@ export default function IntegrationsPage() {
 
  <h2 id="openai-integration">ثانيًا: ربط OpenAI (المساعد الذكي)</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-4 mb-5">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Sparkles className="size-7 text-white" />
@@ -139,7 +139,7 @@ export default function IntegrationsPage() {
 
  <h3 id="what-you-need">ما الذي تحتاجه؟</h3>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-6 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <Key className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
@@ -154,7 +154,7 @@ export default function IntegrationsPage() {
 
  <h3 id="connection-steps">خطوات الربط:</h3>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="space-y-4">
  <div className="flex items-start gap-4 p-5 bg-gray-50 rounded-none">
  <div className="size-10 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center font-bold">1</div>
@@ -202,7 +202,7 @@ export default function IntegrationsPage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4">
  <Shield className="size-8 text-[#3B82F6] shrink-0" />
  <div>
@@ -216,7 +216,7 @@ export default function IntegrationsPage() {
 
  <h2 id="tips">نصائح</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4 mb-6">
  <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
  <h3 className="text-xl font-bold text-black">نصائح للاستخدام الأمثل</h3>
@@ -243,7 +243,7 @@ export default function IntegrationsPage() {
  </div>
 
  {/* Video Placeholder */}
- <div className="bg-white rounded-none border border-gray-100 overflow-hidden my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="aspect-video bg-gray-50 flex items-center justify-center relative">
  <div className="text-center">
  <div className="size-20 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-4">

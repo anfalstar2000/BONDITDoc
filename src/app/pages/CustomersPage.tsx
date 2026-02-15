@@ -13,7 +13,7 @@ export default function CustomersPage() {
  </div>
 
  <div className="prose prose-lg max-w-none">
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg">
  تُعد صفحة العملاء مركز إدارة قاعدة عملائك داخل برنامج الولاء في BOND IT.
  </p>
@@ -29,7 +29,7 @@ export default function CustomersPage() {
  </p>
 
  <div className="grid md:grid-cols-2 gap-4 my-8 not-prose">
- <div className="bg-white rounded-none border border-gray-100 p-6">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-3">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Users className="size-7 text-white" />
@@ -41,7 +41,7 @@ export default function CustomersPage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-6">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-3">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Activity className="size-7 text-white" />
@@ -53,7 +53,7 @@ export default function CustomersPage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-6">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-3">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Award className="size-7 text-white" />
@@ -65,7 +65,7 @@ export default function CustomersPage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-6">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-3">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <TrendingUp className="size-7 text-white" />
@@ -78,7 +78,7 @@ export default function CustomersPage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-5 my-6 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5 my-6 not-prose">
  <p className="text-black font-semibold">
  هذه المؤشرات تساعدك على فهم مستوى التفاعل العام داخل متجرك.
  </p>
@@ -90,7 +90,7 @@ export default function CustomersPage() {
  يعرض جميع العملاء المسجلين في البرنامج، ويتضمن:
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 overflow-hidden my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="bg-[#3B82F6] p-5">
  <div className="flex items-center gap-3">
  <BarChart3 className="size-6 text-white" />
@@ -134,7 +134,7 @@ export default function CustomersPage() {
  عند فتح ملف عميل معين يمكنك معرفة:
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <User className="size-6 text-white" />
@@ -186,25 +186,25 @@ export default function CustomersPage() {
  </p>
 
  <div className="grid md:grid-cols-2 gap-4 my-8 not-prose">
- <div className="bg-white rounded-none border border-gray-100 p-5">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <div className="flex items-start gap-3">
  <span className="size-7 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center font-bold">1</span>
  <p className="text-black font-semibold">العملاء غير النشطين</p>
  </div>
  </div>
- <div className="bg-white rounded-none border border-gray-100 p-5">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <div className="flex items-start gap-3">
  <span className="size-7 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center font-bold">2</span>
  <p className="text-black font-semibold">العملاء القريبين من مكافأة</p>
  </div>
  </div>
- <div className="bg-white rounded-none border border-gray-100 p-5">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <div className="flex items-start gap-3">
  <span className="size-7 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center font-bold">3</span>
  <p className="text-black font-semibold">كبار العملاء حسب الإنفاق</p>
  </div>
  </div>
- <div className="bg-white rounded-none border border-gray-100 p-5">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <div className="flex items-start gap-3">
  <span className="size-7 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center font-bold">4</span>
  <p className="text-black font-semibold">عملاء مستوى معين</p>
@@ -218,7 +218,7 @@ export default function CustomersPage() {
  المجموعات تساعدك على:
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Target className="size-6 text-white" />
@@ -249,7 +249,7 @@ export default function CustomersPage() {
  <h2 id="difference">الفرق بين المستويات والمجموعات</h2>
 
  <div className="grid md:grid-cols-2 gap-6 my-8 not-prose">
- <div className="bg-white rounded-none border border-gray-100 p-6">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-4">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Award className="size-6 text-white" />
@@ -261,7 +261,7 @@ export default function CustomersPage() {
  </p>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-6">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-4">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Filter className="size-6 text-white" />
@@ -276,7 +276,7 @@ export default function CustomersPage() {
 
  <h2 id="tip">نصيحة عملية</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4 mb-5">
  <Lightbulb className="size-10 text-[#3B82F6] shrink-0" />
  <h3 className="text-2xl font-bold text-black">استخدم البيانات بذكاء</h3>

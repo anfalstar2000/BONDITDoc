@@ -13,7 +13,7 @@ export default function ProgramTypesPage() {
  </div>
 
  <div className="prose prose-lg max-w-none">
- <div className="bg-white rounded-none border border-gray-100 p-6 my-6">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6">
  <p className="text-black font-semibold mb-2"> مرونة كاملة:</p>
  <p className="text-black mb-2">
  BOND IT لا يفرض عليك برنامجًا واحدًا.
@@ -147,11 +147,11 @@ export default function ProgramTypesPage() {
  <div className="bg-gray-50 rounded-none p-5 mb-4">
  <p className="font-semibold text-black mb-3">مثال:</p>
  <div className="space-y-2">
- <div className="flex items-start gap-2 text-black p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-2 text-black p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <ArrowRight className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span>أكمل 3 طلبات خلال شهر</span>
  </div>
- <div className="flex items-start gap-2 text-black p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-2 text-black p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <ArrowRight className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span>أنفق 1500 ريال خلال 20 يومًا</span>
  </div>
@@ -314,28 +314,28 @@ export default function ProgramTypesPage() {
  <h2 id="how-to-choose">كيف تختار الأداة المناسبة؟</h2>
 
  <div className="grid md:grid-cols-2 gap-4 my-6 not-prose">
- <div className="p-5 bg-white rounded-none border border-gray-100">
+ <div className="p-5 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <p className="font-semibold text-black mb-2">إذا كنت في بداية متجرك:</p>
  <p className="text-black">ابدأ بـ <strong>النقاط والمكافآت</strong>.</p>
  </div>
 
- <div className="p-5 bg-white rounded-none border border-gray-100">
+ <div className="p-5 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <p className="font-semibold text-black mb-2">إذا لديك عملاء متكررون:</p>
  <p className="text-black">أضف <strong>المستويات</strong>.</p>
  </div>
 
- <div className="p-5 bg-white rounded-none border border-gray-100">
+ <div className="p-5 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <p className="font-semibold text-black mb-2">إذا تطلق منتجات باستمرار:</p>
  <p className="text-black">استخدم <strong>التحديات</strong>.</p>
  </div>
 
- <div className="p-5 bg-white rounded-none border border-gray-100">
+ <div className="p-5 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <p className="font-semibold text-black mb-2">إذا تريد نمو أسرع:</p>
  <p className="text-black">فعّل <strong>برنامج الإحالة</strong>.</p>
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4">
  <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
  <div>

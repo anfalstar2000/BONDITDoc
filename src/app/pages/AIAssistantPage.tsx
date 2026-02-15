@@ -13,7 +13,7 @@ export default function AIAssistantPage() {
  </div>
 
  <div className="prose prose-lg max-w-none">
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg mb-4">
  المساعد الذكي في BOND IT هو أداة دعم تسويقي مدمجة داخل النظام، تساعدك على إنشاء محتوى احترافي مرتبط بمتجرك دون الحاجة للاستعانة بخبير خارجي.
  </p>
@@ -28,7 +28,7 @@ export default function AIAssistantPage() {
  المساعد الذكي ليس مجرد أداة كتابة عامة، بل أداة تعمل في سياق متجرك، ويمكن استخدامها لإنشاء محتوى يخدم أهدافك التسويقية.
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Wand2 className="size-6 text-white" />
@@ -256,7 +256,7 @@ export default function AIAssistantPage() {
 
  <h2 id="benefits">لماذا تستخدم المساعد الذكي؟</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <TrendingUp className="size-8 text-[#3B82F6]" />
  <h3 className="text-xl font-bold text-black">الفوائد الأساسية</h3>
@@ -296,7 +296,7 @@ export default function AIAssistantPage() {
 
  <h2 id="availability">متى يكون المساعد الذكي متاحًا؟</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-4">
  <Sparkles className="size-8 text-[#3B82F6]" />
  <h3 className="text-xl font-bold text-black">الباقات</h3>
@@ -322,7 +322,7 @@ export default function AIAssistantPage() {
 
  <h2 id="tips">نصائح للحصول على أفضل النتائج</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4 mb-6">
  <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
  <h3 className="text-xl font-bold text-black">نصائح عملية</h3>
@@ -355,7 +355,7 @@ export default function AIAssistantPage() {
  <h2 id="difference">الفرق بين المساعد الذكي ونظام الولاء</h2>
 
  <div className="grid md:grid-cols-2 gap-6 my-8 not-prose">
- <div className="bg-white rounded-none border border-gray-100 p-6">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-4">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Zap className="size-6 text-white" />
@@ -367,7 +367,7 @@ export default function AIAssistantPage() {
  </p>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-6">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-4">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Sparkles className="size-6 text-white" />
@@ -395,7 +395,7 @@ export default function AIAssistantPage() {
  </div>
 
  {/* Video Placeholder */}
- <div className="bg-white rounded-none border border-gray-100 overflow-hidden my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="aspect-video bg-gray-50 flex items-center justify-center relative">
  <div className="text-center">
  <div className="size-20 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-4">

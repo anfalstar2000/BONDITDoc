@@ -85,7 +85,7 @@ export function SearchBar() {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         onFocus={() => query.length >= 2 && results.length > 0 && setIsOpen(true)}
-        className="w-[400px] pr-10 pl-10 py-2 bg-white border border-gray-200 text-sm focus:outline-none focus:border-[#3B82F6] rounded-none transition-colors"
+        className="w-[400px] pr-10 pl-10 py-2 bg-white border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-[#3B82F6] focus:ring-offset-2 focus:border-[#3B82F6] rounded-none transition-colors"
       />
       {query && (
         <button

@@ -13,7 +13,7 @@ export default function BadgesTiersPage() {
  </div>
 
  <div className="prose prose-lg max-w-none">
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg mb-4">
  توفر صفحة الشارات والمستويات في نظام BOND IT أداة لبناء ولاء طويل المدى داخل متجرك، من خلال ترقية العملاء تلقائيًا بناءً على نشاطهم ومنحهم مزايا إضافية كلما ارتفع مستواهم.
  </p>
@@ -29,19 +29,19 @@ export default function BadgesTiersPage() {
  </p>
 
  <div className="grid grid-cols-3 gap-4 my-6 not-prose">
- <div className="bg-white rounded-none border border-gray-100 p-5 text-center">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5 text-center">
  <div className="size-12 bg-[#939393] rounded-full flex items-center justify-center mx-auto mb-3">
  <Star className="size-6 text-white" />
  </div>
  <p className="font-bold text-black text-lg">Silver</p>
  </div>
- <div className="bg-white rounded-none border border-gray-100 p-5 text-center">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5 text-center">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-3">
  <Award className="size-6 text-white" />
  </div>
  <p className="font-bold text-black text-lg">Gold</p>
  </div>
- <div className="bg-white rounded-none border border-gray-100 p-5 text-center">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5 text-center">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-3">
  <Crown className="size-6 text-white" />
  </div>
@@ -49,7 +49,7 @@ export default function BadgesTiersPage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-6 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <div className="space-y-3 text-black">
  <div className="flex items-start gap-3">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
@@ -68,7 +68,7 @@ export default function BadgesTiersPage() {
  في صفحة الشارات والمستويات يمكنك:
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-6 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -144,7 +144,7 @@ export default function BadgesTiersPage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-4">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-4">
  <p className="text-black font-semibold mb-2">اختيار الطريقة يعتمد على هدفك:</p>
  <div className="space-y-2 text-sm text-black">
  <p>• إذا أردت زيادة الإنفاق اختر <strong>المشتريات</strong>.</p>
@@ -171,15 +171,15 @@ export default function BadgesTiersPage() {
  <div className="bg-gray-50 rounded-none p-5">
  <p className="text-black font-semibold mb-3">أمثلة:</p>
  <div className="space-y-3">
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <Trophy className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <p className="text-black">إنفاق 2000 ريال للانتقال إلى المستوى الذهبي.</p>
  </div>
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <Trophy className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <p className="text-black">جمع 3000 نقطة للانتقال إلى مستوى أعلى.</p>
  </div>
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <Trophy className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <p className="text-black">إتمام عدد معين من الطلبات.</p>
  </div>
@@ -310,7 +310,7 @@ export default function BadgesTiersPage() {
 
  <h2 id="smart-usage">كيف تستخدم المستويات بشكل ذكي؟</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <h4 className="text-xl font-bold text-black mb-6 text-center">مثال عملي</h4>
  
  <div className="grid md:grid-cols-3 gap-4">
@@ -324,7 +324,7 @@ export default function BadgesTiersPage() {
  </div>
  <div className="p-4">
  <p className="text-sm text-gray-500 text-center mb-3 font-semibold">من 0 إلى 1500 ريال</p>
- <div className="bg-white rounded-none border border-gray-100 p-3">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-3">
  <p className="text-sm text-black text-center">مزايا أساسية</p>
  </div>
  </div>
@@ -340,7 +340,7 @@ export default function BadgesTiersPage() {
  </div>
  <div className="p-4">
  <p className="text-sm text-gray-500 text-center mb-3 font-semibold">من 1500 إلى 5000 ريال</p>
- <div className="bg-white rounded-none border border-gray-100 p-3">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-3">
  <p className="text-sm text-black text-center">خصم أكبر + نقاط مضاعفة</p>
  </div>
  </div>
@@ -356,7 +356,7 @@ export default function BadgesTiersPage() {
  </div>
  <div className="p-4">
  <p className="text-sm text-gray-500 text-center mb-3 font-semibold">أكثر من 5000 ريال</p>
- <div className="bg-white rounded-none border border-gray-100 p-3">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-3">
  <p className="text-sm text-black text-center">شحن مجاني دائم + مزايا حصرية</p>
  </div>
  </div>
@@ -385,7 +385,7 @@ export default function BadgesTiersPage() {
  <h2 id="difference">الفرق بين النقاط والمستويات</h2>
 
  <div className="grid md:grid-cols-2 gap-6 my-8 not-prose">
- <div className="bg-white rounded-none border border-gray-100 p-6">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-4">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Gift className="size-6 text-white" />
@@ -395,7 +395,7 @@ export default function BadgesTiersPage() {
  <p className="text-black text-center text-lg">تحفّز كل عملية شراء.</p>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-6">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-4">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Award className="size-6 text-white" />
@@ -422,7 +422,7 @@ export default function BadgesTiersPage() {
 
  <h2 id="tips">نصائح عملية</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4 mb-6">
  <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
  <h3 className="text-xl font-bold text-black">نصائح لإدارة فعّالة</h3>
@@ -449,7 +449,7 @@ export default function BadgesTiersPage() {
  </div>
 
  {/* Video Placeholder */}
- <div className="bg-white rounded-none border border-gray-100 overflow-hidden my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="aspect-video bg-gray-50 flex items-center justify-center relative">
  <div className="text-center">
  <div className="size-20 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-4">

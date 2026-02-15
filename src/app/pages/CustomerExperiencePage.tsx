@@ -13,7 +13,7 @@ export default function CustomerExperiencePage() {
  </div>
 
  <div className="prose prose-lg max-w-none">
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black mb-4">
  دعنا نتخيل رحلة عميل في متجر إلكتروني يستخدم BOND IT.
  </p>
@@ -46,7 +46,7 @@ export default function CustomerExperiencePage() {
  أحمد يزور متجرك ويشتري عطرًا بقيمة 300 ريال.
  </p>
  
- <div className="bg-white rounded-none border border-gray-100 p-5 mb-4">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5 mb-4">
  <p className="font-semibold text-black mb-3">بعد إتمام الطلب:</p>
  <div className="space-y-2">
  <div className="flex items-start gap-2 text-black">
@@ -64,7 +64,7 @@ export default function CustomerExperiencePage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-5">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <p className="text-sm font-semibold text-black mb-2"> أحمد يفكر:</p>
  <p className="text-black italic mb-3">
  "حلو، كل عملية شراء تعطيني نقاط. خلني أتابع كم أجمع."
@@ -95,13 +95,13 @@ export default function CustomerExperiencePage() {
  أحمد يتلقى إشعارًا بأن لديه نقاط يمكن استخدامها لاحقًا.
  </p>
  
- <div className="bg-white rounded-none border border-gray-100 p-5 mb-4">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5 mb-4">
  <p className="text-black">
  الرسالة ليست خصمًا مباشرًا، بل تذكير بقيمة يملكها بالفعل.
  </p>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-5">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <p className="text-sm font-semibold text-black mb-2"> يفكر:</p>
  <p className="text-black italic mb-3">
  "باقي لي عدد بسيط من النقاط وأوصل للمكافأة."
@@ -132,7 +132,7 @@ export default function CustomerExperiencePage() {
  أحمد أصبح قريبًا من عدد النقاط المطلوبة لاستبدال خصم.
  </p>
  
- <div className="bg-white rounded-none border border-gray-100 p-5 mb-4">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5 mb-4">
  <p className="font-semibold text-black mb-3">عندها قد:</p>
  <div className="space-y-2">
  <div className="flex items-start gap-2 text-black">
@@ -146,7 +146,7 @@ export default function CustomerExperiencePage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-5">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <div className="bg-gray-50 rounded-none p-3">
  <p className="text-sm text-black font-semibold">
  النتيجة: ارتفاع متوسط الطلب بطريقة طبيعية.
@@ -173,7 +173,7 @@ export default function CustomerExperiencePage() {
  عند وصوله للعدد المطلوب:
  </p>
  
- <div className="bg-white rounded-none border border-gray-100 p-5 mb-4">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5 mb-4">
  <div className="space-y-2">
  <div className="flex items-start gap-2 text-black">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
@@ -190,7 +190,7 @@ export default function CustomerExperiencePage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-5">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <p className="text-sm font-semibold text-black mb-2"> يفكر:</p>
  <p className="text-black italic mb-3">
  "رجعت اشتريت واستفدت من نقاطي."
@@ -220,7 +220,7 @@ export default function CustomerExperiencePage() {
  إذا كان لديك نظام مستويات:
  </p>
  
- <div className="bg-white rounded-none border border-gray-100 p-5 mb-4">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5 mb-4">
  <div className="space-y-2">
  <div className="flex items-start gap-2 text-black">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
@@ -263,7 +263,7 @@ export default function CustomerExperiencePage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-6">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <h3 className="text-lg font-bold text-black mb-4">بعد تفعيل BOND IT:</h3>
  <div className="space-y-3">
  <div className="flex items-start gap-2 text-black">
@@ -297,7 +297,7 @@ export default function CustomerExperiencePage() {
 
  <h2 id="conclusion">الخلاصة</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg mb-4">
  رحلة العميل مع BOND IT ليست مجرد نقاط.
  </p>

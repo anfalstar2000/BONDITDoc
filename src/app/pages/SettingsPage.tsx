@@ -13,7 +13,7 @@ export default function SettingsPage() {
  </div>
 
  <div className="prose prose-lg max-w-none">
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg mb-3">
  تمكّنك صفحة الإعدادات في نظام BOND IT من التحكم بكامل إعدادات الحساب، الأمان، الإشعارات، الفريق، والفوترة، لضمان تشغيل النظام بسلاسة وفق احتياج متجرك وتفضيلاتك.
  </p>
@@ -25,7 +25,7 @@ export default function SettingsPage() {
  <h2 id="main-sections">الأقسام الرئيسية</h2>
 
  <div className="grid md:grid-cols-3 gap-4 my-8 not-prose">
- <div className="bg-white rounded-none border border-gray-100 p-5">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <div className="flex items-center gap-3 mb-2">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Building2 className="size-6 text-white" />
@@ -34,7 +34,7 @@ export default function SettingsPage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-5">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <div className="flex items-center gap-3 mb-2">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <User className="size-6 text-white" />
@@ -43,7 +43,7 @@ export default function SettingsPage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-5">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <div className="flex items-center gap-3 mb-2">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Shield className="size-6 text-white" />
@@ -52,7 +52,7 @@ export default function SettingsPage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-5">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <div className="flex items-center gap-3 mb-2">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Bell className="size-6 text-white" />
@@ -61,7 +61,7 @@ export default function SettingsPage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-5">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <div className="flex items-center gap-3 mb-2">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Users className="size-6 text-white" />
@@ -70,7 +70,7 @@ export default function SettingsPage() {
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-100 p-5">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <div className="flex items-center gap-3 mb-2">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <CreditCard className="size-6 text-white" />
@@ -86,7 +86,7 @@ export default function SettingsPage() {
  يُستخدم هذا القسم لإدارة بيانات الشركة والإعدادات العامة للنظام.
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 overflow-hidden my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="bg-[#3B82F6] p-5">
  <div className="flex items-center gap-3">
  <Building2 className="size-7 text-white" />
@@ -146,7 +146,7 @@ export default function SettingsPage() {
  هذا القسم مخصص لإدارة بياناتك الشخصية داخل النظام.
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <User className="size-6 text-white" />
@@ -195,7 +195,7 @@ export default function SettingsPage() {
  يُستخدم لحماية حسابك وإدارة تسجيل الدخول.
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 overflow-hidden my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="bg-[#3B82F6] p-5">
  <div className="flex items-center gap-3">
  <Shield className="size-7 text-white" />
@@ -209,15 +209,15 @@ export default function SettingsPage() {
  <h5 className="font-bold text-black">تغيير كلمة المرور</h5>
  </div>
  <div className="space-y-3 mr-9">
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
  <p className="text-black">كلمة المرور الحالية.</p>
  </div>
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
  <p className="text-black">كلمة المرور الجديدة.</p>
  </div>
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
  <p className="text-black">تأكيد كلمة المرور الجديدة.</p>
  </div>
@@ -242,7 +242,7 @@ export default function SettingsPage() {
  يمكنك من هنا التحكم في أنواع الإشعارات التي ترغب باستلامها.
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <Bell className="size-6 text-white" />
@@ -299,7 +299,7 @@ export default function SettingsPage() {
  يُستخدم لإدارة أعضاء الفريق وصلاحياتهم داخل النظام.
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 overflow-hidden my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="bg-[#3B82F6] p-5">
  <div className="flex items-center gap-3">
  <Users className="size-7 text-white" />
@@ -310,15 +310,15 @@ export default function SettingsPage() {
  <div className="bg-gray-50 p-5 rounded-none">
  <h5 className="font-bold text-black mb-4">يمكنك:</h5>
  <div className="space-y-3">
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <CheckCircle2 className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
  <p className="text-black">عرض أعضاء الفريق.</p>
  </div>
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <CheckCircle2 className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
  <p className="text-black">إضافة عضو جديد.</p>
  </div>
- <div className="flex items-start gap-3 p-3 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <CheckCircle2 className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
  <p className="text-black">تحديد دور وصلاحيات كل عضو.</p>
  </div>
@@ -328,21 +328,21 @@ export default function SettingsPage() {
  <div className="bg-gray-50 p-5 rounded-none">
  <h5 className="font-bold text-black mb-4">الأدوار المتاحة:</h5>
  <div className="space-y-3">
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <Crown className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
  <div>
  <p className="text-black font-semibold">مسؤول</p>
  <p className="text-gray-500 text-sm">بصلاحيات كاملة.</p>
  </div>
  </div>
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <Activity className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
  <div>
  <p className="text-black font-semibold">مسوق</p>
  <p className="text-gray-500 text-sm">للحملات والمحتوى.</p>
  </div>
  </div>
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-100">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <DollarSign className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
  <div>
  <p className="text-black font-semibold">مدير مالي</p>
@@ -367,7 +367,7 @@ export default function SettingsPage() {
  يُستخدم لإدارة خطة الاشتراك الحالية ومتابعة الفوترة.
  </p>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
  <CreditCard className="size-6 text-white" />
@@ -412,7 +412,7 @@ export default function SettingsPage() {
 
  <h2 id="tips">نصائح</h2>
 
- <div className="bg-white rounded-none border border-gray-100 p-6 my-8 not-prose">
+ <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4 mb-6">
  <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
  <h3 className="text-xl font-bold text-black">نصائح مهمة</h3>
