@@ -1,4 +1,4 @@
-import { Target, Trophy, Calendar, Gift, MessageCircle, CheckCircle2, Play, Lightbulb, Zap, TrendingUp, Clock, Users } from 'lucide-react';
+import { Target, Trophy, Calendar, Gift, MessageCircle, CheckCircle2, Lightbulb, Zap, TrendingUp, Clock, Users } from 'lucide-react';
 export default function ChallengesPage() {
  return (
  <div className="w-full">
@@ -364,18 +364,19 @@ export default function ChallengesPage() {
  </div>
  </div>
  </div>
- {/* Video Placeholder */}
+ {/* Video Section */}
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors overflow-hidden my-8 not-prose">
- <div className="aspect-video bg-gray-50 flex items-center justify-center relative">
- <div className="text-center">
- <div className="size-20 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-4">
- <Play className="size-10 text-white mr-[-4px]" />
- </div>
- <p className="text-black font-semibold text-lg">شرح فيديو: إعداد التحديات</p>
- <p className="text-gray-500 text-sm mt-2">سيتم إضافة الفيديو قريبًا</p>
- </div>
+ <div className="aspect-video w-full">
+ <iframe
+ className="w-full h-full"
+ src="https://www.youtube.com/embed/O6Sac746MnA"
+ title="شرح فيديو: إعداد التحديات"
+ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+ allowFullScreen
+ />
  </div>
  <div className="p-5 bg-white">
+ <p className="text-black font-semibold text-lg mb-2">شرح فيديو: إعداد التحديات</p>
  <p className="text-gray-500 text-sm text-center">
  شاهد شرح عملي خطوة بخطوة لإنشاء تحديات فعّالة في متجرك
  </p>
