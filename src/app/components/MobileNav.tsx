@@ -76,7 +76,7 @@ export function MobileNav() {
     <>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="lg:hidden p-2 hover:bg-[#F7F7F7] rounded-[15%] transition-colors"
+        className="lg:hidden p-2 hover:bg-[#F7F7F7] rounded-2xl transition-colors"
       >
         <Menu className="size-6 text-black" />
       </button>
@@ -95,7 +95,7 @@ export function MobileNav() {
               </div>
               <button
                 onClick={() => setIsOpen(false)}
-                className="p-2 hover:bg-[#F7F7F7] rounded-[15%] transition-colors"
+                className="p-2 hover:bg-[#F7F7F7] rounded-2xl transition-colors"
               >
                 <X className="size-5 text-black" />
               </button>
@@ -150,7 +150,7 @@ export function MobileNav() {
               </nav>
 
               <div className="mt-6 pt-6">
-                <button className="w-full px-4 py-2 bg-[#3B82F6] text-white text-sm rounded-[15%] hover:opacity-90 transition-all flex items-center justify-center gap-2">
+                <button className="w-full px-4 py-2 bg-[#3B82F6] text-white text-sm rounded-2xl hover:opacity-90 transition-all flex items-center justify-center gap-2">
                   <ExternalLink className="size-4" />
                   انتقل إلى لوحة التحكم
                 </button>

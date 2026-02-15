@@ -87,7 +87,7 @@ export function TableOfContents() {
             <li key={item.id}>
               <button
                 onClick={() => scrollToSection(item.id)}
-                className="block w-full text-right px-4 py-1.5 text-sm text-[#939393] hover:text-[#3B82F6] hover:bg-white rounded-[15%] transition-colors"
+                className="block w-full text-right px-4 py-1.5 text-sm text-[#939393] hover:text-[#3B82F6] hover:bg-white rounded-2xl transition-colors"
               >
                 {item.title}
               </button>

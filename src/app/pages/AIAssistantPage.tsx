@@ -13,7 +13,7 @@ export default function AIAssistantPage() {
       </div>
 
       <div className="prose prose-lg max-w-none">
-        <div className="bg-white rounded-[15%] p-6 my-8 not-prose">
+        <div className="bg-white rounded-2xl p-6 my-8 not-prose">
           <p className="text-black text-lg mb-4">
             المساعد الذكي في BOND IT هو أداة دعم تسويقي مدمجة داخل النظام، تساعدك على إنشاء محتوى احترافي مرتبط بمتجرك دون الحاجة للاستعانة بخبير خارجي.
           </p>
@@ -28,7 +28,7 @@ export default function AIAssistantPage() {
           المساعد الذكي ليس مجرد أداة كتابة عامة، بل أداة تعمل في سياق متجرك، ويمكن استخدامها لإنشاء محتوى يخدم أهدافك التسويقية.
         </p>
 
-        <div className="bg-white rounded-[15%] p-6 my-8 not-prose">
+        <div className="bg-white rounded-2xl p-6 my-8 not-prose">
           <div className="flex items-center gap-3 mb-5">
             <div className="size-10 bg-[#3B82F6] rounded-lg flex items-center justify-center">
               <Wand2 className="size-6 text-white" />
@@ -37,23 +37,23 @@ export default function AIAssistantPage() {
           </div>
           
           <div className="space-y-3">
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
               <p className="text-black">كتابة وصف احترافي للمنتجات.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
               <p className="text-black">إنشاء مقالات لتحسين الظهور في محركات البحث (SEO).</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
               <p className="text-black">كتابة كابشنات للسوشيال ميديا.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
               <p className="text-black">اقتراح أفكار حملات تحفيزية.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">5</span>
               <p className="text-black">اقتراح أفكار تحديات أو مكافآت.</p>
             </div>
@@ -75,28 +75,28 @@ export default function AIAssistantPage() {
             </div>
             <div className="p-6 space-y-4">
               <div className="grid md:grid-cols-2 gap-3">
-                <div className="p-4 bg-[#F7F7F7] rounded-[15%] text-center">
+                <div className="p-4 bg-[#F7F7F7] rounded-2xl text-center">
                   <p className="text-black font-semibold">اسم المنتج</p>
                 </div>
-                <div className="p-4 bg-[#F7F7F7] rounded-[15%] text-center">
+                <div className="p-4 bg-[#F7F7F7] rounded-2xl text-center">
                   <p className="text-black font-semibold">الفئة</p>
                 </div>
-                <div className="p-4 bg-[#F7F7F7] rounded-[15%] text-center">
+                <div className="p-4 bg-[#F7F7F7] rounded-2xl text-center">
                   <p className="text-black font-semibold">المزايا</p>
                 </div>
-                <div className="p-4 bg-[#F7F7F7] rounded-[15%] text-center">
+                <div className="p-4 bg-[#F7F7F7] rounded-2xl text-center">
                   <p className="text-black font-semibold">الجمهور المستهدف</p>
                 </div>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-[15%] p-5">
+              <div className="bg-[#F7F7F7] rounded-2xl p-5">
                 <p className="text-black font-semibold mb-3">النتيجة:</p>
                 <p className="text-black">
                   ويقوم المساعد باقتراح وصف احترافي مناسب للبيع الإلكتروني.
                 </p>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-[15%] p-5">
+              <div className="bg-[#F7F7F7] rounded-2xl p-5">
                 <p className="font-semibold mb-3 text-black">💡 هذا مفيد إذا كنت:</p>
                 <div className="space-y-2 text-sm">
                   <div className="flex items-start gap-2">
@@ -128,20 +128,20 @@ export default function AIAssistantPage() {
               <p className="text-white/80">يمكنك طلب:</p>
             </div>
             <div className="p-6 space-y-3">
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
                 <FileText className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
                 <p className="text-black">أفكار لمقالات مرتبطة بمجالك</p>
               </div>
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
                 <FileText className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
                 <p className="text-black">كتابة مقال متكامل</p>
               </div>
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
                 <FileText className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
                 <p className="text-black">اقتراح كلمات مفتاحية</p>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-[15%] p-4">
+              <div className="bg-[#F7F7F7] rounded-2xl p-4">
                 <p className="font-semibold text-black">🎯 الهدف:</p>
                 <p className="text-black text-sm">
                   دعم ظهور متجرك في نتائج البحث بطريقة منظمة.
@@ -163,21 +163,21 @@ export default function AIAssistantPage() {
             </div>
             <div className="p-6 space-y-3">
               <div className="grid md:grid-cols-2 gap-3">
-                <div className="p-4 bg-[#F7F7F7] rounded-[15%] text-center">
+                <div className="p-4 bg-[#F7F7F7] rounded-2xl text-center">
                   <p className="text-black font-semibold">تويتر / X</p>
                 </div>
-                <div className="p-4 bg-[#F7F7F7] rounded-[15%] text-center">
+                <div className="p-4 bg-[#F7F7F7] rounded-2xl text-center">
                   <p className="text-black font-semibold">إنستقرام</p>
                 </div>
-                <div className="p-4 bg-[#F7F7F7] rounded-[15%] text-center">
+                <div className="p-4 bg-[#F7F7F7] rounded-2xl text-center">
                   <p className="text-black font-semibold">سناب شات</p>
                 </div>
-                <div className="p-4 bg-[#F7F7F7] rounded-[15%] text-center">
+                <div className="p-4 bg-[#F7F7F7] rounded-2xl text-center">
                   <p className="text-black font-semibold">تيك توك</p>
                 </div>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-[15%] p-4">
+              <div className="bg-[#F7F7F7] rounded-2xl p-4">
                 <p className="text-black text-sm">
                   💬 يمكنك إدخال فكرة بسيطة ويقوم المساعد بإعادة صياغتها بشكل أكثر جاذبية.
                 </p>
@@ -197,24 +197,24 @@ export default function AIAssistantPage() {
               <p className="text-white/80">يمكن للمساعد:</p>
             </div>
             <div className="p-6 space-y-3">
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
                 <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
                 <p className="text-black">اقتراح أنواع تحديات مناسبة لمجالك.</p>
               </div>
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
                 <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                 <p className="text-black">اقتراح أسماء جذابة للتحديات.</p>
               </div>
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
                 <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
                 <p className="text-black">اقتراح أسماء لمكافآت مبتكرة.</p>
               </div>
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
                 <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
                 <p className="text-black">اقتراح حملات موسمية.</p>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-[15%] p-4">
+              <div className="bg-[#F7F7F7] rounded-2xl p-4">
                 <p className="text-black text-sm">
                   🚀 هذا يوفر عليك الوقت والجهد في التفكير الإبداعي.
                 </p>
@@ -234,19 +234,19 @@ export default function AIAssistantPage() {
               <p className="text-white/80">طريقة الاستخدام بسيطة:</p>
             </div>
             <div className="p-6 space-y-3">
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
                 <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
                 <p className="text-black">اختر نوع المحتوى الذي تريد إنشاءه.</p>
               </div>
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
                 <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                 <p className="text-black">أدخل التفاصيل الأساسية (مثل اسم المنتج أو الموضوع).</p>
               </div>
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
                 <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
                 <p className="text-black">اضغط على "إنشاء".</p>
               </div>
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
                 <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
                 <p className="text-black">احصل على اقتراح يمكنك تعديله أو استخدامه مباشرة.</p>
               </div>
@@ -256,35 +256,35 @@ export default function AIAssistantPage() {
 
         <h2 id="benefits">لماذا تستخدم المساعد الذكي؟</h2>
 
-        <div className="bg-white rounded-[15%] p-6 my-8 not-prose">
+        <div className="bg-white rounded-2xl p-6 my-8 not-prose">
           <div className="flex items-center gap-3 mb-5">
             <TrendingUp className="size-8 text-[#3B82F6]" />
             <h3 className="text-xl font-bold text-black">الفوائد الأساسية</h3>
           </div>
           
           <div className="space-y-3">
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
               <div>
                 <p className="text-black font-semibold">توفير الوقت</p>
                 <p className="text-[#939393] text-sm">بدلًا من الجلوس ساعات لكتابة محتوى.</p>
               </div>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
               <div>
                 <p className="text-black font-semibold">توفير التكلفة</p>
                 <p className="text-[#939393] text-sm">بدل التعاقد مع كتّاب محتوى خارجيين.</p>
               </div>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
               <div>
                 <p className="text-black font-semibold">نصوص احترافية</p>
                 <p className="text-[#939393] text-sm">حتى لو لم تكن كاتبًا ماهرًا.</p>
               </div>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
               <div>
                 <p className="text-black font-semibold">أفكار مستمرة</p>
@@ -296,24 +296,24 @@ export default function AIAssistantPage() {
 
         <h2 id="availability">متى يكون المساعد الذكي متاحًا؟</h2>
 
-        <div className="bg-white rounded-[15%] p-6 my-8 not-prose">
+        <div className="bg-white rounded-2xl p-6 my-8 not-prose">
           <div className="flex items-center gap-3 mb-4">
             <Sparkles className="size-8 text-[#3B82F6]" />
             <h3 className="text-xl font-bold text-black">الباقات</h3>
           </div>
           
           <div className="space-y-3">
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
               <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
               <span className="text-black">متاح ضمن باقة <strong>Plus</strong></span>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
               <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
               <span className="text-black">متاح ضمن باقة <strong>Pro</strong></span>
             </div>
           </div>
 
-          <div className="bg-[#F7F7F7] rounded-[15%] p-4 mt-4">
+          <div className="bg-[#F7F7F7] rounded-2xl p-4 mt-4">
             <p className="text-black text-sm">
               💡 في الباقات الأعلى، قد يكون هناك حد أعلى لعدد الطلبات الشهرية.
             </p>
@@ -322,30 +322,30 @@ export default function AIAssistantPage() {
 
         <h2 id="tips">نصائح للحصول على أفضل النتائج</h2>
 
-        <div className="bg-white rounded-[15%] p-8 my-8 not-prose">
+        <div className="bg-white rounded-2xl p-8 my-8 not-prose">
           <div className="flex items-start gap-4 mb-6">
             <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
             <h3 className="text-xl font-bold text-black">نصائح عملية</h3>
           </div>
           
           <div className="space-y-4">
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
               <p className="text-black">كلما كانت التفاصيل التي تدخلها دقيقة، كلما كانت النتيجة أفضل.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
               <p className="text-black">لا تستخدم المحتوى كما هو بشكل أعمى، اقرأه وعدّله ليناسب أسلوبك.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
               <p className="text-black">استخدم المساعد كنقطة انطلاق، وليس كبديل كامل عن التفكير.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
               <p className="text-black">جرّب طلب نفس المحتوى بأكثر من طريقة، وقارن النتائج.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-2xl">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">5</span>
               <p className="text-black">لا تعتمد على المساعد لكتابة محتوى طبي أو قانوني حساس.</p>
             </div>
@@ -355,7 +355,7 @@ export default function AIAssistantPage() {
         <h2 id="difference">الفرق بين المساعد الذكي ونظام الولاء</h2>
 
         <div className="grid md:grid-cols-2 gap-6 my-8 not-prose">
-          <div className="bg-white rounded-[15%] p-6">
+          <div className="bg-white rounded-2xl p-6">
             <div className="flex items-center gap-3 mb-4">
               <div className="size-10 bg-[#3B82F6] rounded-lg flex items-center justify-center">
                 <Zap className="size-6 text-white" />
@@ -367,7 +367,7 @@ export default function AIAssistantPage() {
             </p>
           </div>
 
-          <div className="bg-white rounded-[15%] p-6">
+          <div className="bg-white rounded-2xl p-6">
             <div className="flex items-center gap-3 mb-4">
               <div className="size-10 bg-[#3B82F6] rounded-lg flex items-center justify-center">
                 <Sparkles className="size-6 text-white" />
@@ -395,7 +395,7 @@ export default function AIAssistantPage() {
         </div>
 
         {/* Video Placeholder */}
-        <div className="bg-white rounded-[15%] overflow-hidden my-12 not-prose">
+        <div className="bg-white rounded-2xl overflow-hidden my-12 not-prose">
           <div className="aspect-video bg-[#F7F7F7] flex items-center justify-center relative">
             <div className="text-center">
               <div className="size-20 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-4">
