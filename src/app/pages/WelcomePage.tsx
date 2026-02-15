@@ -1,5 +1,4 @@
 import { Lightbulb, TrendingUp, Users, Zap, Gift, Target, UserPlus } from 'lucide-react';
-
 export default function WelcomePage() {
  return (
  <div className="max-w-4xl">
@@ -11,13 +10,11 @@ export default function WelcomePage() {
  نظام ولاء متكامل للمتاجر الإلكترونية
  </p>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <p className="text-lg">
  BOND IT هو نظام ولاء متكامل للمتاجر الإلكترونية، مصمم لمساعدتك على زيادة تكرار الشراء
  وبناء علاقة طويلة المدى مع عملائك.
  </p>
-
  <div className="bg-white rounded border border-gray-200 p-6 my-6">
  <p className="text-black font-semibold mb-2"> الفكرة الأساسية:</p>
  <p className="text-black">
@@ -25,10 +22,8 @@ export default function WelcomePage() {
  بطريقة مدروسة تخدم أهداف متجرك.
  </p>
  </div>
-
  <h2 id="what-offers">ماذا يقدم لك BOND IT؟</h2>
  <p>من خلال النظام يمكنك:</p>
-
  <div className="grid md:grid-cols-2 gap-6 my-8 not-prose">
  <div className="p-6 bg-white rounded border border-gray-200">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mb-4">
@@ -41,7 +36,6 @@ export default function WelcomePage() {
  إنشاء برنامج نقاط ومكافآت واضح يشجع العملاء على العودة
  </p>
  </div>
-
  <div className="p-6 bg-white rounded border border-gray-200">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mb-4">
  <TrendingUp className="size-6 text-white" />
@@ -53,7 +47,6 @@ export default function WelcomePage() {
  بناء مستويات ولاء (فضي – ذهبي – VIP) لتحفيز العملاء
  </p>
  </div>
-
  <div className="p-6 bg-white rounded border border-gray-200">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mb-4">
  <Target className="size-6 text-white" />
@@ -65,7 +58,6 @@ export default function WelcomePage() {
  إطلاق تحديات تحفيزية قصيرة المدى لزيادة المبيعات
  </p>
  </div>
-
  <div className="p-6 bg-white rounded border border-gray-200">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mb-4">
  <UserPlus className="size-6 text-white" />
@@ -77,7 +69,6 @@ export default function WelcomePage() {
  تفعيل برنامج إحالة لجلب عملاء جدد عبر عملائك الحاليين
  </p>
  </div>
-
  <div className="p-6 bg-white rounded border border-gray-200">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mb-4">
  <Zap className="size-6 text-white" />
@@ -89,7 +80,6 @@ export default function WelcomePage() {
  إرسال رسائل تلقائية بناءً على نشاط العميل
  </p>
  </div>
-
  <div className="p-6 bg-white rounded border border-gray-200">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mb-4">
  <Lightbulb className="size-6 text-white" />
@@ -102,22 +92,18 @@ export default function WelcomePage() {
  </p>
  </div>
  </div>
-
  <h2 id="why-need">لماذا تحتاج برنامج ولاء؟</h2>
  <p>
  الحصول على عميل جديد يكلفك أكثر من الاحتفاظ بعميل حالي.
  </p>
-
  <div className="bg-white rounded border border-gray-200 p-6 my-6">
- <p className="text-black font-semibold mb-2">⚠ حقيقة مهمة:</p>
+ <p className="text-black font-semibold mb-2"> حقيقة مهمة:</p>
  <p className="text-black">
  تكلفة جذب عميل جديد أعلى بكثير من تكلفة الاحتفاظ بعميل حالي.
  برنامج الولاء يساعدك على بناء قاعدة عملاء مخلصة.
  </p>
  </div>
-
  <p className="font-semibold text-black">برنامج الولاء يساعدك على:</p>
-
  <div className="grid md:grid-cols-2 gap-4 my-6 not-prose">
  <div className="flex items-start gap-3 p-4 bg-white rounded border border-gray-200">
  <div className="size-6 bg-[#3B82F6] rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0"></div>
@@ -136,12 +122,10 @@ export default function WelcomePage() {
  <span className="text-black">خلق سبب دائم للرجوع إلى متجرك</span>
  </div>
  </div>
-
  <h2 id="how-works">كيف يعمل النظام؟</h2>
  <p>
  الفكرة بسيطة، لكن النتائج استراتيجية:
  </p>
-
  <div className="bg-white rounded border border-gray-200 p-6 my-6">
  <div className="space-y-3 text-black">
  <div className="flex items-start gap-3">
@@ -162,24 +146,20 @@ export default function WelcomePage() {
  </div>
  </div>
  </div>
-
  <p className="font-semibold text-black">يمكنك أيضًا:</p>
  <ul className="space-y-2 my-4">
  <li>منحه مزايا عند الوصول لمستوى أعلى</li>
  <li>إطلاق تحدٍ لفترة محددة لرفع المبيعات</li>
  <li>مكافأته عند دعوة أصدقائه</li>
  </ul>
-
  <div className="bg-white rounded border border-gray-200 p-4 my-6">
  <p className="text-sm text-black font-semibold mb-2"> مميز:</p>
  <p className="text-sm text-black">
  كل ذلك يتم بشكل تلقائي داخل النظام.
  </p>
  </div>
-
  <h2 id="example">مثال عملي</h2>
  <p>لنفترض أنك حددت:</p>
-
  <div className="bg-white rounded border border-gray-200 p-6 my-6">
  <div className="space-y-4 mb-6">
  <div className="flex items-center justify-between p-4 bg-gray-50 rounded-none">
@@ -191,7 +171,6 @@ export default function WelcomePage() {
  <span className="font-bold text-[#3B82F6]">1000 نقطة = خصم 50 ريال</span>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-6">
  <p className="text-black font-semibold mb-3"> النتيجة:</p>
  <p className="text-black">
@@ -202,15 +181,12 @@ export default function WelcomePage() {
  </p>
  </div>
  </div>
-
  <h2 id="no-tech">هل أحتاج خبرة تقنية؟</h2>
  <p className="text-2xl font-bold text-black">لا.</p>
- 
  <p>
  تم تصميم BOND IT ليكون واضحًا وسهل الاستخدام.
  بعد تثبيت التطبيق، يتم ربطه تلقائيًا بمتجرك، ويمكنك إدارة كل شيء من لوحة تحكم بسيطة.
  </p>
-
  <div className="bg-[#3B82F6] rounded-none text-white p-6 my-8 not-prose">
  <h3 className="text-2xl font-bold mb-3">جاهز للبدء؟</h3>
  <p className="text-white/80 mb-6">

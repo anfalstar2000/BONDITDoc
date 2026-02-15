@@ -1,5 +1,4 @@
 import { Share2, Users, Gift, TrendingUp, CheckCircle2, Play, Lightbulb, Link2, Award, BarChart3, DollarSign } from 'lucide-react';
-
 export default function ReferralPage() {
  return (
  <div className="max-w-4xl">
@@ -11,7 +10,6 @@ export default function ReferralPage() {
  اجعل عملائك الحاليين سفراء لعلامتك التجارية
  </p>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg mb-4">
@@ -21,13 +19,10 @@ export default function ReferralPage() {
  بدل الاعتماد الكامل على الإعلانات المدفوعة، يمكنك تحفيز عملائك ليصبحوا سفراء لعلامتك التجارية.
  </p>
  </div>
-
  <h2 id="what-is-referral">ما هو برنامج الإحالة؟</h2>
-
  <p>
- برنامج ا��إحالة يسمح لكل عميل بالحصول على رابط دعوة خاص به.
+ برنامج اإحالة يسمح لكل عميل بالحصول على رابط دعوة خاص به.
  </p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
@@ -35,7 +30,6 @@ export default function ReferralPage() {
  </div>
  <h3 className="text-xl font-bold text-black">عند مشاركة الرابط:</h3>
  </div>
- 
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -50,20 +44,16 @@ export default function ReferralPage() {
  <p className="text-black">يحصل العميل المُحيل على مكافأة محددة.</p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4 mt-4">
  <p className="font-semibold text-center text-black">
  يمكنك أيضًا منح مكافأة للعميل الجديد لزيادة معدل التحويل.
  </p>
  </div>
  </div>
-
  <h2 id="overview">أولًا: نظرة عامة على الصفحة</h2>
-
  <p>
  في صفحة برنامج الإحالة يمكنك:
  </p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
@@ -84,7 +74,6 @@ export default function ReferralPage() {
  </div>
  </div>
  </div>
-
  {/* Referral Setup Steps */}
  <div className="space-y-6 my-8 not-prose">
  {/* Step 1: Reward Setup */}
@@ -120,7 +109,6 @@ export default function ReferralPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="font-semibold text-black"> تلقائي:</p>
  <p className="text-black text-sm">
@@ -129,7 +117,6 @@ export default function ReferralPage() {
  </div>
  </div>
  </div>
-
  {/* Step 2: Eligibility Conditions */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -154,7 +141,6 @@ export default function ReferralPage() {
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
  <p className="text-black">بعد حد أدنى لقيمة الطلب.</p>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="font-semibold text-black"> حماية:</p>
  <p className="text-black text-sm">
@@ -163,7 +149,6 @@ export default function ReferralPage() {
  </div>
  </div>
  </div>
-
  {/* Step 3: New Customer Reward */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -186,7 +171,6 @@ export default function ReferralPage() {
  <p className="text-black font-semibold">نقاط بداية عند التسجيل</p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="font-semibold text-center text-black">
  بهذا يصبح العرض جذابًا للطرفين.
@@ -194,7 +178,6 @@ export default function ReferralPage() {
  </div>
  </div>
  </div>
-
  {/* Step 4: Performance Tracking */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -226,15 +209,12 @@ export default function ReferralPage() {
  </div>
  </div>
  </div>
-
  <h2 id="why-referral">لماذا يعتبر برنامج الإحالة مهمًا؟</h2>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <TrendingUp className="size-8 text-[#3B82F6]" />
  <h3 className="text-xl font-bold text-black">الفوائد الأساسية</h3>
  </div>
- 
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -266,12 +246,9 @@ export default function ReferralPage() {
  </div>
  </div>
  </div>
-
  <h2 id="when-to-use">متى تستخدم برنامج الإحالة؟</h2>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black font-semibold mb-4">برنامج الإحالة فعّال عندما:</p>
- 
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
@@ -291,12 +268,9 @@ export default function ReferralPage() {
  </div>
  </div>
  </div>
-
  <h2 id="example">مثال عملي</h2>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <h4 className="text-lg font-bold text-black mb-4 text-center">سيناريو كامل</h4>
- 
  <div className="space-y-4">
  <div className="bg-gray-50 rounded p-5">
  <div className="flex items-center gap-3 mb-3">
@@ -305,7 +279,6 @@ export default function ReferralPage() {
  </div>
  <p className="text-gray-500 text-sm">أحمد (عميل حالي) يحصل على رابط إحالة خاص من لوحة الولاء.</p>
  </div>
-
  <div className="bg-gray-50 rounded p-5">
  <div className="flex items-center gap-3 mb-3">
  <div className="size-8 bg-[#3B82F6] rounded-full flex items-center justify-center text-white font-bold">2</div>
@@ -313,7 +286,6 @@ export default function ReferralPage() {
  </div>
  <p className="text-gray-500 text-sm">خالد (صديق أحمد) يدخل المتجر عبر رابط الإحالة.</p>
  </div>
-
  <div className="bg-gray-50 rounded p-5">
  <div className="flex items-center gap-3 mb-3">
  <div className="size-8 bg-[#3B82F6] rounded-full flex items-center justify-center text-white font-bold">3</div>
@@ -321,7 +293,6 @@ export default function ReferralPage() {
  </div>
  <p className="text-gray-500 text-sm">خالد يحصل على 10% خصم على أول طلب.</p>
  </div>
-
  <div className="bg-gray-50 rounded p-5">
  <div className="flex items-center gap-3 mb-3">
  <div className="size-8 bg-[#3B82F6] rounded-full flex items-center justify-center text-white font-bold">4</div>
@@ -329,7 +300,6 @@ export default function ReferralPage() {
  </div>
  <p className="text-gray-500 text-sm">خالد يُتم أول طلب له.</p>
  </div>
-
  <div className="bg-[#3B82F6] rounded-none p-5">
  <div className="flex items-center gap-3 mb-3">
  <div className="size-8 bg-white rounded-full flex items-center justify-center text-[#3B82F6] font-bold">5</div>
@@ -339,15 +309,12 @@ export default function ReferralPage() {
  </div>
  </div>
  </div>
-
  <h2 id="cost-calculation">حساب تكلفة الاكتساب</h2>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <DollarSign className="size-8 text-[#3B82F6]" />
  <h3 className="text-xl font-bold text-black">مقارنة التكلفة</h3>
  </div>
- 
  <div className="grid md:grid-cols-2 gap-4">
  <div className="bg-gray-50 rounded p-5">
  <p className="text-black font-semibold mb-3">الإعلانات التقليدية</p>
@@ -357,7 +324,6 @@ export default function ReferralPage() {
  <p>• تكلفة عميل جديد: 70-150 ريال</p>
  </div>
  </div>
-
  <div className="bg-[#3B82F6] rounded-none p-5 text-white">
  <p className="font-semibold mb-3">برنامج الإحالة</p>
  <div className="space-y-2 text-sm">
@@ -367,22 +333,18 @@ export default function ReferralPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4 mt-4">
  <p className="text-black text-sm text-center font-semibold">
  برنامج الإحالة يوفر 50-70% من تكلفة الاكتساب
  </p>
  </div>
  </div>
-
  <h2 id="tips">نصائح عملية</h2>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4 mb-6">
  <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
  <h3 className="text-xl font-bold text-black">نصائح لإدارة فعّالة</h3>
  </div>
- 
  <div className="space-y-4">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -406,7 +368,6 @@ export default function ReferralPage() {
  </div>
  </div>
  </div>
-
  {/* Video Placeholder */}
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="aspect-video bg-gray-50 flex items-center justify-center relative">

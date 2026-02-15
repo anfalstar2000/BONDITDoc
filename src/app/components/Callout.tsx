@@ -1,10 +1,8 @@
 import { Info, AlertTriangle, Lightbulb } from 'lucide-react';
-
 interface CalloutProps {
  type: 'info' | 'warning' | 'tip';
  children: React.ReactNode;
 }
-
 export function Callout({ type, children }: CalloutProps) {
  const styles = {
  info: {
@@ -23,9 +21,7 @@ export function Callout({ type, children }: CalloutProps) {
  text: 'text-black',
  },
  };
-
  const style = styles[type];
-
  return (
  <div className={`flex gap-3 p-4 rounded-none ${style.container} ${style.text}`}>
  <div className="flex-shrink-0 mt-0.5">{style.icon}</div>

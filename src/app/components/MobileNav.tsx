@@ -3,17 +3,14 @@ import { Menu, X, ExternalLink, ChevronDown } from 'lucide-react';
 import { Link, useLocation } from 'react-router';
 import { MobileSearchBar } from './MobileSearchBar';
 import Logo from '../../imports/Group435';
-
 interface NavItem {
  title: string;
  path: string;
 }
-
 interface NavSection {
  title: string;
  items: NavItem[];
 }
-
 const navigationData: NavSection[] = [
  {
  title: 'مرحبًا بك',
@@ -56,23 +53,19 @@ const navigationData: NavSection[] = [
  ],
  },
 ];
-
 export function MobileNav() {
  const [isOpen, setIsOpen] = useState(false);
  const location = useLocation();
  const [openSections, setOpenSections] = useState<{ [key: string]: boolean }>({});
-
  const toggleSection = (sectionTitle: string) => {
  setOpenSections((prev) => ({
  ...prev,
  [sectionTitle]: !prev[sectionTitle],
  }));
  };
-
  const handleLinkClick = () => {
  setIsOpen(false);
  };
-
  return (
  <>
  <button
@@ -81,14 +74,12 @@ export function MobileNav() {
  >
  <Menu className="size-6 text-black" />
  </button>
-
  {isOpen && (
  <>
  <div
  className="fixed inset-0 bg-black/50 z-40 lg:hidden"
  onClick={() => setIsOpen(false)}
  />
-
  <div className="fixed top-0 right-0 bottom-0 w-80 bg-white z-50 overflow-y-auto lg:hidden">
  <div className="p-4 flex items-center justify-between">
  <div className="w-20">
@@ -101,10 +92,8 @@ export function MobileNav() {
  <X className="size-5 text-black" />
  </button>
  </div>
-
  <div className="p-4">
  <MobileSearchBar onNavigate={handleLinkClick} />
-
  <nav className="space-y-4">
  {navigationData.map((section) => (
  <div key={section.title}>
@@ -119,7 +108,6 @@ export function MobileNav() {
  }`}
  />
  </button>
-
  {openSections[section.title] && (
  <ul className="space-y-1 mb-4">
  {section.items.map((item) => (
@@ -142,9 +130,8 @@ export function MobileNav() {
  </div>
  ))}
  </nav>
-
  <div className="mt-6 pt-6">
- <a 
+ <a
  href="https://app.bonditloyalty.io/login"
  target="_blank"
  rel="noopener noreferrer"

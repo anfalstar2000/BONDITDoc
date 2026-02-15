@@ -2,7 +2,6 @@ import { ExternalLink } from 'lucide-react';
 import { MobileNav } from './MobileNav';
 import { SearchBar } from './SearchBar';
 import Logo from '../../imports/Group435';
-
 export function TopNav() {
  return (
  <nav className="sticky top-0 z-50 bg-white">
@@ -12,13 +11,11 @@ export function TopNav() {
  <div className="w-24 md:w-28">
  <Logo />
  </div>
- 
  <div className="hidden md:block">
  <SearchBar />
  </div>
  </div>
-
- <a 
+ <a
  href="https://app.bonditloyalty.io/login"
  target="_blank"
  rel="noopener noreferrer"

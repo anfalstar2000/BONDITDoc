@@ -1,5 +1,4 @@
 import { Check, X, Star, Sparkles, Crown, Users, Target, TrendingUp, Shield, Lightbulb } from 'lucide-react';
-
 export default function SuccessStoriesPage() {
  return (
  <div className="max-w-5xl">
@@ -11,7 +10,6 @@ export default function SuccessStoriesPage() {
  مقارنة شاملة لمساعدتك في اختيار الباقة المثالية لمتجرك
  </p>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <div className="bg-white rounded border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg">
@@ -19,9 +17,7 @@ export default function SuccessStoriesPage() {
  اختار الباقة اللي تناسب طموحاتك، وترقّى وقتما تحتاج!
  </p>
  </div>
-
  <h2 id="comparison">مقارنة الباقات</h2>
-
  {/* Pricing Cards */}
  <div className="grid md:grid-cols-3 gap-6 my-8 not-prose">
  {/* Lite Plan */}
@@ -40,13 +36,11 @@ export default function SuccessStoriesPage() {
  </div>
  <p className="text-sm text-gray-500">غير شامل الضريبة المضافة</p>
  </div>
-
  <div className="p-6">
  <div className="bg-gray-50 rounded p-4 mb-6 text-center">
  <p className="text-sm text-gray-500 mb-1">ونش نقدم لك فيها:</p>
  <p className="text-2xl font-bold text-black">250 طلب شهرياً</p>
  </div>
-
  <ul className="space-y-3 mb-6">
  <li className="flex items-start gap-2">
  <Check className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
@@ -89,10 +83,9 @@ export default function SuccessStoriesPage() {
  <span className="text-sm text-gray-500">إزالة شعار BOND IT (+15 ريال)</span>
  </li>
  </ul>
-
- <a 
- href="https://apps.salla.sa/ar/app/1944068071" 
- target="_blank" 
+ <a
+ href="https://apps.salla.sa/ar/app/1944068071"
+ target="_blank"
  rel="noopener noreferrer"
  className="block w-full py-3 bg-gray-50 hover:bg-[#3B82F6] hover:text-white text-black font-bold transition-all text-center rounded-none"
  >
@@ -100,7 +93,6 @@ export default function SuccessStoriesPage() {
  </a>
  </div>
  </div>
-
  {/* Plus Plan - Recommended */}
  <div className="bg-white rounded border border-gray-200 overflow-hidden relative">
  <div className="bg-[#3B82F6] p-6 text-white">
@@ -117,13 +109,11 @@ export default function SuccessStoriesPage() {
  </div>
  <p className="text-sm text-white/80">غير شامل الضريبة المضافة</p>
  </div>
-
  <div className="p-6">
  <div className="bg-gray-50 rounded p-4 mb-6 text-center">
  <p className="text-sm text-gray-500 mb-1">ونش نقدم لك فيها:</p>
  <p className="text-2xl font-bold text-black">1,000 طلب شهرياً</p>
  </div>
-
  <ul className="space-y-3 mb-6">
  <li className="flex items-start gap-2">
  <Check className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
@@ -158,10 +148,9 @@ export default function SuccessStoriesPage() {
  <span className="text-sm text-black">6 تحديات</span>
  </li>
  </ul>
-
- <a 
- href="https://apps.salla.sa/ar/app/1944068071" 
- target="_blank" 
+ <a
+ href="https://apps.salla.sa/ar/app/1944068071"
+ target="_blank"
  rel="noopener noreferrer"
  className="block w-full py-3 bg-[#3B82F6] hover:opacity-90 text-white font-bold transition-all text-center rounded-full"
  >
@@ -169,7 +158,6 @@ export default function SuccessStoriesPage() {
  </a>
  </div>
  </div>
-
  {/* Pro Plan */}
  <div className="bg-white rounded border border-gray-200 overflow-hidden">
  <div className="bg-white p-6">
@@ -186,13 +174,11 @@ export default function SuccessStoriesPage() {
  </div>
  <p className="text-sm text-gray-500">غير شامل الضريبة المضافة</p>
  </div>
-
  <div className="p-6">
  <div className="bg-gray-50 rounded p-4 mb-6 text-center">
  <p className="text-sm text-gray-500 mb-1">ونش نقدم لك فيها:</p>
  <p className="text-2xl font-bold text-black">5,000 طلب شهرياً</p>
  </div>
-
  <ul className="space-y-3 mb-6">
  <li className="flex items-start gap-2">
  <Check className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
@@ -219,10 +205,9 @@ export default function SuccessStoriesPage() {
  <span className="text-sm text-black">12 تحديات</span>
  </li>
  </ul>
-
- <a 
- href="https://apps.salla.sa/ar/app/1944068071" 
- target="_blank" 
+ <a
+ href="https://apps.salla.sa/ar/app/1944068071"
+ target="_blank"
  rel="noopener noreferrer"
  className="block w-full py-3 bg-gray-50 hover:bg-[#3B82F6] hover:text-white text-black font-bold transition-all text-center rounded-none"
  >
@@ -231,15 +216,12 @@ export default function SuccessStoriesPage() {
  </div>
  </div>
  </div>
-
  <h2 id="how-to-choose">كيف تختار الباقة المناسبة؟</h2>
-
  <div className="bg-white p-6 my-8 not-prose">
  <div className="flex items-start gap-4 mb-6">
  <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
  <h3 className="text-xl font-bold text-black">دليل الاختيار</h3>
  </div>
- 
  <div className="space-y-4">
  <div className="bg-gray-50 p-6">
  <div className="flex items-start gap-3 mb-4">
@@ -259,7 +241,6 @@ export default function SuccessStoriesPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-gray-50 p-6">
  <div className="flex items-start gap-3 mb-4">
  <div className="size-10 bg-[#3B82F6] flex items-center justify-center shrink-0">
@@ -278,7 +259,6 @@ export default function SuccessStoriesPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-gray-50 p-6">
  <div className="flex items-start gap-3 mb-4">
  <div className="size-10 bg-black flex items-center justify-center shrink-0">
@@ -299,9 +279,7 @@ export default function SuccessStoriesPage() {
  </div>
  </div>
  </div>
-
  <h2 id="features-comparison">مقارنة تفصيلية للميزات</h2>
-
  <div className="overflow-x-auto my-8 not-prose">
  <table className="w-full border-collapse bg-white overflow-hidden">
  <thead>
@@ -364,9 +342,7 @@ export default function SuccessStoriesPage() {
  </tbody>
  </table>
  </div>
-
  <h2 id="tips">نصائح مهمة قبل الاختيار</h2>
-
  <div className="grid md:grid-cols-2 gap-6 my-8 not-prose">
  <div className="bg-white p-6">
  <div className="flex items-center gap-3 mb-4">
@@ -379,7 +355,6 @@ export default function SuccessStoriesPage() {
  لا تقلق من البداية بباقة صغيرة. يمكنك الترقية في أي وقت عندما يكبر نشاطك. الأهم أن تبدأ!
  </p>
  </div>
-
  <div className="bg-white p-6">
  <div className="flex items-center gap-3 mb-4">
  <div className="size-10 bg-[#3B82F6] flex items-center justify-center">
@@ -391,7 +366,6 @@ export default function SuccessStoriesPage() {
  راجع عدد الطلبات في آخر 3 أشهر واختار الباقة اللي تغطي احتياجك + هامش للنمو.
  </p>
  </div>
-
  <div className="bg-white p-6">
  <div className="flex items-center gap-3 mb-4">
  <div className="size-10 bg-[#3B82F6] flex items-center justify-center">
@@ -403,7 +377,6 @@ export default function SuccessStoriesPage() {
  إذا كنت تحتاج محتوى تسويقي أو وصف منتجات محسّن، باقة بلس توفر عليك وقت ومجهود كبير.
  </p>
  </div>
-
  <div className="bg-white p-6">
  <div className="flex items-center gap-3 mb-4">
  <div className="size-10 bg-[#3B82F6] flex items-center justify-center">
@@ -416,20 +389,19 @@ export default function SuccessStoriesPage() {
  </p>
  </div>
  </div>
-
  <div className="bg-gradient-to-br from-[#3B82F6] to-[#2563EB] text-white p-10 my-8 not-prose rounded">
  <h3 className="text-3xl font-bold mb-4">محتار؟ نساعدك! </h3>
  <p className="text-white/90 text-lg mb-6">
  إذا ما زلت محتار أي باقة تناسبك، فريق الدعم جاهز لمساعدتك في اختيار الباقة المثالية بناءً على حجم متجرك وأهدافك.
  </p>
  <div className="flex flex-wrap gap-4">
- <a 
+ <a
  href="mailto:Support@bonditloyalty.io"
  className="px-6 py-3 bg-white text-[#3B82F6] hover:bg-gray-50 rounded-full font-bold transition-all inline-block"
  >
  تواصل مع الدعم
  </a>
- <a 
+ <a
  href="https://apps.salla.sa/ar/app/1944068071"
  target="_blank"
  rel="noopener noreferrer"
@@ -439,7 +411,6 @@ export default function SuccessStoriesPage() {
  </a>
  </div>
  </div>
-
  {/* Discount Code Section */}
  <div className="bg-white p-6 my-8 not-prose">
  <div className="flex items-center justify-between flex-wrap gap-6">

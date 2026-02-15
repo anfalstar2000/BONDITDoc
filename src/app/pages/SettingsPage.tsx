@@ -1,5 +1,4 @@
 import { Settings, Building2, User, Shield, Bell, Users, CreditCard, Globe, Calendar, Clock, DollarSign, Activity, FileText, Lock, Mail, Phone, MapPin, AlertCircle, CheckCircle2, Lightbulb, Key, Smartphone, TrendingUp, Crown, UserCheck } from 'lucide-react';
-
 export default function SettingsPage() {
  return (
  <div className="max-w-4xl">
@@ -11,7 +10,6 @@ export default function SettingsPage() {
  تحكّم بكامل إعدادات الحساب والأمان والفريق
  </p>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg mb-3">
@@ -21,9 +19,7 @@ export default function SettingsPage() {
  صفحة الإعدادات هي المكان الرئيسي لإدارة إعدادات حسابك داخل النظام. من خلالها يمكنك التحكم في بيانات شركتك، حسابك الشخصي، الأمان، الإشعارات، الفريق، والفوترة.
  </p>
  </div>
-
  <h2 id="main-sections">الأقسام الرئيسية</h2>
-
  <div className="grid md:grid-cols-3 gap-4 my-8 not-prose">
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <div className="flex items-center gap-3 mb-2">
@@ -33,7 +29,6 @@ export default function SettingsPage() {
  <h4 className="text-lg font-bold text-black">عام</h4>
  </div>
  </div>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <div className="flex items-center gap-3 mb-2">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
@@ -42,7 +37,6 @@ export default function SettingsPage() {
  <h4 className="text-lg font-bold text-black">الحساب</h4>
  </div>
  </div>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <div className="flex items-center gap-3 mb-2">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
@@ -51,7 +45,6 @@ export default function SettingsPage() {
  <h4 className="text-lg font-bold text-black">الأمان</h4>
  </div>
  </div>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <div className="flex items-center gap-3 mb-2">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
@@ -60,7 +53,6 @@ export default function SettingsPage() {
  <h4 className="text-lg font-bold text-black">الإشعارات</h4>
  </div>
  </div>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <div className="flex items-center gap-3 mb-2">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
@@ -69,7 +61,6 @@ export default function SettingsPage() {
  <h4 className="text-lg font-bold text-black">الفريق</h4>
  </div>
  </div>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
  <div className="flex items-center gap-3 mb-2">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
@@ -79,13 +70,10 @@ export default function SettingsPage() {
  </div>
  </div>
  </div>
-
  <h2 id="general">أولًا: عام</h2>
-
  <p>
  يُستخدم هذا القسم لإدارة بيانات الشركة والإعدادات العامة للنظام.
  </p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="bg-[#3B82F6] p-5">
  <div className="flex items-center gap-3">
@@ -130,7 +118,6 @@ export default function SettingsPage() {
  <FileText className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
  <p className="text-black">روابط سياسة الخصوصية وشروط الخدمة.</p>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="font-semibold text-black"> الهدف:</p>
  <p className="text-black text-sm">
@@ -139,13 +126,10 @@ export default function SettingsPage() {
  </div>
  </div>
  </div>
-
  <h2 id="account">ثانيًا: الحساب</h2>
-
  <p>
  هذا القسم مخصص لإدارة بياناتك الشخصية داخل النظام.
  </p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
@@ -153,7 +137,6 @@ export default function SettingsPage() {
  </div>
  <h3 className="text-xl font-bold text-black">البيانات الشخصية</h3>
  </div>
-
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <User className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
@@ -180,7 +163,6 @@ export default function SettingsPage() {
  <p className="text-black">العنوان.</p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4 mt-4">
  <p className="font-semibold text-black"> تحديث مستمر:</p>
  <p className="text-black text-sm">
@@ -188,13 +170,10 @@ export default function SettingsPage() {
  </p>
  </div>
  </div>
-
  <h2 id="security">ثالثًا: الأمان</h2>
-
  <p>
  يُستخدم لحماية حسابك وإدارة تسجيل الدخول.
  </p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="bg-[#3B82F6] p-5">
  <div className="flex items-center gap-3">
@@ -223,7 +202,6 @@ export default function SettingsPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-gray-50 p-5 rounded-none">
  <div className="flex items-center gap-3">
  <AlertCircle className="size-6 text-[#3B82F6]" />
@@ -235,13 +213,10 @@ export default function SettingsPage() {
  </div>
  </div>
  </div>
-
  <h2 id="notifications">رابعًا: الإشعارات</h2>
-
  <p>
  يمكنك من هنا التحكم في أنواع الإشعارات التي ترغب باستلامها.
  </p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
@@ -249,7 +224,6 @@ export default function SettingsPage() {
  </div>
  <h3 className="text-xl font-bold text-black">أنواع الإشعارات</h3>
  </div>
-
  <div className="grid md:grid-cols-2 gap-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <Mail className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
@@ -284,7 +258,6 @@ export default function SettingsPage() {
  <p className="text-black">الرسائل الترويجية.</p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4 mt-4">
  <p className="font-semibold text-black"> تحكم كامل:</p>
  <p className="text-black text-sm">
@@ -292,13 +265,10 @@ export default function SettingsPage() {
  </p>
  </div>
  </div>
-
  <h2 id="team">خامسًا: الفريق</h2>
-
  <p>
  يُستخدم لإدارة أعضاء الفريق وصلاحياتهم داخل النظام.
  </p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="bg-[#3B82F6] p-5">
  <div className="flex items-center gap-3">
@@ -324,7 +294,6 @@ export default function SettingsPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-gray-50 p-5 rounded-none">
  <h5 className="font-bold text-black mb-4">الأدوار المتاحة:</h5>
  <div className="space-y-3">
@@ -351,7 +320,6 @@ export default function SettingsPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="font-semibold text-black"> التنظيم:</p>
  <p className="text-black text-sm">
@@ -360,13 +328,10 @@ export default function SettingsPage() {
  </div>
  </div>
  </div>
-
  <h2 id="billing">سادسًا: الفواتير</h2>
-
  <p>
  يُستخدم لإدارة خطة الاشتراك الحالية ومتابعة الفوترة.
  </p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
@@ -374,7 +339,6 @@ export default function SettingsPage() {
  </div>
  <h3 className="text-xl font-bold text-black">معلومات الاشتراك</h3>
  </div>
-
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <FileText className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
@@ -401,7 +365,6 @@ export default function SettingsPage() {
  <p className="text-black">حدود الاستخدام داخل الباقة.</p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4 mt-4">
  <p className="font-semibold text-black"> المتابعة:</p>
  <p className="text-black text-sm">
@@ -409,15 +372,12 @@ export default function SettingsPage() {
  </p>
  </div>
  </div>
-
  <h2 id="tips">نصائح</h2>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4 mb-6">
  <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
  <h3 className="text-xl font-bold text-black">نصائح مهمة</h3>
  </div>
- 
  <div className="space-y-4">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>

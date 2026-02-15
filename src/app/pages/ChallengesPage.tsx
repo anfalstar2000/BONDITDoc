@@ -1,5 +1,4 @@
 import { Target, Trophy, Calendar, Gift, MessageCircle, CheckCircle2, Play, Lightbulb, Zap, TrendingUp, Clock, Users } from 'lucide-react';
-
 export default function ChallengesPage() {
  return (
  <div className="max-w-4xl">
@@ -11,7 +10,6 @@ export default function ChallengesPage() {
  أداة تحفيزية قصيرة المدى لتوجيه سلوك العملاء نحو هدف محدد
  </p>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg mb-4">
@@ -21,13 +19,10 @@ export default function ChallengesPage() {
  على عكس النقاط والمستويات التي تعمل بشكل دائم، التحديات تُستخدم كحملات مؤقتة لرفع المبيعات أو زيادة التفاعل في وقت معين.
  </p>
  </div>
-
  <h2 id="what-is-challenges">ما هي التحديات؟</h2>
-
  <p>
  التحدي هو هدف محدد تمنحه لعملائك، وعند إكماله يحصلون على مكافأة.
  </p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
@@ -35,7 +30,6 @@ export default function ChallengesPage() {
  </div>
  <h3 className="text-xl font-bold text-black">مثال:</h3>
  </div>
- 
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <Trophy className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
@@ -50,20 +44,16 @@ export default function ChallengesPage() {
  <p className="text-black">زر المتجر <strong>5 مرات</strong>.</p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4 mt-4">
  <p className="font-semibold text-center text-black">
  عند تحقيق الهدف، يحصل العميل على نقاط إضافية أو مكافأة محددة.
  </p>
  </div>
  </div>
-
  <h2 id="overview">أولًا: نظرة عامة على الصفحة</h2>
-
  <p>
  في صفحة التحديات يمكنك:
  </p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
@@ -84,13 +74,10 @@ export default function ChallengesPage() {
  </div>
  </div>
  </div>
-
  <h2 id="create-challenge">إضافة تحدي جديد</h2>
-
  <p>
  عند الضغط على "إضافة تحدي"، تمر عملية الإنشاء بعدة أقسام واضحة.
  </p>
-
  {/* Challenge Setup Steps */}
  <div className="space-y-6 my-8 not-prose">
  {/* Step 1: General Details */}
@@ -109,7 +96,6 @@ export default function ChallengesPage() {
  <div className="bg-gray-50 rounded p-5">
  <h5 className="text-black font-bold mb-3">عنوان التحدي</h5>
  <p className="text-black mb-3">اسم واضح ومباشر يشرح المطلوب.</p>
- 
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-4 mb-3">
  <p className="text-black font-semibold mb-2">أمثلة:</p>
  <div className="space-y-2">
@@ -118,17 +104,14 @@ export default function ChallengesPage() {
  <div className="bg-gray-50 rounded p-3 text-black">تحدي الإطلاق الجديد</div>
  </div>
  </div>
-
  <p className="text-sm text-black italic">
  العنوان يجب أن يكون سهل الفهم ويشرح الهدف بدون تعقيد.
  </p>
  </div>
-
  {/* Type */}
  <div className="bg-gray-50 rounded p-5">
  <h5 className="text-black font-bold mb-3">نوع التحدي</h5>
  <p className="text-black mb-3">تحدد هنا طريقة احتساب التقدم، مثل:</p>
- 
  <div className="space-y-2">
  <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -143,12 +126,10 @@ export default function ChallengesPage() {
  <span className="text-black">عدد الزيارات</span>
  </div>
  </div>
-
  <p className="text-sm text-black italic mt-3">
  اختر النوع بناءً على هدفك التسويقي.
  </p>
  </div>
-
  {/* Description */}
  <div className="bg-gray-50 rounded p-5">
  <h5 className="text-black font-bold mb-3">الوصف</h5>
@@ -158,7 +139,6 @@ export default function ChallengesPage() {
  </div>
  </div>
  </div>
-
  {/* Step 2: Goal & Reward */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -185,7 +165,6 @@ export default function ChallengesPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-5">
  <p className="text-black font-semibold mb-3">المكافأة</p>
  <p className="text-black mb-3">يمكنك منح:</p>
@@ -206,7 +185,6 @@ export default function ChallengesPage() {
  </div>
  </div>
  </div>
-
  {/* Step 3: Duration */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -227,7 +205,6 @@ export default function ChallengesPage() {
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
  <p className="text-black">تاريخ النهاية.</p>
  </div>
-
  <div className="bg-gray-50 rounded p-4 mt-4">
  <p className="text-black text-sm">
  ⏱ اختر مدة مناسبة: لا قصيرة جدًا ولا طويلة جدًا. المدة المثالية غالبًا بين أسبوع وشهر.
@@ -235,7 +212,6 @@ export default function ChallengesPage() {
  </div>
  </div>
  </div>
-
  {/* Step 4: Target Audience */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -263,7 +239,6 @@ export default function ChallengesPage() {
  <span className="text-black">مجموعة مخصصة (في باقات Plus و Pro).</span>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="text-black text-sm">
  استهداف دقيق يعني نتائج أفضل وتكلفة أقل.
@@ -271,7 +246,6 @@ export default function ChallengesPage() {
  </div>
  </div>
  </div>
-
  {/* Step 5: Notification */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -299,15 +273,12 @@ export default function ChallengesPage() {
  </div>
  </div>
  </div>
-
  <h2 id="when-to-use">متى تستخدم التحديات؟</h2>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <Clock className="size-8 text-[#3B82F6]" />
  <h3 className="text-xl font-bold text-black">أفضل الأوقات</h3>
  </div>
- 
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -339,9 +310,7 @@ export default function ChallengesPage() {
  </div>
  </div>
  </div>
-
  <h2 id="difference">الفرق بين التحديات والنقاط</h2>
-
  <div className="grid md:grid-cols-2 gap-6 my-8 not-prose">
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-4">
@@ -354,7 +323,6 @@ export default function ChallengesPage() {
  نظام دائم يحفز على كل طلب.
  </p>
  </div>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-4">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
@@ -367,15 +335,12 @@ export default function ChallengesPage() {
  </p>
  </div>
  </div>
-
  <h2 id="tips">نصائح عملية</h2>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4 mb-6">
  <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
  <h3 className="text-xl font-bold text-black">نصائح لإدارة فعّالة</h3>
  </div>
- 
  <div className="space-y-4">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -399,7 +364,6 @@ export default function ChallengesPage() {
  </div>
  </div>
  </div>
-
  {/* Video Placeholder */}
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="aspect-video bg-gray-50 flex items-center justify-center relative">

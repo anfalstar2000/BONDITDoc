@@ -1,5 +1,4 @@
 import svgPaths from "./svg-rqzyf0w0ut";
-
 export default function Group() {
  return (
  <div className="relative size-full">

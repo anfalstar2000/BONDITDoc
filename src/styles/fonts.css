@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
-
-/* Expo Arabic font import */
+/* Expo Arabic font import - للعربي والإنجليزي */
 @font-face {
   font-family: 'Expo Arabic';
   src: url('https://db.onlinewebfonts.com/t/02d7b1c487d4f3e58cf8c4f769cc08d1.eot');
@@ -9,7 +7,7 @@
        url('https://db.onlinewebfonts.com/t/02d7b1c487d4f3e58cf8c4f769cc08d1.woff') format('woff'),
        url('https://db.onlinewebfonts.com/t/02d7b1c487d4f3e58cf8c4f769cc08d1.ttf') format('truetype'),
        url('https://db.onlinewebfonts.com/t/02d7b1c487d4f3e58cf8c4f769cc08d1.svg#Expo Arabic') format('svg');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }

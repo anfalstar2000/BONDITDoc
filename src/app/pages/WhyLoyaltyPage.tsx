@@ -1,5 +1,4 @@
 import { AlertCircle, DollarSign, TrendingUp, Users, Award, Zap, Target, CheckCircle2 } from 'lucide-react';
-
 export default function WhyLoyaltyPage() {
  return (
  <div className="max-w-4xl">
@@ -11,13 +10,11 @@ export default function WhyLoyaltyPage() {
  من الجذب المتكرر إلى الاحتفاظ الذكي
  </p>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <h2 id="problem">المشكلة الحقيقية</h2>
  <p>
  في أغلب المتاجر الإلكترونية، العميل يشتري مرة… ثم يختفي.
  </p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6">
  <div className="space-y-3 text-black">
  <div className="flex items-start gap-3">
@@ -33,22 +30,19 @@ export default function WhyLoyaltyPage() {
  <p>يشتري</p>
  </div>
  <div className="flex items-start gap-3">
- <div className="size-6 bg-[#939393] rounded-full flex items-center justify-center text-white text-sm shrink-0">✗</div>
+ <div className="size-6 bg-[#939393] rounded-full flex items-center justify-center text-white text-sm shrink-0"></div>
  <p className="font-semibold">ثم يذهب لمتجر آخر في المرة القادمة</p>
  </div>
  </div>
  </div>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6">
- <p className="text-black font-semibold mb-2">⚠ الحقيقة:</p>
+ <p className="text-black font-semibold mb-2"> الحقيقة:</p>
  <p className="text-black">
  بدون سبب واضح يدفعه للعودة، لن يعود.
  </p>
  </div>
-
  <h2 id="cost">تكلفة الجذب مقابل الاحتفاظ</h2>
  <p>جذب عميل جديد دائمًا يتطلب:</p>
-
  <div className="grid md:grid-cols-2 gap-4 my-6 not-prose">
  <div className="p-4 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <div className="flex items-center gap-2 text-black">
@@ -75,20 +69,17 @@ export default function WhyLoyaltyPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6">
  <p className="text-black font-semibold mb-2">بينما:</p>
  <p className="text-black">
  الاحتفاظ بعميل حالي أسهل وأقل تكلفة… إذا أعطيته سببًا للرجوع.
  </p>
  </div>
-
  <h2 id="solution">الحل: نظام ولاء مبني على سلوك الشراء</h2>
  <p>
  نظام الولاء في BOND IT لا يعتمد على خصومات عشوائية،
  بل على آلية واضحة:
  </p>
-
  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 my-8 not-prose">
  <div className="p-5 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 text-center">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-3 text-white">
@@ -116,21 +107,17 @@ export default function WhyLoyaltyPage() {
  </div>
  <div className="p-5 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 text-center md:col-span-2 lg:col-span-1">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-3 text-white">
- 
  </div>
  <p className="font-semibold text-black">يشعر بقيمة ارتباطه بمتجرك</p>
  </div>
  </div>
-
  <div className="bg-[#3B82F6] rounded-none text-white p-6 my-8 text-center not-prose">
  <p className="text-2xl font-bold mb-2">النتيجة؟</p>
  <p className="text-xl text-white/80">
  يصبح لديه سبب للعودة بدل البحث عن منافس.
  </p>
  </div>
-
  <h2 id="impact">كيف ينعكس ذلك على متجرك؟</h2>
-
  <div className="space-y-6 my-8 not-prose">
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-start gap-4">
@@ -138,7 +125,7 @@ export default function WhyLoyaltyPage() {
  <TrendingUp className="size-6 text-white" />
  </div>
  <div className="flex-1">
- <h3 className="text-xl font-bold text-black mb-2">1⃣ زيادة ��كرار الشراء</h3>
+ <h3 className="text-xl font-bold text-black mb-2">1⃣ زيادة كرار الشراء</h3>
  <p className="text-black">
  عندما يعرف العميل أن كل طلب يقربه من مكافأة،
  يصبح لديه دافع نفسي للشراء مرة أخرى.
@@ -146,7 +133,6 @@ export default function WhyLoyaltyPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-start gap-4">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center shrink-0">
@@ -161,7 +147,6 @@ export default function WhyLoyaltyPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-start gap-4">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center shrink-0">
@@ -176,7 +161,6 @@ export default function WhyLoyaltyPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-start gap-4">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center shrink-0">
@@ -208,10 +192,8 @@ export default function WhyLoyaltyPage() {
  </div>
  </div>
  </div>
-
  <h2 id="example">مثال عملي بسيط</h2>
  <p>تخيل أن:</p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6">
  <div className="space-y-4 mb-6">
  <div className="flex items-center justify-between p-4 bg-gray-50 rounded-none">
@@ -223,7 +205,6 @@ export default function WhyLoyaltyPage() {
  <span className="font-bold text-[#3B82F6]">خصم 50 ريال</span>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-6 space-y-3">
  <p className="text-black">
  العميل يعرف أن كل طلب يقربه من مكافأة.
@@ -236,10 +217,8 @@ export default function WhyLoyaltyPage() {
  </p>
  </div>
  </div>
-
  <h2 id="suitable">هل نظام الولاء مناسب لك؟</h2>
  <p>يكون مناسبًا إذا كان متجرك:</p>
-
  <div className="grid md:grid-cols-2 gap-4 my-6 not-prose">
  <div className="flex items-start gap-3 p-5 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <CheckCircle2 className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
@@ -258,7 +237,6 @@ export default function WhyLoyaltyPage() {
  <span className="text-black">يرغب ببناء علاقة طويلة المدى مع العملاء</span>
  </div>
  </div>
-
  <div className="bg-black rounded-none text-white p-6 my-8 not-prose">
  <h3 className="text-2xl font-bold mb-4">الخلاصة</h3>
  <p className="text-gray-500 text-lg mb-3">

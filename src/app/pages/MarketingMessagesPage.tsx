@@ -1,5 +1,4 @@
 import { Mail, Send, Bell, MessageSquare, Award, CheckCircle2, Play, Lightbulb, Sparkles, TrendingUp, Shield, Edit3 } from 'lucide-react';
-
 export default function MarketingMessagesPage() {
  return (
  <div className="max-w-4xl">
@@ -11,7 +10,6 @@ export default function MarketingMessagesPage() {
  رسائل تلقائية مرتبطة بتفاعل العملاء مع برنامج الولاء
  </p>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg mb-4">
@@ -24,13 +22,10 @@ export default function MarketingMessagesPage() {
  الهدف منها هو تعزيز التفاعل، وتذكير العميل بقيمته داخل متجرك، وتشجيعه على العودة.
  </p>
  </div>
-
  <h2 id="what-is-messages">ما هي الرسائل التسويقية في BOND IT؟</h2>
-
  <p>
  هي رسائل يتم إرسالها تلقائيًا عند تحقق شرط معين داخل النظام.
  </p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
@@ -38,7 +33,6 @@ export default function MarketingMessagesPage() {
  </div>
  <h3 className="text-xl font-bold text-black">على سبيل المثال:</h3>
  </div>
- 
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <CheckCircle2 className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
@@ -57,20 +51,16 @@ export default function MarketingMessagesPage() {
  <p className="text-black">عند اقتراب العميل من الوصول إلى مكافأة.</p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4 mt-4">
  <p className="font-semibold text-center text-black">
  كل رسالة يمكن تخصيصها لتناسب هوية متجرك.
  </p>
  </div>
  </div>
-
  <h2 id="overview">أولًا: نظرة عامة على الصفحة</h2>
-
  <p>
  من صفحة الرسائل التسويقية يمكنك:
  </p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
@@ -91,7 +81,6 @@ export default function MarketingMessagesPage() {
  </div>
  </div>
  </div>
-
  {/* Message Types and Customization */}
  <div className="space-y-6 my-8 not-prose">
  {/* Message Types */}
@@ -134,7 +123,6 @@ export default function MarketingMessagesPage() {
  <p className="text-gray-500 text-sm mt-1">عندما يقترب العميل من الحصول على مكافأة</p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="font-semibold text-black"> ملاحظة مهمة:</p>
  <p className="text-black text-sm">
@@ -143,7 +131,6 @@ export default function MarketingMessagesPage() {
  </div>
  </div>
  </div>
-
  {/* Content Customization */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -170,7 +157,6 @@ export default function MarketingMessagesPage() {
  <p className="text-black">استخدام عناصر ديناميكية تُستبدل تلقائيًا ببيانات حقيقية.</p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-5">
  <div className="flex items-center gap-2 mb-4">
  <Sparkles className="size-5 text-[#3B82F6]" />
@@ -197,7 +183,6 @@ export default function MarketingMessagesPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="text-black text-sm">
  هذه العناصر تُملأ تلقائيًا ببيانات حقيقية عند إرسال الرسالة، مما يعطي طابعًا شخصيًا.
@@ -205,7 +190,6 @@ export default function MarketingMessagesPage() {
  </div>
  </div>
  </div>
-
  {/* Message Example */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -224,19 +208,17 @@ export default function MarketingMessagesPage() {
  <p className="text-black"> مبروك! وصلت لمستوى جديد</p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-5">
  <p className="text-black font-semibold mb-3">النص:</p>
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-4">
  <p className="text-black leading-relaxed">
- مرحبًا <strong className="text-[#3B82F6]">[اسم العميل]</strong> 👋<br /><br />
+ مرحبًا <strong className="text-[#3B82F6]">[اسم العميل]</strong> <br /><br />
  تهانينا! لقد تمت ترقيتك إلى مستوى <strong className="text-[#3B82F6]">[اسم المستوى]</strong> في <strong>[اسم المتجر]</strong>.<br /><br />
  رصيدك الحالي: <strong className="text-[#3B82F6]">[رصيد النقاط]</strong> نقطة.<br /><br />
- استمتع بمزاياك الجديدة! 
+ استمتع بمزاياك الجديدة!
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="text-black text-sm">
  الكلمات بين [] سيتم استبدالها تلقائيًا ببيانات العميل الحقيقية.
@@ -244,7 +226,6 @@ export default function MarketingMessagesPage() {
  </div>
  </div>
  </div>
-
  {/* Channel Selection */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -281,15 +262,12 @@ export default function MarketingMessagesPage() {
  </div>
  </div>
  </div>
-
  <h2 id="why-messages">لماذا تُعتبر الرسائل التسويقية مهمة؟</h2>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <TrendingUp className="size-8 text-[#3B82F6]" />
  <h3 className="text-xl font-bold text-black">الفوائد الأساسية</h3>
  </div>
- 
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -321,15 +299,12 @@ export default function MarketingMessagesPage() {
  </div>
  </div>
  </div>
-
  <h2 id="best-practices">أفضل الممارسات</h2>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <Shield className="size-8 text-[#3B82F6]" />
  <h3 className="text-xl font-bold text-black">نصائح مهمة</h3>
  </div>
- 
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
@@ -353,15 +328,12 @@ export default function MarketingMessagesPage() {
  </div>
  </div>
  </div>
-
  <h2 id="tips">نصائح عملية</h2>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4 mb-6">
  <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
  <h3 className="text-xl font-bold text-black">نصائح لإدارة فعّالة</h3>
  </div>
- 
  <div className="space-y-4">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -385,7 +357,6 @@ export default function MarketingMessagesPage() {
  </div>
  </div>
  </div>
-
  {/* Video Placeholder */}
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="aspect-video bg-gray-50 flex items-center justify-center relative">

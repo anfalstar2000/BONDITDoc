@@ -1,17 +1,14 @@
 import { Link, useLocation } from 'react-router';
 import { ChevronDown } from 'lucide-react';
 import { useState } from 'react';
-
 interface NavItem {
  title: string;
  path: string;
 }
-
 interface NavSection {
  title: string;
  items: NavItem[];
 }
-
 const navigationData: NavSection[] = [
  {
  title: 'مرحبًا بك',
@@ -54,7 +51,6 @@ const navigationData: NavSection[] = [
  ],
  },
 ];
-
 export function Sidebar() {
  const location = useLocation();
  const [openSections, setOpenSections] = useState<{ [key: string]: boolean }>({
@@ -64,14 +60,12 @@ export function Sidebar() {
  'الإعدادات والميزات': true,
  'الباقات': true,
  });
-
  const toggleSection = (sectionTitle: string) => {
  setOpenSections((prev) => ({
  ...prev,
  [sectionTitle]: !prev[sectionTitle],
  }));
  };
-
  return (
  <aside className="hidden lg:block w-64 fixed right-0 top-16 bottom-0 overflow-y-auto bg-white">
  <nav className="p-6 space-y-6">
@@ -88,7 +82,6 @@ export function Sidebar() {
  }`}
  />
  </button>
-
  {openSections[section.title] && (
  <ul className="space-y-2">
  {section.items.map((item) => (

@@ -1,5 +1,4 @@
 import { Gift, Award, Target, UserPlus, MessageCircle, Sparkles, ArrowRight, CheckCircle2, Lightbulb } from 'lucide-react';
-
 export default function ProgramTypesPage() {
  return (
  <div className="max-w-4xl">
@@ -11,7 +10,6 @@ export default function ProgramTypesPage() {
  أدوات متعددة يمكنك دمجها لبناء برنامج يناسب متجرك
  </p>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6">
  <p className="text-black font-semibold mb-2"> مرونة كاملة:</p>
@@ -23,7 +21,6 @@ export default function ProgramTypesPage() {
  يمكنك استخدام أداة واحدة فقط، أو الجمع بينها حسب استراتيجيتك.
  </p>
  </div>
-
  <div className="space-y-8 my-8 not-prose">
  {/* Tool 1: Points & Rewards */}
  <div className="rounded-none overflow-hidden bg-white">
@@ -41,7 +38,6 @@ export default function ProgramTypesPage() {
  كل عملية شراء تمنح العميل نقاطًا.
  يمكن استبدال النقاط بمكافآت على شكل كوبونات.
  </p>
-
  <div className="bg-gray-50 rounded p-5 mb-4">
  <p className="font-semibold text-black mb-3">متى تستخدمها؟</p>
  <div className="space-y-2">
@@ -59,7 +55,6 @@ export default function ProgramTypesPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="font-semibold mb-2 text-black">لماذا تعتبر الأساس؟</p>
  <p className="text-black text-sm">
@@ -68,7 +63,6 @@ export default function ProgramTypesPage() {
  </div>
  </div>
  </div>
-
  {/* Tool 2: Badges & Tiers */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-6">
@@ -84,7 +78,6 @@ export default function ProgramTypesPage() {
  <p className="text-black mb-4">
  يمكنك إنشاء مستويات (فضي – ذهبي – VIP) بناءً على:
  </p>
-
  <div className="grid md:grid-cols-3 gap-3 mb-4">
  <div className="p-3 bg-gray-50 rounded-none text-center">
  <p className="text-black font-semibold">إجمالي الإنفاق</p>
@@ -96,11 +89,9 @@ export default function ProgramTypesPage() {
  <p className="text-black font-semibold">عدد الزيارات</p>
  </div>
  </div>
-
  <p className="text-sm text-gray-500 mb-4 bg-gray-50 rounded p-3">
  كل مستوى يمنح مزايا إضافية.
  </p>
-
  <div className="bg-gray-50 rounded p-5 mb-4">
  <p className="font-semibold text-black mb-3">متى تستخدمها؟</p>
  <div className="space-y-2">
@@ -118,7 +109,6 @@ export default function ProgramTypesPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="font-semibold mb-2 text-black">الهدف منها</p>
  <p className="text-black text-sm">
@@ -127,7 +117,6 @@ export default function ProgramTypesPage() {
  </div>
  </div>
  </div>
-
  {/* Tool 3: Challenges */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-6">
@@ -143,7 +132,6 @@ export default function ProgramTypesPage() {
  <p className="text-black mb-4">
  التحديات أداة مخصصة لحملات محددة بفترة زمنية.
  </p>
-
  <div className="bg-gray-50 rounded p-5 mb-4">
  <p className="font-semibold text-black mb-3">مثال:</p>
  <div className="space-y-2">
@@ -157,7 +145,6 @@ export default function ProgramTypesPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-5 mb-4">
  <p className="font-semibold text-black mb-3">متى تستخدمها؟</p>
  <div className="space-y-2">
@@ -175,7 +162,6 @@ export default function ProgramTypesPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="font-semibold mb-2 text-black">الهدف منها</p>
  <p className="text-black text-sm">
@@ -184,7 +170,6 @@ export default function ProgramTypesPage() {
  </div>
  </div>
  </div>
-
  {/* Tool 4: Referral Program */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-6">
@@ -201,7 +186,6 @@ export default function ProgramTypesPage() {
  كل عميل يحصل على رابط خاص.
  عند إتمام أول طلب من شخص مدعو، يحصل على مكافأة.
  </p>
-
  <div className="bg-gray-50 rounded p-5 mb-4">
  <p className="font-semibold text-black mb-3">متى تستخدمه؟</p>
  <div className="space-y-2">
@@ -215,7 +199,6 @@ export default function ProgramTypesPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="font-semibold mb-2 text-black">الهدف منه</p>
  <p className="text-black text-sm">
@@ -224,7 +207,6 @@ export default function ProgramTypesPage() {
  </div>
  </div>
  </div>
-
  {/* Tool 5: Automated Messages */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-6">
@@ -240,7 +222,6 @@ export default function ProgramTypesPage() {
  <p className="text-black mb-4">
  يمكن إرسال رسائل تلقائية عند:
  </p>
-
  <div className="grid md:grid-cols-2 gap-3 mb-4">
  <div className="p-3 bg-gray-50 rounded-none">
  <p className="text-black"> ترقية مستوى</p>
@@ -255,7 +236,6 @@ export default function ProgramTypesPage() {
  <p className="text-black">⏰ اقتراب العميل من مكافأة</p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="font-semibold mb-2 text-black">الهدف منها</p>
  <p className="text-black text-sm">
@@ -264,7 +244,6 @@ export default function ProgramTypesPage() {
  </div>
  </div>
  </div>
-
  {/* Tool 6: AI Assistant */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-6">
@@ -285,13 +264,12 @@ export default function ProgramTypesPage() {
  <p className="text-black mb-4">
  مساعد يساعدك في:
  </p>
-
  <div className="grid md:grid-cols-2 gap-3 mb-4">
  <div className="p-3 bg-gray-50 rounded-none">
- <p className="text-black">📝 كتابة محتوى SEO</p>
+ <p className="text-black"> كتابة محتوى SEO</p>
  </div>
  <div className="p-3 bg-gray-50 rounded-none">
- <p className="text-black">🏷 وصف المنتجات</p>
+ <p className="text-black"> وصف المنتجات</p>
  </div>
  <div className="p-3 bg-gray-50 rounded-none">
  <p className="text-black"> أفكار حملات</p>
@@ -300,7 +278,6 @@ export default function ProgramTypesPage() {
  <p className="text-black"> كابشنات للسوشيال</p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="font-semibold mb-2 text-black">الهدف منه</p>
  <p className="text-black text-sm">
@@ -310,31 +287,25 @@ export default function ProgramTypesPage() {
  </div>
  </div>
  </div>
-
  <h2 id="how-to-choose">كيف تختار الأداة المناسبة؟</h2>
-
  <div className="grid md:grid-cols-2 gap-4 my-6 not-prose">
  <div className="p-5 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <p className="font-semibold text-black mb-2">إذا كنت في بداية متجرك:</p>
  <p className="text-black">ابدأ بـ <strong>النقاط والمكافآت</strong>.</p>
  </div>
-
  <div className="p-5 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <p className="font-semibold text-black mb-2">إذا لديك عملاء متكررون:</p>
  <p className="text-black">أضف <strong>المستويات</strong>.</p>
  </div>
-
  <div className="p-5 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <p className="font-semibold text-black mb-2">إذا تطلق منتجات باستمرار:</p>
  <p className="text-black">استخدم <strong>التحديات</strong>.</p>
  </div>
-
  <div className="p-5 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
  <p className="font-semibold text-black mb-2">إذا تريد نمو أسرع:</p>
  <p className="text-black">فعّل <strong>برنامج الإحالة</strong>.</p>
  </div>
  </div>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4">
  <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />

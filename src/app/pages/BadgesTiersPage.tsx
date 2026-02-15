@@ -1,5 +1,4 @@
 import { Award, Star, Trophy, TrendingUp, Gift, MessageCircle, Power, CheckCircle2, Play, Lightbulb, Crown } from 'lucide-react';
-
 export default function BadgesTiersPage() {
  return (
  <div className="max-w-4xl">
@@ -11,7 +10,6 @@ export default function BadgesTiersPage() {
  أداة لبناء ولاء طويل المدى داخل متجرك
  </p>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg mb-4">
@@ -21,13 +19,10 @@ export default function BadgesTiersPage() {
  هذه الميزة لا تعتمد على مكافأة عملية شراء واحدة فقط، بل تبني علاقة مستمرة مع العملاء الأكثر تفاعلًا وإنفاقًا.
  </p>
  </div>
-
  <h2 id="what-is-tiers">ما هو نظام المستويات؟</h2>
-
  <p>
  نظام المستويات يسمح لك بتقسيم عملائك إلى فئات مثل:
  </p>
-
  <div className="grid grid-cols-3 gap-4 my-6 not-prose">
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5 text-center">
  <div className="size-12 bg-[#939393] rounded-full flex items-center justify-center mx-auto mb-3">
@@ -48,7 +43,6 @@ export default function BadgesTiersPage() {
  <p className="font-bold text-black text-lg">VIP</p>
  </div>
  </div>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <div className="space-y-3 text-black">
  <div className="flex items-start gap-3">
@@ -61,13 +55,10 @@ export default function BadgesTiersPage() {
  </div>
  </div>
  </div>
-
  <h2 id="overview">أولًا: نظرة عامة على الصفحة</h2>
-
  <p>
  في صفحة الشارات والمستويات يمكنك:
  </p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
@@ -92,13 +83,10 @@ export default function BadgesTiersPage() {
  </div>
  </div>
  </div>
-
  <h2 id="create-tier">ثانيًا: إضافة مستوى جديد</h2>
-
  <p>
  عند الضغط على "إضافة مستوى"، تبدأ عملية إنشاء مستوى جديد بخطوات واضحة.
  </p>
-
  {/* Tier Setup Steps */}
  <div className="space-y-6 my-8 not-prose">
  {/* Step 1: General Details */}
@@ -125,7 +113,6 @@ export default function BadgesTiersPage() {
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
  <p className="text-black">طريقة احتساب الترقية.</p>
  </div>
-
  <div className="bg-gray-50 rounded p-5 mt-4">
  <p className="text-black font-semibold mb-4">طرق احتساب الترقية المتاحة</p>
  <p className="text-black mb-3">يمكنك اختيار الترقية بناءً على:</p>
@@ -143,7 +130,6 @@ export default function BadgesTiersPage() {
  <span><strong>عدد الزيارات</strong> أو الطلبات.</span>
  </div>
  </div>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-4">
  <p className="text-black font-semibold mb-2">اختيار الطريقة يعتمد على هدفك:</p>
  <div className="space-y-2 text-sm text-black">
@@ -155,7 +141,6 @@ export default function BadgesTiersPage() {
  </div>
  </div>
  </div>
-
  {/* Step 2: Entry Conditions */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -185,7 +170,6 @@ export default function BadgesTiersPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="font-semibold text-black"> تلقائي بالكامل:</p>
  <p className="text-black text-sm">
@@ -194,7 +178,6 @@ export default function BadgesTiersPage() {
  </div>
  </div>
  </div>
-
  {/* Step 3: Tier Benefits */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -234,7 +217,6 @@ export default function BadgesTiersPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="text-black text-sm">
  تظهر هذه المزايا داخل تجربة العميل، مما يعزز شعوره بالتقدير والانتماء.
@@ -242,7 +224,6 @@ export default function BadgesTiersPage() {
  </div>
  </div>
  </div>
-
  {/* Step 4: Upgrade Message */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -270,7 +251,6 @@ export default function BadgesTiersPage() {
  <p className="text-black">إدراج عناصر ديناميكية مثل اسم العميل واسم المستوى.</p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="font-semibold mb-2 text-black"> الهدف من الرسالة:</p>
  <p className="text-black text-sm">
@@ -279,7 +259,6 @@ export default function BadgesTiersPage() {
  </div>
  </div>
  </div>
-
  {/* Step 5: Activation */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -307,12 +286,9 @@ export default function BadgesTiersPage() {
  </div>
  </div>
  </div>
-
  <h2 id="smart-usage">كيف تستخدم المستويات بشكل ذكي؟</h2>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <h4 className="text-xl font-bold text-black mb-6 text-center">مثال عملي</h4>
- 
  <div className="grid md:grid-cols-3 gap-4">
  {/* Silver Tier */}
  <div className="bg-gray-50 rounded-none overflow-hidden">
@@ -329,7 +305,6 @@ export default function BadgesTiersPage() {
  </div>
  </div>
  </div>
-
  {/* Gold Tier */}
  <div className="bg-gray-50 rounded-none overflow-hidden">
  <div className="bg-[#3B82F6] p-4 text-center">
@@ -345,7 +320,6 @@ export default function BadgesTiersPage() {
  </div>
  </div>
  </div>
-
  {/* VIP Tier */}
  <div className="bg-gray-50 rounded-none overflow-hidden">
  <div className="bg-[#3B82F6] p-4 text-center">
@@ -362,7 +336,6 @@ export default function BadgesTiersPage() {
  </div>
  </div>
  </div>
-
  <div className="mt-6 bg-gray-50 rounded p-5">
  <p className="text-black font-semibold mb-3">بهذا الأسلوب:</p>
  <div className="space-y-2 text-black">
@@ -381,9 +354,7 @@ export default function BadgesTiersPage() {
  </div>
  </div>
  </div>
-
  <h2 id="difference">الفرق بين النقاط والمستويات</h2>
-
  <div className="grid md:grid-cols-2 gap-6 my-8 not-prose">
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-4">
@@ -394,7 +365,6 @@ export default function BadgesTiersPage() {
  </div>
  <p className="text-black text-center text-lg">تحفّز كل عملية شراء.</p>
  </div>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-4">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
@@ -405,7 +375,6 @@ export default function BadgesTiersPage() {
  <p className="text-black text-center text-lg">تحفّز السلوك طويل المدى.</p>
  </div>
  </div>
-
  <div className="bg-[#3B82F6] text-white p-6 rounded-none my-8 not-prose">
  <p className="text-xl font-bold mb-4 text-center">
  عند الجمع بينهما، تحصل على نظام متكامل:
@@ -419,15 +388,12 @@ export default function BadgesTiersPage() {
  </div>
  </div>
  </div>
-
  <h2 id="tips">نصائح عملية</h2>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4 mb-6">
  <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
  <h3 className="text-xl font-bold text-black">نصائح لإدارة فعّالة</h3>
  </div>
- 
  <div className="space-y-4">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -447,7 +413,6 @@ export default function BadgesTiersPage() {
  </div>
  </div>
  </div>
-
  {/* Video Placeholder */}
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="aspect-video bg-gray-50 flex items-center justify-center relative">

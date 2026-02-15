@@ -1,5 +1,4 @@
 import { Download, ShoppingCart, Gift, BarChart3, CheckCircle2, Zap, Settings, TrendingUp } from 'lucide-react';
-
 export default function HowItWorksPage() {
  return (
  <div className="max-w-4xl">
@@ -11,7 +10,6 @@ export default function HowItWorksPage() {
  4 خطوات واضحة، وكل شيء يتم تلقائيًا داخل متجرك الإلكتروني
  </p>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <div className="bg-white rounded border border-gray-200 p-6 my-6">
  <p className="text-black font-semibold mb-2"> نقطة مهمة:</p>
@@ -19,7 +17,6 @@ export default function HowItWorksPage() {
  تم تصميم BOND IT ليعمل بسلاسة بعد تثبيت التطبيق، دون الحاجة لأي تدخل يدوي في كل عملية.
  </p>
  </div>
-
  <div className="space-y-8 my-8 not-prose">
  {/* Step 1 */}
  <div className="relative">
@@ -58,7 +55,6 @@ export default function HowItWorksPage() {
  </div>
  </div>
  </div>
-
  {/* Step 2 */}
  <div className="relative">
  <div className="flex items-start gap-6">
@@ -88,7 +84,6 @@ export default function HowItWorksPage() {
  <span className="text-black">يمكن للعميل متابعة رصيده من خلال صفحة الولاء</span>
  </div>
  </div>
- 
  <div className="bg-white rounded border border-gray-200 p-6">
  <p className="font-semibold text-black mb-4">مثال:</p>
  <p className="text-black mb-3">إذا حددت 1 نقطة لكل 1 ريال:</p>
@@ -109,7 +104,6 @@ export default function HowItWorksPage() {
  </div>
  </div>
  </div>
-
  {/* Step 3 */}
  <div className="relative">
  <div className="flex items-start gap-6">
@@ -139,7 +133,6 @@ export default function HowItWorksPage() {
  <span className="text-black">يستخدم الكوبون في طلبه القادم</span>
  </div>
  </div>
-
  <div className="bg-white rounded border border-gray-200 p-6">
  <p className="font-semibold text-black mb-4">أمثلة للمكافآت:</p>
  <div className="grid md:grid-cols-2 gap-3">
@@ -147,13 +140,13 @@ export default function HowItWorksPage() {
  <p className="text-black"> خصم بقيمة محددة</p>
  </div>
  <div className="p-3 bg-gray-50 rounded-none">
- <p className="text-black">📦 شحن مجاني</p>
+ <p className="text-black"> شحن مجاني</p>
  </div>
  <div className="p-3 bg-gray-50 rounded-none">
  <p className="text-black"> منتج مجاني</p>
  </div>
  <div className="p-3 bg-gray-50 rounded-none">
- <p className="text-black">💵 كاش باك على شكل كوبون</p>
+ <p className="text-black"> كاش باك على شكل كوبون</p>
  </div>
  </div>
  <p className="text-sm text-black mt-4">
@@ -163,7 +156,6 @@ export default function HowItWorksPage() {
  </div>
  </div>
  </div>
-
  {/* Step 4 */}
  <div className="relative">
  <div className="flex items-start gap-6">
@@ -201,7 +193,6 @@ export default function HowItWorksPage() {
  <span className="text-black">العملاء الأكثر نشاطًا</span>
  </div>
  </div>
-
  <div className="bg-white rounded border border-gray-200 p-6">
  <p className="font-semibold text-black mb-4">بناءً على هذه البيانات يمكنك:</p>
  <div className="space-y-2">
@@ -227,16 +218,13 @@ export default function HowItWorksPage() {
  </div>
  </div>
  </div>
-
  <h2 id="no-manual">هل يحتاج العميل تسجيل يدوي؟</h2>
  <p className="text-3xl font-bold text-black">لا.</p>
  <p>
  العميل يتفاعل مع برنامج الولاء من داخل متجرك الإلكتروني نفسه، دون الحاجة لتطبيق إضافي
  أو تسجيل منفصل خارج تجربة الشراء.
  </p>
-
  <h2 id="what-makes-different">ماذا يميز BOND IT؟</h2>
-
  <div className="grid md:grid-cols-2 gap-4 my-6 not-prose">
  <div className="flex items-start gap-3 p-5 bg-white rounded border border-gray-200">
  <div className="size-6 bg-[#3B82F6] rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0"></div>
@@ -255,7 +243,6 @@ export default function HowItWorksPage() {
  <span className="text-black font-semibold">مصمم خصيصًا للمتاجر الإلكترونية</span>
  </div>
  </div>
-
  <div className="bg-[#3B82F6] rounded-none text-white p-6 my-8 text-center not-prose">
  <p className="text-2xl font-bold mb-3">جاهز للخطوة التالية؟</p>
  <p className="text-white/80 mb-6">

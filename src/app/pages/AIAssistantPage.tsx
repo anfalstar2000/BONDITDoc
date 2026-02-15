@@ -1,5 +1,4 @@
 import { Sparkles, Wand2, FileText, Search, MessageCircle, Target, CheckCircle2, Play, Lightbulb, ShoppingBag, TrendingUp, Share2, Zap } from 'lucide-react';
-
 export default function AIAssistantPage() {
  return (
  <div className="max-w-4xl">
@@ -11,7 +10,6 @@ export default function AIAssistantPage() {
  أداة دعم تسويقي مدمجة لإنشاء محتوى احترافي
  </p>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg mb-4">
@@ -21,13 +19,10 @@ export default function AIAssistantPage() {
  هذه الميزة متاحة ضمن باقات Plus و Pro، وتهدف إلى تسهيل عملية كتابة المحتوى وتحسين ظهور متجرك.
  </p>
  </div>
-
  <h2 id="role">ما هو دور المساعد الذكي؟</h2>
-
  <p>
  المساعد الذكي ليس مجرد أداة كتابة عامة، بل أداة تعمل في سياق متجرك، ويمكن استخدامها لإنشاء محتوى يخدم أهدافك التسويقية.
  </p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
@@ -35,7 +30,6 @@ export default function AIAssistantPage() {
  </div>
  <h3 className="text-xl font-bold text-black">يساعدك في:</h3>
  </div>
- 
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -59,7 +53,6 @@ export default function AIAssistantPage() {
  </div>
  </div>
  </div>
-
  {/* AI Features */}
  <div className="space-y-6 my-8 not-prose">
  {/* Product Content */}
@@ -88,14 +81,12 @@ export default function AIAssistantPage() {
  <p className="text-black font-semibold">الجمهور المستهدف</p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-5">
  <p className="text-black font-semibold mb-3">النتيجة:</p>
  <p className="text-black">
  ويقوم المساعد باقتراح وصف احترافي مناسب للبيع الإلكتروني.
  </p>
  </div>
-
  <div className="bg-gray-50 rounded p-5">
  <p className="font-semibold mb-3 text-black"> هذا مفيد إذا كنت:</p>
  <div className="space-y-2 text-sm">
@@ -115,7 +106,6 @@ export default function AIAssistantPage() {
  </div>
  </div>
  </div>
-
  {/* SEO Articles */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -140,7 +130,6 @@ export default function AIAssistantPage() {
  <FileText className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
  <p className="text-black">اقتراح كلمات مفتاحية</p>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="font-semibold text-black"> الهدف:</p>
  <p className="text-black text-sm">
@@ -149,7 +138,6 @@ export default function AIAssistantPage() {
  </div>
  </div>
  </div>
-
  {/* Social Media Content */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -176,7 +164,6 @@ export default function AIAssistantPage() {
  <p className="text-black font-semibold">تيك توك</p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="text-black text-sm">
  يمكنك إدخال فكرة بسيطة ويقوم المساعد بإعادة صياغتها بشكل أكثر جاذبية.
@@ -184,7 +171,6 @@ export default function AIAssistantPage() {
  </div>
  </div>
  </div>
-
  {/* Campaign Ideas */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -213,7 +199,6 @@ export default function AIAssistantPage() {
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
  <p className="text-black">اقتراح حملات موسمية.</p>
  </div>
-
  <div className="bg-gray-50 rounded p-4">
  <p className="text-black text-sm">
  هذا يوفر عليك الوقت والجهد في التفكير الإبداعي.
@@ -221,7 +206,6 @@ export default function AIAssistantPage() {
  </div>
  </div>
  </div>
-
  {/* How to Use */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -253,15 +237,12 @@ export default function AIAssistantPage() {
  </div>
  </div>
  </div>
-
  <h2 id="benefits">لماذا تستخدم المساعد الذكي؟</h2>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <TrendingUp className="size-8 text-[#3B82F6]" />
  <h3 className="text-xl font-bold text-black">الفوائد الأساسية</h3>
  </div>
- 
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -293,15 +274,12 @@ export default function AIAssistantPage() {
  </div>
  </div>
  </div>
-
  <h2 id="availability">متى يكون المساعد الذكي متاحًا؟</h2>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-center gap-3 mb-4">
  <Sparkles className="size-8 text-[#3B82F6]" />
  <h3 className="text-xl font-bold text-black">الباقات</h3>
  </div>
- 
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
@@ -312,22 +290,18 @@ export default function AIAssistantPage() {
  <span className="text-black">متاح ضمن باقة <strong>Pro</strong></span>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4 mt-4">
  <p className="text-black text-sm">
  في الباقات الأعلى، قد يكون هناك حد أعلى لعدد الطلبات الشهرية.
  </p>
  </div>
  </div>
-
  <h2 id="tips">نصائح للحصول على أفضل النتائج</h2>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4 mb-6">
  <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
  <h3 className="text-xl font-bold text-black">نصائح عملية</h3>
  </div>
- 
  <div className="space-y-4">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -351,9 +325,7 @@ export default function AIAssistantPage() {
  </div>
  </div>
  </div>
-
  <h2 id="difference">الفرق بين المساعد الذكي ونظام الولاء</h2>
-
  <div className="grid md:grid-cols-2 gap-6 my-8 not-prose">
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-4">
@@ -366,7 +338,6 @@ export default function AIAssistantPage() {
  يدير العلاقة مع العملاء داخل المتجر.
  </p>
  </div>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <div className="flex items-center gap-3 mb-4">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
@@ -379,7 +350,6 @@ export default function AIAssistantPage() {
  </p>
  </div>
  </div>
-
  <div className="bg-[#3B82F6] text-white p-6 rounded-none my-8 not-prose">
  <p className="text-xl font-bold mb-4 text-center">
  الاثنان معًا يشكلان حلًا متكاملًا:
@@ -393,7 +363,6 @@ export default function AIAssistantPage() {
  </div>
  </div>
  </div>
-
  {/* Video Placeholder */}
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="aspect-video bg-gray-50 flex items-center justify-center relative">

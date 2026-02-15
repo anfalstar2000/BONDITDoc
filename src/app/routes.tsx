@@ -15,7 +15,6 @@ import CustomersPage from "./pages/CustomersPage";
 import IntegrationsPage from "./pages/IntegrationsPage";
 import SettingsPage from "./pages/SettingsPage";
 import SuccessStoriesPage from "./pages/SuccessStoriesPage";
-
 export const router = createBrowserRouter([
  {
  path: "/",

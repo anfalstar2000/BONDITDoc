@@ -1,5 +1,4 @@
 import { Gift, Settings, Award, FileText, CheckCircle2, AlertCircle, Calendar, Package, Play, Lightbulb } from 'lucide-react';
-
 export default function PointsRewardsPage() {
  return (
  <div className="max-w-4xl">
@@ -11,7 +10,6 @@ export default function PointsRewardsPage() {
  الأدوات الأساسية لإدارة برنامج الولاء داخل متجرك
  </p>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg mb-4">
@@ -21,13 +19,10 @@ export default function PointsRewardsPage() {
  هذه الصفحة هي نقطة البداية لأي متجر يرغب ببناء ولاء واضح وسهل الفهم للعملاء.
  </p>
  </div>
-
  <h2 id="points-rules">أولًا: قواعد النقاط</h2>
-
  <p>
  هذا القسم مخصص للتحكم في طريقة احتساب النقاط التي يحصل عليها العميل عند الشراء.
  </p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
@@ -35,7 +30,6 @@ export default function PointsRewardsPage() {
  </div>
  <h3 className="text-xl font-bold text-black">ماذا يمكنك ضبطه هنا؟</h3>
  </div>
- 
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -51,19 +45,15 @@ export default function PointsRewardsPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <h4 className="text-lg font-bold text-black mb-4">مثال عملي</h4>
- 
  <div className="bg-gray-50 rounded p-5 mb-4">
  <p className="text-black mb-3">إذا قمت بتحديد:</p>
  <p className="text-2xl font-bold text-[#3B82F6] text-center py-3">
  1 نقطة لكل 1 ريال
  </p>
  </div>
-
  <p className="text-black font-semibold mb-3">فسيحصل العميل على:</p>
- 
  <div className="space-y-3">
  <div className="flex items-center justify-between p-4 bg-gray-50 rounded-none">
  <span className="text-black">طلب بقيمة 100 ريال</span>
@@ -74,21 +64,16 @@ export default function PointsRewardsPage() {
  <span className="text-[#3B82F6] font-bold">250 نقطة</span>
  </div>
  </div>
-
  <p className="text-gray-500 text-sm mt-4 italic text-center">
  كل عملية تتم تلقائيًا.
  </p>
  </div>
-
  <h2 id="additional-settings">ثانيًا: إعدادات إضافية للنقاط</h2>
-
  <p>
  يوفر النظام إعدادات إضافية تساعدك على التحكم في سلوك النقاط بما يناسب استراتيجية متجرك.
  </p>
-
  <div className="my-8 not-prose">
  <h4 className="text-lg font-bold text-black mb-4">أبرز الإعدادات</h4>
-
  <div className="space-y-4">
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-4">
@@ -100,7 +85,6 @@ export default function PointsRewardsPage() {
  </p>
  </div>
  </div>
-
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-4">
  <h5 className="text-white font-bold">2⃣ تعطيل احتساب نقاط الشراء أثناء وجود تحديات نشطة</h5>
@@ -118,13 +102,10 @@ export default function PointsRewardsPage() {
  </div>
  </div>
  </div>
-
  <h2 id="rewards">ثالثًا: المكافآت</h2>
-
  <p>
  المكافآت هي ما يحصل عليه العميل عند استبدال نقاطه.
  </p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
@@ -132,7 +113,6 @@ export default function PointsRewardsPage() {
  </div>
  <h3 className="text-xl font-bold text-black">في هذا القسم يمكنك:</h3>
  </div>
- 
  <div className="space-y-3">
  <div className="flex items-start gap-3 text-black">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
@@ -148,13 +128,10 @@ export default function PointsRewardsPage() {
  </div>
  </div>
  </div>
-
  <h3 id="create-reward">إضافة مكافأة جديدة</h3>
-
  <p>
  عند إنشاء مكافأة، تمر عملية الإعداد عادة بأقسام واضحة.
  </p>
-
  {/* Reward Setup Steps */}
  <div className="space-y-6 my-8 not-prose">
  {/* Step 1: General Details */}
@@ -199,7 +176,6 @@ export default function PointsRewardsPage() {
  </div>
  </div>
  </div>
-
  {/* Step 2: Usage Conditions */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -223,7 +199,6 @@ export default function PointsRewardsPage() {
  <p className="text-black">عدد مرات استخدام المكافأة لكل عميل.</p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-5">
  <p className="text-black font-semibold mb-3">مثال:</p>
  <div className="space-y-2 text-black">
@@ -239,7 +214,6 @@ export default function PointsRewardsPage() {
  </div>
  </div>
  </div>
-
  {/* Step 3: Product Linking */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -262,7 +236,6 @@ export default function PointsRewardsPage() {
  <p className="text-black">أو استثناء منتجات معينة من تطبيق المكافأة.</p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4 text-sm">
  <p className="font-semibold mb-2 text-black"> متى يكون هذا مفيدًا؟</p>
  <p className="text-black">
@@ -271,7 +244,6 @@ export default function PointsRewardsPage() {
  </div>
  </div>
  </div>
-
  {/* Step 4: Activation */}
  <div className="rounded-none overflow-hidden bg-white">
  <div className="bg-[#3B82F6] p-5">
@@ -298,7 +270,6 @@ export default function PointsRewardsPage() {
  <p className="text-black">أو تركها نشطة بدون تاريخ انتهاء.</p>
  </div>
  </div>
-
  <div className="bg-gray-50 rounded p-4 text-sm">
  <p className="font-semibold mb-2 text-black"> مرونة إضافية:</p>
  <p className="text-black">
@@ -308,13 +279,10 @@ export default function PointsRewardsPage() {
  </div>
  </div>
  </div>
-
  <h2 id="points-log">رابعًا: سجل النقاط</h2>
-
  <p>
  سجل النقاط يعرض لك كل العمليات المرتبطة بالنقاط داخل المتجر، مثل:
  </p>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <div className="flex items-center gap-3 mb-5">
  <div className="size-10 bg-[#3B82F6] rounded-full flex items-center justify-center">
@@ -322,7 +290,6 @@ export default function PointsRewardsPage() {
  </div>
  <h3 className="text-xl font-bold text-black">ماذا يعرض السجل؟</h3>
  </div>
- 
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -338,7 +305,6 @@ export default function PointsRewardsPage() {
  </div>
  </div>
  </div>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-6 not-prose">
  <p className="text-black font-semibold mb-3">هذا السجل يساعدك على:</p>
  <div className="space-y-2 text-black">
@@ -356,15 +322,12 @@ export default function PointsRewardsPage() {
  </div>
  </div>
  </div>
-
  <h2 id="tips">نصائح عملية للتاجر</h2>
-
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <div className="flex items-start gap-4 mb-6">
  <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
  <h3 className="text-xl font-bold text-black">نصائح لإدارة فعّالة</h3>
  </div>
- 
  <div className="space-y-4">
  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-none">
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
@@ -388,7 +351,6 @@ export default function PointsRewardsPage() {
  </div>
  </div>
  </div>
-
  {/* Video Placeholder */}
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 overflow-hidden my-8 not-prose">
  <div className="aspect-video bg-gray-50 flex items-center justify-center relative">

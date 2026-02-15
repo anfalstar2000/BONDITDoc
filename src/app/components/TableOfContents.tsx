@@ -1,10 +1,8 @@
 import { useLocation } from 'react-router';
-
 interface TOCSection {
  title: string;
  items: { id: string; title: string }[];
 }
-
 const tocData: Record<string, TOCSection> = {
  '/': {
  title: 'في هذه الصفحة',
@@ -60,22 +58,18 @@ const tocData: Record<string, TOCSection> = {
  ],
  },
 };
-
 export function TableOfContents() {
  const location = useLocation();
  const currentTOC = tocData[location.pathname];
-
  if (!currentTOC || currentTOC.items.length === 0) {
  return null;
  }
-
  const scrollToSection = (id: string) => {
  const element = document.getElementById(id);
  if (element) {
  element.scrollIntoView({ behavior: 'smooth', block: 'start' });
  }
  };
-
  return (
  <aside className="hidden xl:block w-64 pl-8 py-8 sticky top-24 self-start">
  <div className="space-y-3">

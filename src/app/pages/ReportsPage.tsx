@@ -9,11 +9,10 @@ export default function ReportsPage() {
  سيتم إضافة المحتوى قريبًا
  </p>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6">
  <p className="text-black font-semibold">
- 📝 المحتوى قيد الإعداد
+ المحتوى قيد الإعداد
  </p>
  </div>
  </div>
