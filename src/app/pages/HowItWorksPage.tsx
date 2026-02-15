@@ -243,14 +243,17 @@ export default function HowItWorksPage() {
  <span className="text-black font-semibold">مصمم خصيصًا للمتاجر الإلكترونية</span>
  </div>
  </div>
- <div className="bg-[#3B82F6] rounded-none text-white p-6 my-8 text-center not-prose">
+ <div className="bg-[#3B82F6] rounded-3xl text-white p-8 my-8 text-center not-prose">
  <p className="text-2xl font-bold mb-3">جاهز للخطوة التالية؟</p>
  <p className="text-white/80 mb-6">
  تعرف على الميزات الأساسية وابدأ بناء برنامج الولاء الخاص بك
  </p>
- <button className="px-6 py-3 bg-white text-[#3B82F6] font-semibold rounded-none hover:bg-gray-50 transition-colors">
+ <a 
+ href="/points-rewards"
+ className="inline-block px-6 py-3 bg-white text-[#3B82F6] font-semibold rounded-full hover:bg-gray-50 transition-colors"
+ >
  استكشف الميزات
- </button>
+ </a>
  </div>
  </div>
  </div>

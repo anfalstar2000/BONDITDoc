@@ -187,14 +187,19 @@ export default function WelcomePage() {
  تم تصميم BOND IT ليكون واضحًا وسهل الاستخدام.
  بعد تثبيت التطبيق، يتم ربطه تلقائيًا بمتجرك، ويمكنك إدارة كل شيء من لوحة تحكم بسيطة.
  </p>
- <div className="bg-[#3B82F6] rounded-none text-white p-6 my-8 not-prose">
+ <div className="bg-[#3B82F6] rounded-3xl text-white p-8 my-8 not-prose">
  <h3 className="text-2xl font-bold mb-3">جاهز للبدء؟</h3>
  <p className="text-white/80 mb-6">
  ابدأ بتفعيل برنامج النقاط، ثم انتقل لبناء مستويات أو إطلاق أول تحدي.
  </p>
- <button className="px-6 py-3 bg-white rounded-3xl border-gray-200 text-[#3B82F6] font-semibold hover:bg-gray-50 transition-colors">
+ <a 
+ href="https://apps.salla.sa/ar/app/1944068071"
+ target="_blank"
+ rel="noopener noreferrer"
+ className="inline-block px-6 py-3 bg-white rounded-full text-[#3B82F6] font-semibold hover:bg-gray-50 transition-colors"
+ >
  ابدأ الآن
- </button>
+ </a>
  </div>
  </div>
  </div>
