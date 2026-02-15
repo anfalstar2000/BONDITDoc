@@ -70,7 +70,7 @@ export function MobileNav() {
  <>
  <button
  onClick={() => setIsOpen(!isOpen)}
- className="lg:hidden p-2 hover:bg-gray-50 rounded-none transition-colors"
+ className="lg:hidden p-2 hover:bg-gray-50 rounded-full transition-colors"
  >
  <Menu className="size-6 text-black" />
  </button>
@@ -81,25 +81,25 @@ export function MobileNav() {
  onClick={() => setIsOpen(false)}
  />
  <div className="fixed top-0 right-0 bottom-0 w-80 bg-white z-50 overflow-y-auto lg:hidden">
- <div className="p-4 flex items-center justify-between">
+ <div className="p-4 flex items-center justify-between border-b border-gray-100">
  <div className="w-20">
  <Logo />
  </div>
  <button
  onClick={() => setIsOpen(false)}
- className="p-2 hover:bg-gray-50 rounded-none transition-colors"
+ className="p-2 hover:bg-gray-50 rounded-full transition-colors"
  >
  <X className="size-5 text-black" />
  </button>
  </div>
  <div className="p-4">
  <MobileSearchBar onNavigate={handleLinkClick} />
- <nav className="space-y-4">
+ <nav className="space-y-2">
  {navigationData.map((section) => (
  <div key={section.title}>
  <button
  onClick={() => toggleSection(section.title)}
- className="flex items-center justify-between w-full text-xs font-semibold text-black uppercase tracking-wider mb-2 hover:text-[#3B82F6] transition-colors"
+ className="flex items-center justify-between w-full text-xs font-semibold text-gray-500 uppercase tracking-wider px-3 py-2 hover:text-[#3B82F6] transition-colors"
  >
  {section.title}
  <ChevronDown
@@ -109,16 +109,16 @@ export function MobileNav() {
  />
  </button>
  {openSections[section.title] && (
- <ul className="space-y-1 mb-4">
+ <ul className="space-y-1 mb-3 mt-1">
  {section.items.map((item) => (
  <li key={item.path}>
  <Link
  to={item.path}
  onClick={handleLinkClick}
- className={`block px-3 py-2 rounded-none text-sm transition-colors ${
+ className={`block px-4 py-2.5 rounded-xl text-sm transition-colors ${
  location.pathname === item.path
  ? 'bg-[#3B82F6] text-white font-medium'
- : 'text-black hover:bg-white hover:text-[#3B82F6]'
+ : 'text-gray-700 hover:bg-gray-50 hover:text-[#3B82F6]'
  }`}
  >
  {item.title}
@@ -130,12 +130,12 @@ export function MobileNav() {
  </div>
  ))}
  </nav>
- <div className="mt-6 pt-6">
+ <div className="mt-6 pt-6 border-t border-gray-100">
  <a
  href="https://app.bonditloyalty.io/login"
  target="_blank"
  rel="noopener noreferrer"
- className="w-full px-4 py-2 bg-[#3B82F6] text-white text-sm rounded-full hover:opacity-90 transition-all flex items-center justify-center gap-2"
+ className="w-full px-4 py-3 bg-[#3B82F6] text-white text-sm rounded-full hover:bg-[#2563EB] transition-all flex items-center justify-center gap-2 font-medium"
  >
  <ExternalLink className="size-4" />
  انتقل إلى لوحة التحكم
