@@ -17,25 +17,25 @@ import SettingsPage from "./pages/SettingsPage";
 import SuccessStoriesPage from "./pages/SuccessStoriesPage";
 
 export const router = createBrowserRouter([
-  {
-    path: "/",
-    Component: Layout,
-    children: [
-      { index: true, Component: WelcomePage },
-      { path: "why-loyalty", Component: WhyLoyaltyPage },
-      { path: "how-it-works", Component: HowItWorksPage },
-      { path: "program-types", Component: ProgramTypesPage },
-      { path: "customer-experience", Component: CustomerExperiencePage },
-      { path: "points-rewards", Component: PointsRewardsPage },
-      { path: "badges-tiers", Component: BadgesTiersPage },
-      { path: "challenges", Component: ChallengesPage },
-      { path: "referral", Component: ReferralPage },
-      { path: "marketing-messages", Component: MarketingMessagesPage },
-      { path: "ai-assistant", Component: AIAssistantPage },
-      { path: "customers", Component: CustomersPage },
-      { path: "integrations", Component: IntegrationsPage },
-      { path: "settings", Component: SettingsPage },
-      { path: "success-stories", Component: SuccessStoriesPage },
-    ],
-  },
+ {
+ path: "/",
+ Component: Layout,
+ children: [
+ { index: true, Component: WelcomePage },
+ { path: "why-loyalty", Component: WhyLoyaltyPage },
+ { path: "how-it-works", Component: HowItWorksPage },
+ { path: "program-types", Component: ProgramTypesPage },
+ { path: "customer-experience", Component: CustomerExperiencePage },
+ { path: "points-rewards", Component: PointsRewardsPage },
+ { path: "badges-tiers", Component: BadgesTiersPage },
+ { path: "challenges", Component: ChallengesPage },
+ { path: "referral", Component: ReferralPage },
+ { path: "marketing-messages", Component: MarketingMessagesPage },
+ { path: "ai-assistant", Component: AIAssistantPage },
+ { path: "customers", Component: CustomersPage },
+ { path: "integrations", Component: IntegrationsPage },
+ { path: "settings", Component: SettingsPage },
+ { path: "success-stories", Component: SuccessStoriesPage },
+ ],
+ },
 ]);
