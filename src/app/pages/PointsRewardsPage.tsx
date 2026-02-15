@@ -1,4 +1,4 @@
-import { Gift, Settings, Award, FileText, CheckCircle2, AlertCircle, Calendar, Package, Play, Lightbulb } from 'lucide-react';
+import { Gift, Settings, Award, FileText, CheckCircle2, AlertCircle, Calendar, Package, Lightbulb } from 'lucide-react';
 export default function PointsRewardsPage() {
  return (
  <div className="w-full">
@@ -351,23 +351,35 @@ export default function PointsRewardsPage() {
  </div>
  </div>
  </div>
- {/* Video Placeholder */}
- <div className="bg-white rounded-none hover:bg-gray-50 transition-colors overflow-hidden my-8 not-prose">
- <div className="aspect-video bg-gray-50 flex items-center justify-center relative">
- <div className="text-center">
- <div className="size-20 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-4">
- <Play className="size-10 text-white mr-[-4px]" />
- </div>
- <p className="text-black font-semibold text-lg">شرح فيديو: إعداد النقاط والمكافآت</p>
- <p className="text-gray-500 text-sm mt-2">سيتم إضافة الفيديو قريبًا</p>
- </div>
- </div>
- <div className="p-5 bg-white">
- <p className="text-gray-500 text-sm text-center">
- شاهد شرح عملي خطوة بخطوة لإعداد برنامج النقاط والمكافآت في متجرك
- </p>
- </div>
- </div>
+{/* Video */}
+<div className="bg-white rounded-3xl overflow-hidden my-8 not-prose">
+<div className="aspect-video bg-gray-50">
+<iframe
+className="w-full h-full"
+src="https://www.youtube.com/embed/8wnFCOM2jUQ"
+title="شرح إعداد النقاط والمكافآت"
+loading="lazy"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerPolicy="strict-origin-when-cross-origin"
+allowFullScreen
+/>
+</div>
+<div className="p-5 bg-white">
+<p className="text-gray-500 text-sm text-center">
+شاهد شرح عملي خطوة بخطوة لإعداد برنامج النقاط والمكافآت في متجرك
+</p>
+<div className="text-center mt-3">
+<a
+href="https://www.youtube.com/watch?v=8wnFCOM2jUQ"
+target="_blank"
+rel="noopener noreferrer"
+className="text-[#3B82F6] text-sm font-medium hover:underline"
+>
+فتح الفيديو على يوتيوب
+</a>
+</div>
+</div>
+</div>
  </div>
  </div>
  );
