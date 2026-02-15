@@ -13,7 +13,7 @@ export default function BadgesTiersPage() {
       </div>
 
       <div className="prose prose-lg max-w-none">
-        <div className="bg-white rounded-[15px] p-6 my-8 not-prose">
+        <div className="bg-white rounded-[15%] p-6 my-8 not-prose">
           <p className="text-black text-lg mb-4">
             توفر صفحة الشارات والمستويات في نظام BOND IT أداة لبناء ولاء طويل المدى داخل متجرك، من خلال ترقية العملاء تلقائيًا بناءً على نشاطهم ومنحهم مزايا إضافية كلما ارتفع مستواهم.
           </p>
@@ -29,19 +29,19 @@ export default function BadgesTiersPage() {
         </p>
 
         <div className="grid grid-cols-3 gap-4 my-6 not-prose">
-          <div className="bg-white rounded-[15px] p-5 text-center">
+          <div className="bg-white rounded-[15%] p-5 text-center">
             <div className="size-12 bg-[#939393] rounded-full flex items-center justify-center mx-auto mb-3">
               <Star className="size-6 text-white" />
             </div>
             <p className="font-bold text-black text-lg">Silver</p>
           </div>
-          <div className="bg-white rounded-[15px] p-5 text-center">
+          <div className="bg-white rounded-[15%] p-5 text-center">
             <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-3">
               <Award className="size-6 text-white" />
             </div>
             <p className="font-bold text-black text-lg">Gold</p>
           </div>
-          <div className="bg-white rounded-[15px] p-5 text-center">
+          <div className="bg-white rounded-[15%] p-5 text-center">
             <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-3">
               <Crown className="size-6 text-white" />
             </div>
@@ -49,7 +49,7 @@ export default function BadgesTiersPage() {
           </div>
         </div>
 
-        <div className="bg-white rounded-[15px] p-6 my-6 not-prose">
+        <div className="bg-white rounded-[15%] p-6 my-6 not-prose">
           <div className="space-y-3 text-black">
             <div className="flex items-start gap-3">
               <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
@@ -68,25 +68,25 @@ export default function BadgesTiersPage() {
           في صفحة الشارات والمستويات يمكنك:
         </p>
 
-        <div className="bg-white rounded-[15px] p-6 my-6 not-prose">
+        <div className="bg-white rounded-[15%] p-6 my-6 not-prose">
           <div className="space-y-3">
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15px]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
               <p className="text-black">عرض جميع المستويات الحالية.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15px]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
               <p className="text-black">معرفة حالة كل مستوى (مفعل أو متوقف).</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15px]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
               <p className="text-black">تعديل أي مستوى.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15px]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
               <p className="text-black">إضافة مستوى جديد.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15px]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">5</span>
               <p className="text-black">إدارة إعدادات رسائل الترقية.</p>
             </div>
@@ -113,20 +113,20 @@ export default function BadgesTiersPage() {
               <p className="text-white/80">في هذا القسم تقوم بتحديد:</p>
             </div>
             <div className="p-6 space-y-3">
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15px]">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
                 <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
                 <p className="text-black">اسم المستوى (يظهر للعميل).</p>
               </div>
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15px]">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
                 <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                 <p className="text-black">وصف مختصر يوضح مزايا المستوى.</p>
               </div>
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15px]">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
                 <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
                 <p className="text-black">طريقة احتساب الترقية.</p>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-[15px] p-5 mt-4">
+              <div className="bg-[#F7F7F7] rounded-[15%] p-5 mt-4">
                 <p className="text-black font-semibold mb-4">طرق احتساب الترقية المتاحة</p>
                 <p className="text-black mb-3">يمكنك اختيار الترقية بناءً على:</p>
                 <div className="space-y-2 mb-4">
@@ -144,7 +144,7 @@ export default function BadgesTiersPage() {
                   </div>
                 </div>
 
-                <div className="bg-white rounded-[15px] p-4">
+                <div className="bg-white rounded-[15%] p-4">
                   <p className="text-black font-semibold mb-2">اختيار الطريقة يعتمد على هدفك:</p>
                   <div className="space-y-2 text-sm text-black">
                     <p>• إذا أردت زيادة الإنفاق → اختر <strong>المشتريات</strong>.</p>
@@ -168,25 +168,25 @@ export default function BadgesTiersPage() {
               <p className="text-white/80">في هذه الخطوة تحدد الشرط الذي يجب أن يحققه العميل ليتم ترقيته تلقائيًا.</p>
             </div>
             <div className="p-6 space-y-4">
-              <div className="bg-[#F7F7F7] rounded-[15px] p-5">
+              <div className="bg-[#F7F7F7] rounded-[15%] p-5">
                 <p className="text-black font-semibold mb-3">أمثلة:</p>
                 <div className="space-y-3">
-                  <div className="flex items-start gap-3 p-3 bg-white rounded-[15px]">
+                  <div className="flex items-start gap-3 p-3 bg-white rounded-[15%]">
                     <Trophy className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
                     <p className="text-black">إنفاق 2000 ريال للانتقال إلى المستوى الذهبي.</p>
                   </div>
-                  <div className="flex items-start gap-3 p-3 bg-white rounded-[15px]">
+                  <div className="flex items-start gap-3 p-3 bg-white rounded-[15%]">
                     <Trophy className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
                     <p className="text-black">جمع 3000 نقطة للانتقال إلى مستوى أعلى.</p>
                   </div>
-                  <div className="flex items-start gap-3 p-3 bg-white rounded-[15px]">
+                  <div className="flex items-start gap-3 p-3 bg-white rounded-[15%]">
                     <Trophy className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
                     <p className="text-black">إتمام عدد معين من الطلبات.</p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-[15px] p-4">
+              <div className="bg-[#F7F7F7] rounded-[15%] p-4">
                 <p className="font-semibold text-black">⚡ تلقائي بالكامل:</p>
                 <p className="text-black text-sm">
                   عند تحقيق الشرط، يتم نقل العميل تلقائيًا دون تدخل يدوي.
@@ -209,25 +209,25 @@ export default function BadgesTiersPage() {
             <div className="p-6 space-y-4">
               <p className="text-black font-semibold">أمثلة على المزايا:</p>
               <div className="grid md:grid-cols-2 gap-3">
-                <div className="p-4 bg-[#F7F7F7] rounded-[15px]">
+                <div className="p-4 bg-[#F7F7F7] rounded-[15%]">
                   <div className="flex items-start gap-2 text-black">
                     <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
                     <span>خصم دائم بنسبة محددة.</span>
                   </div>
                 </div>
-                <div className="p-4 bg-[#F7F7F7] rounded-[15px]">
+                <div className="p-4 bg-[#F7F7F7] rounded-[15%]">
                   <div className="flex items-start gap-2 text-black">
                     <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                     <span>شحن مجاني.</span>
                   </div>
                 </div>
-                <div className="p-4 bg-[#F7F7F7] rounded-[15px]">
+                <div className="p-4 bg-[#F7F7F7] rounded-[15%]">
                   <div className="flex items-start gap-2 text-black">
                     <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
                     <span>نقاط مضاعفة على كل طلب.</span>
                   </div>
                 </div>
-                <div className="p-4 bg-[#F7F7F7] rounded-[15px]">
+                <div className="p-4 bg-[#F7F7F7] rounded-[15%]">
                   <div className="flex items-start gap-2 text-black">
                     <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
                     <span>منتج مجاني عند الشراء.</span>
@@ -235,7 +235,7 @@ export default function BadgesTiersPage() {
                 </div>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-[15px] p-4">
+              <div className="bg-[#F7F7F7] rounded-[15%] p-4">
                 <p className="text-black text-sm">
                   تظهر هذه المزايا داخل تجربة العميل، مما يعزز شعوره بالتقدير والانتماء.
                 </p>
@@ -257,21 +257,21 @@ export default function BadgesTiersPage() {
             <div className="p-6 space-y-4">
               <p className="text-black font-semibold">يمكن تخصيص:</p>
               <div className="space-y-3">
-                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15px]">
+                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
                   <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
                   <p className="text-black">عنوان الرسالة.</p>
                 </div>
-                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15px]">
+                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
                   <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                   <p className="text-black">نص الرسالة.</p>
                 </div>
-                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15px]">
+                <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
                   <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
                   <p className="text-black">إدراج عناصر ديناميكية مثل اسم العميل واسم المستوى.</p>
                 </div>
               </div>
 
-              <div className="bg-[#F7F7F7] rounded-[15px] p-4">
+              <div className="bg-[#F7F7F7] rounded-[15%] p-4">
                 <p className="font-semibold mb-2 text-black">🎯 الهدف من الرسالة:</p>
                 <p className="text-black text-sm">
                   تعزيز الشعور بالإنجاز وتشجيع الاستمرار.
@@ -292,15 +292,15 @@ export default function BadgesTiersPage() {
               <p className="text-white/80">يمكنك:</p>
             </div>
             <div className="p-6 space-y-3">
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15px]">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
                 <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
                 <p className="text-black">تفعيل المستوى ليصبح متاحًا للعملاء.</p>
               </div>
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15px]">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
                 <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                 <p className="text-black">إيقافه مؤقتًا دون حذفه.</p>
               </div>
-              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15px]">
+              <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
                 <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
                 <p className="text-black">تعديله في أي وقت حسب استراتيجيتك.</p>
               </div>
@@ -310,12 +310,12 @@ export default function BadgesTiersPage() {
 
         <h2 id="smart-usage">كيف تستخدم المستويات بشكل ذكي؟</h2>
 
-        <div className="bg-white rounded-[15px] p-6 my-8 not-prose">
+        <div className="bg-white rounded-[15%] p-6 my-8 not-prose">
           <h4 className="text-xl font-bold text-black mb-6 text-center">مثال عملي</h4>
           
           <div className="grid md:grid-cols-3 gap-4">
             {/* Silver Tier */}
-            <div className="bg-[#F7F7F7] rounded-[15px] overflow-hidden">
+            <div className="bg-[#F7F7F7] rounded-[15%] overflow-hidden">
               <div className="bg-[#939393] p-4 text-center">
                 <div className="size-12 bg-white/30 rounded-full flex items-center justify-center mx-auto mb-2">
                   <Star className="size-6 text-white" />
@@ -324,14 +324,14 @@ export default function BadgesTiersPage() {
               </div>
               <div className="p-4">
                 <p className="text-sm text-[#939393] text-center mb-3 font-semibold">من 0 إلى 1500 ريال</p>
-                <div className="bg-white rounded-[15px] p-3">
+                <div className="bg-white rounded-[15%] p-3">
                   <p className="text-sm text-black text-center">مزايا أساسية</p>
                 </div>
               </div>
             </div>
 
             {/* Gold Tier */}
-            <div className="bg-[#F7F7F7] rounded-[15px] overflow-hidden">
+            <div className="bg-[#F7F7F7] rounded-[15%] overflow-hidden">
               <div className="bg-[#3B82F6] p-4 text-center">
                 <div className="size-12 bg-white/30 rounded-full flex items-center justify-center mx-auto mb-2">
                   <Award className="size-6 text-white" />
@@ -340,14 +340,14 @@ export default function BadgesTiersPage() {
               </div>
               <div className="p-4">
                 <p className="text-sm text-[#939393] text-center mb-3 font-semibold">من 1500 إلى 5000 ريال</p>
-                <div className="bg-white rounded-[15px] p-3">
+                <div className="bg-white rounded-[15%] p-3">
                   <p className="text-sm text-black text-center">خصم أكبر + نقاط مضاعفة</p>
                 </div>
               </div>
             </div>
 
             {/* VIP Tier */}
-            <div className="bg-[#F7F7F7] rounded-[15px] overflow-hidden">
+            <div className="bg-[#F7F7F7] rounded-[15%] overflow-hidden">
               <div className="bg-[#3B82F6] p-4 text-center">
                 <div className="size-12 bg-white/30 rounded-full flex items-center justify-center mx-auto mb-2">
                   <Crown className="size-6 text-white" />
@@ -356,14 +356,14 @@ export default function BadgesTiersPage() {
               </div>
               <div className="p-4">
                 <p className="text-sm text-[#939393] text-center mb-3 font-semibold">أكثر من 5000 ريال</p>
-                <div className="bg-white rounded-[15px] p-3">
+                <div className="bg-white rounded-[15%] p-3">
                   <p className="text-sm text-black text-center">شحن مجاني دائم + مزايا حصرية</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="mt-6 bg-[#F7F7F7] rounded-[15px] p-5">
+          <div className="mt-6 bg-[#F7F7F7] rounded-[15%] p-5">
             <p className="text-black font-semibold mb-3">بهذا الأسلوب:</p>
             <div className="space-y-2 text-black">
               <div className="flex items-start gap-2">
@@ -385,7 +385,7 @@ export default function BadgesTiersPage() {
         <h2 id="difference">الفرق بين النقاط والمستويات</h2>
 
         <div className="grid md:grid-cols-2 gap-6 my-8 not-prose">
-          <div className="bg-white rounded-[15px] p-6">
+          <div className="bg-white rounded-[15%] p-6">
             <div className="flex items-center gap-3 mb-4">
               <div className="size-10 bg-[#3B82F6] rounded-lg flex items-center justify-center">
                 <Gift className="size-6 text-white" />
@@ -395,7 +395,7 @@ export default function BadgesTiersPage() {
             <p className="text-black text-center text-lg">تحفّز كل عملية شراء.</p>
           </div>
 
-          <div className="bg-white rounded-[15px] p-6">
+          <div className="bg-white rounded-[15%] p-6">
             <div className="flex items-center gap-3 mb-4">
               <div className="size-10 bg-[#3B82F6] rounded-lg flex items-center justify-center">
                 <Award className="size-6 text-white" />
@@ -422,26 +422,26 @@ export default function BadgesTiersPage() {
 
         <h2 id="tips">نصائح عملية</h2>
 
-        <div className="bg-white rounded-[15px] p-8 my-8 not-prose">
+        <div className="bg-white rounded-[15%] p-8 my-8 not-prose">
           <div className="flex items-start gap-4 mb-6">
             <Lightbulb className="size-8 text-[#3B82F6] shrink-0" />
             <h3 className="text-xl font-bold text-black">نصائح لإدارة فعّالة</h3>
           </div>
           
           <div className="space-y-4">
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15px]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
               <p className="text-black">لا تكثر عدد المستويات حتى لا يصبح النظام معقدًا.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15px]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
               <p className="text-black">اجعل الفروقات بين المستويات واضحة ومغرية.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15px]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
               <p className="text-black">لا تمنح أعلى مستوى بسهولة، ليبقى له قيمة.</p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15px]">
+            <div className="flex items-start gap-3 p-4 bg-[#F7F7F7] rounded-[15%]">
               <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
               <p className="text-black">راقب عدد العملاء في كل مستوى لتقييم فعالية الشروط.</p>
             </div>
@@ -449,7 +449,7 @@ export default function BadgesTiersPage() {
         </div>
 
         {/* Video Placeholder */}
-        <div className="bg-white rounded-[15px] overflow-hidden my-12 not-prose">
+        <div className="bg-white rounded-[15%] overflow-hidden my-12 not-prose">
           <div className="aspect-video bg-[#F7F7F7] flex items-center justify-center relative">
             <div className="text-center">
               <div className="size-20 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-4">
