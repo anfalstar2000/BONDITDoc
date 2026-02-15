@@ -103,10 +103,10 @@ export default function SuccessStoriesPage() {
 
           {/* Plus Plan - Recommended */}
           <div className="bg-white rounded-none overflow-hidden relative">
-            <div className="absolute top-4 left-4 bg-[#3B82F6] text-white px-4 py-1 text-sm font-bold rounded-none">
-              ننصح بها ⭐
-            </div>
             <div className="bg-[#3B82F6] p-6 text-white">
+              <div className="inline-block bg-white/20 rounded-none text-white px-4 py-1 text-sm font-semibold mb-4">
+                ننصح بها
+              </div>
               <h3 className="text-3xl font-bold mb-2">باقة بوند بلس</h3>
               <p className="text-white/90 text-sm mb-6">
                 الخيار الأفضل للمتاجر المتوسطة والناشئة
