@@ -449,10 +449,10 @@ export default function SuccessStoriesPage() {
             <div className="flex-1 min-w-[280px]">
               <div className="flex items-center gap-3 mb-3">
                 <Sparkles className="size-8 text-[#3B82F6]" />
-                <h3 className="text-2xl font-bold text-black">عرض خاص! 🎉</h3>
+                <h3 className="text-2xl font-bold text-black">عرض خاص</h3>
               </div>
               <p className="text-black text-lg mb-2">
-                احصل على خصم <strong className="text-[#3B82F6]">25%</strong> عند الاشتراك في أي باقة
+                احصل على خصم <strong className="text-[#3B82F6]">25%</strong> عند الاشتراك في باقة بلس أو برو
               </p>
               <p className="text-[#939393] text-sm">
                 استخدم كود الخصم عند الدفع واستمتع بكل مزايا BOND IT بسعر أفضل
