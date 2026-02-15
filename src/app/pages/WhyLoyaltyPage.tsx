@@ -7,7 +7,7 @@ export default function WhyLoyaltyPage() {
         <h1 className="text-4xl font-bold text-black mb-4">
           لماذا تحتاج نظام ولاء؟
         </h1>
-        <p className="text-xl text-[#939393]">
+        <p className="text-xl text-gray-500">
           من الجذب المتكرر إلى الاحتفاظ الذكي
         </p>
       </div>
@@ -18,7 +18,7 @@ export default function WhyLoyaltyPage() {
           في أغلب المتاجر الإلكترونية، العميل يشتري مرة… ثم يختفي.
         </p>
 
-        <div className="bg-white rounded-none p-6 my-6">
+        <div className="bg-white rounded-none border border-gray-100 p-6 my-6">
           <div className="space-y-3 text-black">
             <div className="flex items-start gap-3">
               <div className="size-6 bg-[#3B82F6] rounded-full flex items-center justify-center text-white text-sm shrink-0">1</div>
@@ -39,7 +39,7 @@ export default function WhyLoyaltyPage() {
           </div>
         </div>
 
-        <div className="bg-white rounded-none p-6 my-6">
+        <div className="bg-white rounded-none border border-gray-100 p-6 my-6">
           <p className="text-black font-semibold mb-2">⚠️ الحقيقة:</p>
           <p className="text-black">
             بدون سبب واضح يدفعه للعودة، لن يعود.
@@ -50,25 +50,25 @@ export default function WhyLoyaltyPage() {
         <p>جذب عميل جديد دائمًا يتطلب:</p>
 
         <div className="grid md:grid-cols-2 gap-4 my-6 not-prose">
-          <div className="p-4 bg-white rounded-none">
+          <div className="p-4 bg-white rounded-none border border-gray-100">
             <div className="flex items-center gap-2 text-black">
               <DollarSign className="size-5" />
               <span className="font-semibold">إعلانات</span>
             </div>
           </div>
-          <div className="p-4 bg-white rounded-none">
+          <div className="p-4 bg-white rounded-none border border-gray-100">
             <div className="flex items-center gap-2 text-black">
               <Target className="size-5" />
               <span className="font-semibold">خصومات</span>
             </div>
           </div>
-          <div className="p-4 bg-white rounded-none">
+          <div className="p-4 bg-white rounded-none border border-gray-100">
             <div className="flex items-center gap-2 text-black">
               <Zap className="size-5" />
               <span className="font-semibold">حملات</span>
             </div>
           </div>
-          <div className="p-4 bg-white rounded-none">
+          <div className="p-4 bg-white rounded-none border border-gray-100">
             <div className="flex items-center gap-2 text-black">
               <AlertCircle className="size-5" />
               <span className="font-semibold">وقت</span>
@@ -76,7 +76,7 @@ export default function WhyLoyaltyPage() {
           </div>
         </div>
 
-        <div className="bg-white rounded-none p-6 my-6">
+        <div className="bg-white rounded-none border border-gray-100 p-6 my-6">
           <p className="text-black font-semibold mb-2">✓ بينما:</p>
           <p className="text-black">
             الاحتفاظ بعميل حالي أسهل وأقل تكلفة… إذا أعطيته سببًا للرجوع.
@@ -90,31 +90,31 @@ export default function WhyLoyaltyPage() {
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 my-8 not-prose">
-          <div className="p-5 bg-white rounded-none text-center">
+          <div className="p-5 bg-white rounded-none border border-gray-100 text-center">
             <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-3 text-white">
               1
             </div>
             <p className="font-semibold text-black">العميل يكسب نقاط</p>
           </div>
-          <div className="p-5 bg-white rounded-none text-center">
+          <div className="p-5 bg-white rounded-none border border-gray-100 text-center">
             <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-3 text-white">
               2
             </div>
             <p className="font-semibold text-black">يرى تقدمه</p>
           </div>
-          <div className="p-5 bg-white rounded-none text-center">
+          <div className="p-5 bg-white rounded-none border border-gray-100 text-center">
             <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-3 text-white">
               3
             </div>
             <p className="font-semibold text-black">يحصل على مكافأة</p>
           </div>
-          <div className="p-5 bg-white rounded-none text-center">
+          <div className="p-5 bg-white rounded-none border border-gray-100 text-center">
             <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-3 text-white">
               4
             </div>
             <p className="font-semibold text-black">يرتقي لمستوى أعلى</p>
           </div>
-          <div className="p-5 bg-white rounded-none text-center md:col-span-2 lg:col-span-1">
+          <div className="p-5 bg-white rounded-none border border-gray-100 text-center md:col-span-2 lg:col-span-1">
             <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-3 text-white">
               ✓
             </div>
@@ -122,7 +122,7 @@ export default function WhyLoyaltyPage() {
           </div>
         </div>
 
-        <div className="bg-[#3B82F6] rounded-none text-white p-8 my-8 text-center not-prose">
+        <div className="bg-[#3B82F6] rounded-none text-white p-6 my-8 text-center not-prose">
           <p className="text-2xl font-bold mb-2">النتيجة؟</p>
           <p className="text-xl text-white/80">
             يصبح لديه سبب للعودة بدل البحث عن منافس.
@@ -132,7 +132,7 @@ export default function WhyLoyaltyPage() {
         <h2 id="impact">كيف ينعكس ذلك على متجرك؟</h2>
 
         <div className="space-y-6 my-8 not-prose">
-          <div className="bg-white rounded-none p-6">
+          <div className="bg-white rounded-none border border-gray-100 p-6">
             <div className="flex items-start gap-4">
               <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center shrink-0">
                 <TrendingUp className="size-6 text-white" />
@@ -147,7 +147,7 @@ export default function WhyLoyaltyPage() {
             </div>
           </div>
 
-          <div className="bg-white rounded-none p-6">
+          <div className="bg-white rounded-none border border-gray-100 p-6">
             <div className="flex items-start gap-4">
               <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center shrink-0">
                 <DollarSign className="size-6 text-white" />
@@ -162,7 +162,7 @@ export default function WhyLoyaltyPage() {
             </div>
           </div>
 
-          <div className="bg-white rounded-none p-6">
+          <div className="bg-white rounded-none border border-gray-100 p-6">
             <div className="flex items-start gap-4">
               <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center shrink-0">
                 <Award className="size-6 text-white" />
@@ -177,7 +177,7 @@ export default function WhyLoyaltyPage() {
             </div>
           </div>
 
-          <div className="bg-white rounded-none p-6">
+          <div className="bg-white rounded-none border border-gray-100 p-6">
             <div className="flex items-start gap-4">
               <div className="size-12 bg-[#3B82F6] rounded-none flex items-center justify-center shrink-0">
                 <Zap className="size-6 text-white" />
@@ -212,19 +212,19 @@ export default function WhyLoyaltyPage() {
         <h2 id="example">مثال عملي بسيط</h2>
         <p>تخيل أن:</p>
 
-        <div className="bg-white rounded-none p-8 my-6">
+        <div className="bg-white rounded-none border border-gray-100 p-6 my-6">
           <div className="space-y-4 mb-6">
-            <div className="flex items-center justify-between p-4 bg-[#F7F7F7] rounded-none">
+            <div className="flex items-center justify-between p-4 bg-gray-50 rounded-none">
               <span className="text-black">كل ريال =</span>
               <span className="font-bold text-[#3B82F6]">نقطة</span>
             </div>
-            <div className="flex items-center justify-between p-4 bg-[#F7F7F7] rounded-none">
+            <div className="flex items-center justify-between p-4 bg-gray-50 rounded-none">
               <span className="text-black">1000 نقطة =</span>
               <span className="font-bold text-[#3B82F6]">خصم 50 ريال</span>
             </div>
           </div>
 
-          <div className="bg-[#F7F7F7] rounded-none p-6 space-y-3">
+          <div className="bg-gray-50 rounded-none p-6 space-y-3">
             <p className="text-black">
               العميل يعرف أن كل طلب يقربه من مكافأة.
             </p>
@@ -241,33 +241,33 @@ export default function WhyLoyaltyPage() {
         <p>يكون مناسبًا إذا كان متجرك:</p>
 
         <div className="grid md:grid-cols-2 gap-4 my-6 not-prose">
-          <div className="flex items-start gap-3 p-5 bg-white rounded-none">
+          <div className="flex items-start gap-3 p-5 bg-white rounded-none border border-gray-100">
             <CheckCircle2 className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
             <span className="text-black">لديه منتجات قابلة لإعادة الشراء</span>
           </div>
-          <div className="flex items-start gap-3 p-5 bg-white rounded-none">
+          <div className="flex items-start gap-3 p-5 bg-white rounded-none border border-gray-100">
             <CheckCircle2 className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
             <span className="text-black">يطلق منتجات جديدة بشكل دوري</span>
           </div>
-          <div className="flex items-start gap-3 p-5 bg-white rounded-none">
+          <div className="flex items-start gap-3 p-5 bg-white rounded-none border border-gray-100">
             <CheckCircle2 className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
             <span className="text-black">يريد تقليل الاعتماد على الخصومات المباشرة</span>
           </div>
-          <div className="flex items-start gap-3 p-5 bg-white rounded-none">
+          <div className="flex items-start gap-3 p-5 bg-white rounded-none border border-gray-100">
             <CheckCircle2 className="size-6 text-[#3B82F6] shrink-0 mt-0.5" />
             <span className="text-black">يرغب ببناء علاقة طويلة المدى مع العملاء</span>
           </div>
         </div>
 
-        <div className="bg-black rounded-none text-white p-8 my-8 not-prose">
+        <div className="bg-black rounded-none text-white p-6 my-8 not-prose">
           <h3 className="text-2xl font-bold mb-4">الخلاصة</h3>
-          <p className="text-[#939393] text-lg mb-3">
+          <p className="text-gray-500 text-lg mb-3">
             برنامج الولاء ليس أداة خصم.
           </p>
           <p className="text-white text-xl font-semibold mb-6">
             هو أداة استراتيجية لبناء تكرار الشراء.
           </p>
-          <div className="bg-white rounded-none p-5">
+          <div className="bg-white rounded-none border border-gray-100 p-5">
             <p className="text-black">
               BOND IT يمنحك الأدوات لتنفيذ ذلك بطريقة منظمة، قابلة للقياس، وقابلة للتحكم.
             </p>

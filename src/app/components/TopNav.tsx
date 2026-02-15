@@ -13,7 +13,7 @@ export function TopNav() {
           </div>
           
           <div className="relative hidden md:block">
-            <Search className="absolute right-3 top-1/2 -translate-y-1/2 size-4 text-gray-400" />
+            <Search className="absolute right-3 top-1/2 -translate-y-1/2 size-4 text-gray-500" />
             <input
               type="text"
               placeholder="البحث في التوثيق..."

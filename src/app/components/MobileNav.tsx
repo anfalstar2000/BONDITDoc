@@ -76,7 +76,7 @@ export function MobileNav() {
     <>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="lg:hidden p-2 hover:bg-[#F7F7F7] rounded-none transition-colors"
+        className="lg:hidden p-2 hover:bg-gray-50 rounded-none transition-colors"
       >
         <Menu className="size-6 text-black" />
       </button>
@@ -95,7 +95,7 @@ export function MobileNav() {
               </div>
               <button
                 onClick={() => setIsOpen(false)}
-                className="p-2 hover:bg-[#F7F7F7] rounded-none transition-colors"
+                className="p-2 hover:bg-gray-50 rounded-none transition-colors"
               >
                 <X className="size-5 text-black" />
               </button>
@@ -103,7 +103,7 @@ export function MobileNav() {
 
             <div className="p-4">
               <div className="relative mb-6">
-                <Search className="absolute right-3 top-1/2 -translate-y-1/2 size-4 text-[#939393]" />
+                <Search className="absolute right-3 top-1/2 -translate-y-1/2 size-4 text-gray-500" />
                 <input
                   type="text"
                   placeholder="البحث في التوثيق..."

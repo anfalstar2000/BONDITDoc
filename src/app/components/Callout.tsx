@@ -14,7 +14,7 @@ export function Callout({ type, children }: CalloutProps) {
     },
     warning: {
       container: 'bg-white',
-      icon: <AlertTriangle className="size-5 text-[#939393]" />,
+      icon: <AlertTriangle className="size-5 text-gray-500" />,
       text: 'text-black',
     },
     tip: {

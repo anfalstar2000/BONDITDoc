@@ -10,7 +10,7 @@ export function MainContent() {
 
       <div className="mb-6 md:mb-8">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">مرحبًا بك في BOND IT</h1>
-        <p className="text-base md:text-lg text-gray-600 mb-3">
+        <p className="text-base md:text-lg text-gray-700 mb-3">
           دليل شامل لبناء نظام ولاء ذكي يزيد مبيعاتك ويحول عملاءك إلى سفراء لعلامتك التجارية
         </p>
         <div className="flex items-center gap-2 text-xs md:text-sm text-gray-500">
@@ -26,7 +26,7 @@ export function MainContent() {
             <Award className="size-6 text-blue-600" />
             ما هو BOND IT؟
             <button className="opacity-0 group-hover:opacity-100 transition-opacity">
-              <LinkIcon className="size-5 text-gray-400 hover:text-gray-600" />
+              <LinkIcon className="size-5 text-gray-500 hover:text-gray-700" />
             </button>
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
@@ -77,7 +77,7 @@ export function MainContent() {
           <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2 group">
             لماذا تحتاج نظام ولاء؟
             <button className="opacity-0 group-hover:opacity-100 transition-opacity">
-              <LinkIcon className="size-5 text-gray-400 hover:text-gray-600" />
+              <LinkIcon className="size-5 text-gray-500 hover:text-gray-700" />
             </button>
           </h2>
 
@@ -102,14 +102,14 @@ export function MainContent() {
                 <div className="flex-shrink-0 w-8 h-8 rounded-full bg-red-100 text-red-600 flex items-center justify-center text-sm font-bold">✗</div>
                 <div>
                   <p className="font-medium text-gray-900">متجر بدون ولاء:</p>
-                  <p className="text-sm text-gray-600">1000 عميل × 1 طلب = 1000 طلب سنوياً</p>
+                  <p className="text-sm text-gray-700">1000 عميل × 1 طلب = 1000 طلب سنوياً</p>
                 </div>
               </div>
               <div className="flex gap-3 items-start">
                 <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-sm font-bold">✓</div>
                 <div>
                   <p className="font-medium text-gray-900">متجر بنظام ولاء:</p>
-                  <p className="text-sm text-gray-600">1000 عميل × 3.2 طلب = 3200 طلب سنوياً</p>
+                  <p className="text-sm text-gray-700">1000 عميل × 3.2 طلب = 3200 طلب سنوياً</p>
                   <p className="text-xs text-green-600 font-medium mt-1">زيادة 220% في الطلبات من نفس العملاء</p>
                 </div>
               </div>
@@ -123,7 +123,7 @@ export function MainContent() {
             <Zap className="size-6 text-blue-600" />
             كيف تبدأ - بالتفصيل الكامل
             <button className="opacity-0 group-hover:opacity-100 transition-opacity">
-              <LinkIcon className="size-5 text-gray-400 hover:text-gray-600" />
+              <LinkIcon className="size-5 text-gray-500 hover:text-gray-700" />
             </button>
           </h2>
 
@@ -160,9 +160,9 @@ export function MainContent() {
               <div className="bg-gray-50 p-4 rounded-none border border-gray-200">
                 <p className="text-sm text-gray-700 mb-2">ستصلك رسالة على بريدك الإلكتروني تحتوي على:</p>
                 <ul className="space-y-1 mr-4">
-                  <li className="text-sm text-gray-600">→ رابط لوحة التحكم الخاصة بك</li>
-                  <li className="text-sm text-gray-600">→ البريد الإلكتروني المسجل</li>
-                  <li className="text-sm text-gray-600">→ كلمة مرور مؤقتة</li>
+                  <li className="text-sm text-gray-700">→ رابط لوحة التحكم الخاصة بك</li>
+                  <li className="text-sm text-gray-700">→ البريد الإلكتروني المسجل</li>
+                  <li className="text-sm text-gray-700">→ كلمة مرور مؤقتة</li>
                 </ul>
               </div>
               <Callout type="warning">
@@ -212,7 +212,7 @@ export function MainContent() {
             <Gift className="size-6 text-blue-600" />
             النقاط والمكافآت - التفصيل الاستراتيجي
             <button className="opacity-0 group-hover:opacity-100 transition-opacity">
-              <LinkIcon className="size-5 text-gray-400 hover:text-gray-600" />
+              <LinkIcon className="size-5 text-gray-500 hover:text-gray-700" />
             </button>
           </h2>
 
@@ -223,7 +223,7 @@ export function MainContent() {
                 <span className="font-semibold">المبدأ بسيط:</span> كل طلب يقوم به العميل = نقاط تُضاف تلقائياً لحسابه.
               </p>
               <div className="bg-white p-4 rounded-none border border-blue-200">
-                <p className="text-sm text-gray-600 mb-2">مثال توضيحي:</p>
+                <p className="text-sm text-gray-700 mb-2">مثال توضيحي:</p>
                 <div className="space-y-1">
                   <p className="text-sm text-gray-700">→ قاعدة الكسب: 1 نقطة لكل 1 ريال</p>
                   <p className="text-sm text-gray-700">→ طلب بقيمة 300 ريال</p>
@@ -276,7 +276,7 @@ export function MainContent() {
                   </div>
                   <h5 className="font-semibold text-gray-900">خصم مباشر</h5>
                 </div>
-                <p className="text-sm text-gray-600 mb-2">مثال: استبدل 500 نقطة بخصم 25 ريال</p>
+                <p className="text-sm text-gray-700 mb-2">مثال: استبدل 500 نقطة بخصم 25 ريال</p>
                 <p className="text-xs text-blue-600 font-medium">✓ مناسب لتحفيز الشراء السريع</p>
               </div>
 
@@ -287,7 +287,7 @@ export function MainContent() {
                   </div>
                   <h5 className="font-semibold text-gray-900">شحن مجاني</h5>
                 </div>
-                <p className="text-sm text-gray-600 mb-2">مثال: استبدل 300 نقطة بشحن مجاني</p>
+                <p className="text-sm text-gray-700 mb-2">مثال: استبدل 300 نقطة بشحن مجاني</p>
                 <p className="text-xs text-green-600 font-medium">✓ مناسب لرفع معدل إتمام الطلبات</p>
               </div>
 
@@ -298,7 +298,7 @@ export function MainContent() {
                   </div>
                   <h5 className="font-semibold text-gray-900">منتج مجاني</h5>
                 </div>
-                <p className="text-sm text-gray-600 mb-2">مثال: استبدل 800 نقطة بعطر مجاني</p>
+                <p className="text-sm text-gray-700 mb-2">مثال: استبدل 800 نقطة بعطر مجاني</p>
                 <p className="text-xs text-purple-600 font-medium">✓ ممتاز لتصريف مخزون معين</p>
               </div>
 
@@ -309,7 +309,7 @@ export function MainContent() {
                   </div>
                   <h5 className="font-semibold text-gray-900">نقاط مضاعفة</h5>
                 </div>
-                <p className="text-sm text-gray-600 mb-2">مثال: اكسب نقاط × 2 عند شراء منتجات محددة</p>
+                <p className="text-sm text-gray-700 mb-2">مثال: اكسب نقاط × 2 عند شراء منتجات محددة</p>
                 <p className="text-xs text-amber-600 font-medium">✓ مناسب لفترة إطلاق منتج جديد</p>
               </div>
             </div>
@@ -329,28 +329,28 @@ export function MainContent() {
                 <div className="flex-shrink-0 w-6 h-6 rounded bg-blue-100 text-blue-600 flex items-center justify-center text-xs font-bold">✓</div>
                 <div>
                   <p className="font-medium text-gray-900 text-sm">وضع حد أدنى للطلب</p>
-                  <p className="text-xs text-gray-600">مثال: لا يمكن استخدام المكافأة إلا في طلب بحد أدنى 200 ريال</p>
+                  <p className="text-xs text-gray-700">مثال: لا يمكن استخدام المكافأة إلا في طلب بحد أدنى 200 ريال</p>
                 </div>
               </div>
               <div className="flex gap-3 items-start">
                 <div className="flex-shrink-0 w-6 h-6 rounded bg-blue-100 text-blue-600 flex items-center justify-center text-xs font-bold">✓</div>
                 <div>
                   <p className="font-medium text-gray-900 text-sm">تحديد عدد مرات الاستخدام</p>
-                  <p className="text-xs text-gray-600">مثال: كل عميل يمكنه استخدام الخصم مرة واحدة فقط شهرياً</p>
+                  <p className="text-xs text-gray-700">مثال: كل عميل يمكنه استخدام الخصم مرة واحدة فقط شهرياً</p>
                 </div>
               </div>
               <div className="flex gap-3 items-start">
                 <div className="flex-shrink-0 w-6 h-6 rounded bg-blue-100 text-blue-600 flex items-center justify-center text-xs font-bold">✓</div>
                 <div>
                   <p className="font-medium text-gray-900 text-sm">تحديد منتجات مشمولة</p>
-                  <p className="text-xs text-gray-600">مثال: النقاط تُكسب فقط على منتجات بسعر أعلى من 100 ريال</p>
+                  <p className="text-xs text-gray-700">مثال: النقاط تُكسب فقط على منتجات بسعر أعلى من 100 ريال</p>
                 </div>
               </div>
               <div className="flex gap-3 items-start">
                 <div className="flex-shrink-0 w-6 h-6 rounded bg-blue-100 text-blue-600 flex items-center justify-center text-xs font-bold">✓</div>
                 <div>
                   <p className="font-medium text-gray-900 text-sm">إيقاف احتساب النقاط مؤقتاً</p>
-                  <p className="text-xs text-gray-600">مثال: أثناء عروض الجمعة البيضاء، لا تُحتسب نقاط</p>
+                  <p className="text-xs text-gray-700">مثال: أثناء عروض الجمعة البيضاء، لا تُحتسب نقاط</p>
                 </div>
               </div>
             </div>
@@ -371,25 +371,25 @@ export function MainContent() {
                 متجر ملابس
               </h4>
               <p className="text-sm text-gray-700 mb-2">الهدف: رفع متوسط السلة</p>
-              <p className="text-sm text-gray-600">→ كل 200 ريال = 200 نقطة</p>
-              <p className="text-sm text-gray-600">→ 1000 نقطة = خصم 50 ريال</p>
-              <p className="text-sm text-gray-600">→ حد أدنى للطلب عند الاستبدال: 300 ريال</p>
+              <p className="text-sm text-gray-700">→ كل 200 ريال = 200 نقطة</p>
+              <p className="text-sm text-gray-700">→ 1000 نقطة = خصم 50 ريال</p>
+              <p className="text-sm text-gray-700">→ حد أدنى للطلب عند الاستبدال: 300 ريال</p>
               <p className="text-xs text-blue-600 font-medium mt-2">✓ العميل سيضيف قطع إضافية للوصول للحد الأدنى</p>
             </div>
 
             <div className="border-r-4 border-green-500 bg-green-50 p-5 rounded-none">
               <h4 className="font-semibold text-gray-900 mb-2">متجر عطور</h4>
               <p className="text-sm text-gray-700 mb-2">الهدف: زيادة تكرار الشراء</p>
-              <p className="text-sm text-gray-600">→ كل طلب = 100 نقطة إضافية (بغض النظر عن القيمة)</p>
-              <p className="text-sm text-gray-600">→ 500 نقطة = عطر 50 مل مجاني</p>
+              <p className="text-sm text-gray-700">→ كل طلب = 100 نقطة إضافية (بغض النظر عن القيمة)</p>
+              <p className="text-sm text-gray-700">→ 500 نقطة = عطر 50 مل مجاني</p>
               <p className="text-xs text-green-600 font-medium mt-2">✓ يحفز العميل على الطلب المتكرر حتى مع مبالغ صغيرة</p>
             </div>
 
             <div className="border-r-4 border-purple-500 bg-purple-50 p-5 rounded-none">
               <h4 className="font-semibold text-gray-900 mb-2">متجر إلكترونيات</h4>
               <p className="text-sm text-gray-700 mb-2">الهدف: بناء ولاء طويل المدى</p>
-              <p className="text-sm text-gray-600">→ نظام مستويات: Bronze → Silver → Gold → Platinum</p>
-              <p className="text-sm text-gray-600">→ كل مستوى له خصم دائم: 3% → 5% → 8% → 12%</p>
+              <p className="text-sm text-gray-700">→ نظام مستويات: Bronze → Silver → Gold → Platinum</p>
+              <p className="text-sm text-gray-700">→ كل مستوى له خصم دائم: 3% → 5% → 8% → 12%</p>
               <p className="text-xs text-purple-600 font-medium mt-2">✓ العميل يصبح لديه هدف طويل المدى للوصول لأعلى مستوى</p>
             </div>
           </div>
@@ -401,7 +401,7 @@ export function MainContent() {
             <Award className="size-6 text-blue-600" />
             الشارات والمستويات - بناء ولاء طويل المدى
             <button className="opacity-0 group-hover:opacity-100 transition-opacity">
-              <LinkIcon className="size-5 text-gray-400 hover:text-gray-600" />
+              <LinkIcon className="size-5 text-gray-500 hover:text-gray-700" />
             </button>
           </h2>
 
@@ -415,25 +415,25 @@ export function MainContent() {
               <div className="bg-white p-4 rounded-none border-r-4 border-gray-400">
                 <div className="flex items-center justify-between mb-2">
                   <span className="font-bold text-gray-700">Silver</span>
-                  <span className="text-sm text-gray-600">بعد إنفاق 1,500 ريال</span>
+                  <span className="text-sm text-gray-700">بعد إنفاق 1,500 ريال</span>
                 </div>
-                <p className="text-sm text-gray-600">→ خصم 5% دائم على كل طلب</p>
+                <p className="text-sm text-gray-700">→ خصم 5% دائم على كل طلب</p>
               </div>
 
               <div className="bg-white p-4 rounded-none border-r-4 border-amber-400">
                 <div className="flex items-center justify-between mb-2">
                   <span className="font-bold text-amber-600">Gold</span>
-                  <span className="text-sm text-gray-600">بعد إنفاق 4,000 ريال</span>
+                  <span className="text-sm text-gray-700">بعد إنفاق 4,000 ريال</span>
                 </div>
-                <p className="text-sm text-gray-600">→ خصم 10% دائم + نقاط مضاعفة × 1.5</p>
+                <p className="text-sm text-gray-700">→ خصم 10% دائم + نقاط مضاعفة × 1.5</p>
               </div>
 
               <div className="bg-white p-4 rounded-none border-r-4 border-purple-500">
                 <div className="flex items-center justify-between mb-2">
                   <span className="font-bold text-purple-600">VIP</span>
-                  <span className="text-sm text-gray-600">بعد إنفاق 8,000 ريال</span>
+                  <span className="text-sm text-gray-700">بعد إنفاق 8,000 ريال</span>
                 </div>
-                <p className="text-sm text-gray-600">→ شحن مجاني دائم + أولوية في إطلاق المنتجات الجديدة + نقاط × 2</p>
+                <p className="text-sm text-gray-700">→ شحن مجاني دائم + أولوية في إطلاق المنتجات الجديدة + نقاط × 2</p>
               </div>
             </div>
             <p className="text-sm text-gray-700 mt-4 font-medium">
@@ -454,7 +454,7 @@ export function MainContent() {
               <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">1</div>
               <div>
                 <p className="font-semibold text-gray-900 mb-1">المستوى الأول (Silver): سهل جداً</p>
-                <p className="text-sm text-gray-600">ضعه بعد أول أو ثاني طلب، حتى يشعر العميل بالإنجاز سريعاً</p>
+                <p className="text-sm text-gray-700">ضعه بعد أول أو ثاني طلب، حتى يشعر العميل بالإنجاز سريعاً</p>
                 <p className="text-xs text-blue-600 mt-1">مثال: بعد إنفاق 500 ريال فقط</p>
               </div>
             </div>
@@ -463,7 +463,7 @@ export function MainContent() {
               <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 text-amber-600 flex items-center justify-center font-bold">2</div>
               <div>
                 <p className="font-semibold text-gray-900 mb-1">المستوى الثاني (Gold): يحتاج التزام</p>
-                <p className="text-sm text-gray-600">يتطلب شراء متكرر على مدى 3-6 شهور</p>
+                <p className="text-sm text-gray-700">يتطلب شراء متكرر على مدى 3-6 شهور</p>
                 <p className="text-xs text-amber-600 mt-1">مثال: بعد إنفاق 3,000 ريال</p>
               </div>
             </div>
@@ -472,7 +472,7 @@ export function MainContent() {
               <div className="flex-shrink-0 w-10 h-10 rounded-full bg-purple-100 text-purple-600 flex items-center justify-center font-bold">3</div>
               <div>
                 <p className="font-semibold text-gray-900 mb-1">المستوى الأعلى (VIP): للعملاء المميزين</p>
-                <p className="text-sm text-gray-600">مخصص لـ 5-10% من أفضل عملائك</p>
+                <p className="text-sm text-gray-700">مخصص لـ 5-10% من أفضل عملائك</p>
                 <p className="text-xs text-purple-600 mt-1">مثال: بعد إنفاق 10,000 ريال</p>
               </div>
             </div>
@@ -515,7 +515,7 @@ export function MainContent() {
             <Target className="size-6 text-blue-600" />
             التحديات - أداة النمو السريع
             <button className="opacity-0 group-hover:opacity-100 transition-opacity">
-              <LinkIcon className="size-5 text-gray-400 hover:text-gray-600" />
+              <LinkIcon className="size-5 text-gray-500 hover:text-gray-700" />
             </button>
           </h2>
 
@@ -538,22 +538,22 @@ export function MainContent() {
             <div className="grid md:grid-cols-2 gap-4">
               <div className="bg-white border-2 border-blue-200 p-5 rounded-none">
                 <h4 className="font-semibold text-gray-900 mb-2">🚀 عند نزول منتج جديد</h4>
-                <p className="text-sm text-gray-600">اخلق حماس حول المنتج الجديد بتحدي خاص</p>
+                <p className="text-sm text-gray-700">اخلق حماس حول المنتج الجديد بتحدي خاص</p>
               </div>
 
               <div className="bg-white border-2 border-red-200 p-5 rounded-none">
                 <h4 className="font-semibold text-gray-900 mb-2">📉 عند ضعف المبيعات</h4>
-                <p className="text-sm text-gray-600">أعد تنشيط العملاء الخاملين بتحدي مغري</p>
+                <p className="text-sm text-gray-700">أعد تنشيط العملاء الخاملين بتحدي مغري</p>
               </div>
 
               <div className="bg-white border-2 border-purple-200 p-5 rounded-none">
                 <h4 className="font-semibold text-gray-900 mb-2">🎉 في المواسم</h4>
-                <p className="text-sm text-gray-600">رمضان، العيد، اليوم الوطني... استغل الموسم</p>
+                <p className="text-sm text-gray-700">رمضان، العيد، اليوم الوطني... استغل الموسم</p>
               </div>
 
               <div className="bg-white border-2 border-amber-200 p-5 rounded-none">
                 <h4 className="font-semibold text-gray-900 mb-2">📦 لتصفية مخزون</h4>
-                <p className="text-sm text-gray-600">حفّز شراء منتجات معينة قبل نفاد المخزون</p>
+                <p className="text-sm text-gray-700">حفّز شراء منتجات معينة قبل نفاد المخزون</p>
               </div>
             </div>
           </div>
@@ -622,7 +622,7 @@ export function MainContent() {
             <Users className="size-6 text-blue-600" />
             برنامج الإحالة - النمو بدون إعلانات
             <button className="opacity-0 group-hover:opacity-100 transition-opacity">
-              <LinkIcon className="size-5 text-gray-400 hover:text-gray-600" />
+              <LinkIcon className="size-5 text-gray-500 hover:text-gray-700" />
             </button>
           </h2>
 
@@ -659,7 +659,7 @@ export function MainContent() {
               <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-sm">2</div>
               <div className="flex-1">
                 <p className="font-semibold text-gray-900 mb-1">يرسله لأصدقائه عبر واتساب أو تويتر</p>
-                <p className="text-sm text-gray-600">النظام يتتبع تلقائياً من أين جاء الطلب</p>
+                <p className="text-sm text-gray-700">النظام يتتبع تلقائياً من أين جاء الطلب</p>
               </div>
             </div>
 
@@ -712,7 +712,7 @@ export function MainContent() {
           <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2 group">
             الرسائل التلقائية - تعزيز العلاقة
             <button className="opacity-0 group-hover:opacity-100 transition-opacity">
-              <LinkIcon className="size-5 text-gray-400 hover:text-gray-600" />
+              <LinkIcon className="size-5 text-gray-500 hover:text-gray-700" />
             </button>
           </h2>
 
@@ -726,7 +726,7 @@ export function MainContent() {
             <div className="space-y-4">
               <div className="bg-white border-2 border-blue-200 p-5 rounded-none">
                 <h4 className="font-semibold text-gray-900 mb-2">📈 رسالة ترقية مستوى</h4>
-                <p className="text-sm text-gray-600 mb-3">تُرسل تلقائياً عند انتقال العميل لمستوى أعلى</p>
+                <p className="text-sm text-gray-700 mb-3">تُرسل تلقائياً عند انتقال العميل لمستوى أعلى</p>
                 <div className="bg-blue-50 p-3 rounded text-sm text-gray-700">
                   "مبروك أحمد! 🎉 وصلت لمستوى Gold. الآن لديك خصم دائم 10% على كل طلباتك القادمة."
                 </div>
@@ -734,7 +734,7 @@ export function MainContent() {
 
               <div className="bg-white border-2 border-green-200 p-5 rounded-none">
                 <h4 className="font-semibold text-gray-900 mb-2">🎯 رسالة إكمال تحدي</h4>
-                <p className="text-sm text-gray-600 mb-3">تُرسل عند إتمام التحدي بنجاح</p>
+                <p className="text-sm text-gray-700 mb-3">تُرسل عند إتمام التحدي بنجاح</p>
                 <div className="bg-green-50 p-3 rounded text-sm text-gray-700">
                   "أحسنت! أكملت تحدي رمضان 🌙 تم إضافة 500 نقطة + شحن مجاني لطلبك القادم."
                 </div>
@@ -742,7 +742,7 @@ export function MainContent() {
 
               <div className="bg-white border-2 border-purple-200 p-5 rounded-none">
                 <h4 className="font-semibold text-gray-900 mb-2">💰 تذكير باسترداد النقاط</h4>
-                <p className="text-sm text-gray-600 mb-3">تُرسل عندما يقترب العميل من حد الاسترداد</p>
+                <p className="text-sm text-gray-700 mb-3">تُرسل عندما يقترب العميل من حد الاسترداد</p>
                 <div className="bg-purple-50 p-3 rounded text-sm text-gray-700">
                   "لديك 950 نقطة! 💎 أضف 50 نقطة فقط واحصل على خصم 50 ريال في طلبك القادم."
                 </div>
@@ -750,7 +750,7 @@ export function MainContent() {
 
               <div className="bg-white border-2 border-amber-200 p-5 rounded-none">
                 <h4 className="font-semibold text-gray-900 mb-2">⏰ تنبيه انتهاء صلاحية النقاط</h4>
-                <p className="text-sm text-gray-600 mb-3">تُرسل قبل 30 يوم من انتهاء النقاط</p>
+                <p className="text-sm text-gray-700 mb-3">تُرسل قبل 30 يوم من انتهاء النقاط</p>
                 <div className="bg-amber-50 p-3 rounded text-sm text-gray-700">
                   "تنبيه: لديك 300 نقطة ستنتهي صلاحيتها في 15 مارس. استخدمها الآن! ⚠️"
                 </div>
@@ -769,7 +769,7 @@ export function MainContent() {
             <Zap className="size-6 text-blue-600" />
             المس��عد الذكي - دعم تسويقي مباشر
             <button className="opacity-0 group-hover:opacity-100 transition-opacity">
-              <LinkIcon className="size-5 text-gray-400 hover:text-gray-600" />
+              <LinkIcon className="size-5 text-gray-500 hover:text-gray-700" />
             </button>
           </h2>
 
@@ -790,7 +790,7 @@ export function MainContent() {
                 <div className="flex-shrink-0 text-2xl">✍️</div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">كتابة وصف منتجات احترافي</h4>
-                  <p className="text-sm text-gray-600 mb-2">امنحه اسم المنتج وبعض التفاصيل، يكتب لك وصف تسويقي جذاب</p>
+                  <p className="text-sm text-gray-700 mb-2">امنحه اسم المنتج وبعض التفاصيل، يكتب لك وصف تسويقي جذاب</p>
                   <p className="text-xs text-blue-600">مثال: "اكتب وصف لعطر عود ملكي 100 مل"</p>
                 </div>
               </div>
@@ -799,7 +799,7 @@ export function MainContent() {
                 <div className="flex-shrink-0 text-2xl">📝</div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">إنشاء مقالات SEO</h4>
-                  <p className="text-sm text-gray-600 mb-2">اطلب منه مقال عن "أفضل أنواع العطور الشرقية" وسينشئه لك</p>
+                  <p className="text-sm text-gray-700 mb-2">اطلب منه مقال عن "أفضل أنواع العطور الشرقية" وسينشئه لك</p>
                   <p className="text-xs text-green-600">يساعد في تحسين ظهور متجرك في جوجل</p>
                 </div>
               </div>
@@ -808,7 +808,7 @@ export function MainContent() {
                 <div className="flex-shrink-0 text-2xl">🎯</div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">اقتراح أفكار حملات</h4>
-                  <p className="text-sm text-gray-600 mb-2">أخبره عن منتج جديد، يقترح لك حملة ترويجية كاملة</p>
+                  <p className="text-sm text-gray-700 mb-2">أخبره عن منتج جديد، يقترح لك حملة ترويجية كاملة</p>
                   <p className="text-xs text-purple-600">بما فيها التحديات والمكافآت المناسبة</p>
                 </div>
               </div>
@@ -817,7 +817,7 @@ export function MainContent() {
                 <div className="flex-shrink-0 text-2xl">📱</div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">كتابة كابشنات سوشيال ميديا</h4>
-                  <p className="text-sm text-gray-600">يكتب لك منشورات جاهزة لتويتر وإنستقرام وسناب شات</p>
+                  <p className="text-sm text-gray-700">يكتب لك منشورات جاهزة لتويتر وإنستقرام وسناب شات</p>
                 </div>
               </div>
 
@@ -825,7 +825,7 @@ export function MainContent() {
                 <div className="flex-shrink-0 text-2xl">💡</div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">اقتراح أفكار تحديات</h4>
-                  <p className="text-sm text-gray-600">بناءً على نوع منتجاتك، يقترح تحديات مناسبة ومجربة</p>
+                  <p className="text-sm text-gray-700">بناءً على نوع منتجاتك، يقترح تحديات مناسبة ومجربة</p>
                 </div>
               </div>
             </div>
@@ -841,7 +841,7 @@ export function MainContent() {
           <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2 group">
             كيف تختار الاستراتيجية المناسبة؟
             <button className="opacity-0 group-hover:opacity-100 transition-opacity">
-              <LinkIcon className="size-5 text-gray-400 hover:text-gray-600" />
+              <LinkIcon className="size-5 text-gray-500 hover:text-gray-700" />
             </button>
           </h2>
 
@@ -856,25 +856,25 @@ export function MainContent() {
               <div className="bg-blue-50 border-r-4 border-blue-500 p-5 rounded-none">
                 <h4 className="font-bold text-gray-900 mb-2">منتجات استهلاكية (عطور، مكياج، قهوة)</h4>
                 <p className="text-sm text-gray-700 mb-3">✓ ركز على: <strong>النقاط + المستويات</strong></p>
-                <p className="text-xs text-gray-600">السبب: العميل يشتري بشكل متكرر، فالمستويات تحفزه على الاستمرار</p>
+                <p className="text-xs text-gray-700">السبب: العميل يشتري بشكل متكرر، فالمستويات تحفزه على الاستمرار</p>
               </div>
 
               <div className="bg-green-50 border-r-4 border-green-500 p-5 rounded-none">
                 <h4 className="font-bold text-gray-900 mb-2">منتجات موسمية (ملابس، هدايا)</h4>
                 <p className="text-sm text-gray-700 mb-3">✓ ركز على: <strong>التحديات المؤقتة</strong></p>
-                <p className="text-xs text-gray-600">السبب: الشراء مرتبط بمواسم، فالتحديات تخلق إلحاح في كل موسم</p>
+                <p className="text-xs text-gray-700">السبب: الشراء مرتبط بمواسم، فالتحديات تخلق إلحاح في كل موسم</p>
               </div>
 
               <div className="bg-purple-50 border-r-4 border-purple-500 p-5 rounded-none">
                 <h4 className="font-bold text-gray-900 mb-2">علامة فاخرة (ساعات، مجوهرات)</h4>
                 <p className="text-sm text-gray-700 mb-3">✓ ركز على: <strong>مستويات VIP حصرية</strong></p>
-                <p className="text-xs text-gray-600">السبب: العميل يبحث عن التميز والحصرية، وليس الخصومات</p>
+                <p className="text-xs text-gray-700">السبب: العميل يبحث عن التميز والحصرية، وليس الخصومات</p>
               </div>
 
               <div className="bg-amber-50 border-r-4 border-amber-500 p-5 rounded-none">
                 <h4 className="font-bold text-gray-900 mb-2">منتج جديد تريد إطلاقه</h4>
                 <p className="text-sm text-gray-700 mb-3">✓ ركز على: <strong>تحدي إطلاق</strong></p>
-                <p className="text-xs text-gray-600">السبب: التحدي يخلق حماس وسرعة في التجربة</p>
+                <p className="text-xs text-gray-700">السبب: التحدي يخلق حماس وسرعة في التجربة</p>
               </div>
             </div>
           </div>
@@ -887,7 +887,7 @@ export function MainContent() {
             <div className="bg-white border-2 border-blue-300 p-5 rounded-none">
               <p className="font-bold text-blue-700 mb-2">🎯 الهدف: زيادة تكرار الشراء</p>
               <p className="text-sm text-gray-700 mb-2">الحل:</p>
-              <ul className="space-y-1 text-sm text-gray-600">
+              <ul className="space-y-1 text-sm text-gray-700">
                 <li>→ نقاط إضافية لكل طلب</li>
                 <li>→ نظام مستويات</li>
                 <li>→ رسائل تذكير بالنقاط</li>
@@ -897,7 +897,7 @@ export function MainContent() {
             <div className="bg-white border-2 border-green-300 p-5 rounded-none">
               <p className="font-bold text-green-700 mb-2">📈 الهدف: رفع متوسط السلة</p>
               <p className="text-sm text-gray-700 mb-2">الحل:</p>
-              <ul className="space-y-1 text-sm text-gray-600">
+              <ul className="space-y-1 text-sm text-gray-700">
                 <li>→ مكافآت بحد أدنى مرتفع</li>
                 <li>→ نقاط مضاعفة للطلبات الكبيرة</li>
                 <li>→ تحدي "اشترِ 3 واحصل على..."</li>
@@ -907,7 +907,7 @@ export function MainContent() {
             <div className="bg-white border-2 border-purple-300 p-5 rounded-none">
               <p className="font-bold text-purple-700 mb-2">👥 الهدف: اكتساب عملاء جدد</p>
               <p className="text-sm text-gray-700 mb-2">الحل:</p>
-              <ul className="space-y-1 text-sm text-gray-600">
+              <ul className="space-y-1 text-sm text-gray-700">
                 <li>→ برنامج إحالة قوي</li>
                 <li>→ مكافأة ترحيبية للعملاء الجدد</li>
                 <li>→ تحفيز العميل القديم بنقاط</li>
@@ -917,7 +917,7 @@ export function MainContent() {
             <div className="bg-white border-2 border-amber-300 p-5 rounded-none">
               <p className="font-bold text-amber-700 mb-2">🚀 الهدف: إطلاق منتج جديد</p>
               <p className="text-sm text-gray-700 mb-2">الحل:</p>
-              <ul className="space-y-1 text-sm text-gray-600">
+              <ul className="space-y-1 text-sm text-gray-700">
                 <li>→ تحدي مؤقت لتجربة المنتج</li>
                 <li>→ نقاط مضاعفة × 3</li>
                 <li>→ دخول سحب حصري</li>
@@ -935,7 +935,7 @@ export function MainContent() {
               <div className="space-y-2 text-sm text-gray-700">
                 <p><strong>المشكلة:</strong> العملاء يشترون مرة واحدة فقط</p>
                 <p><strong>الحل المطبق:</strong></p>
-                <ul className="mr-4 space-y-1 text-gray-600">
+                <ul className="mr-4 space-y-1 text-gray-700">
                   <li>→ نظام مستويات: Silver / Gold / Diamond</li>
                   <li>→ كل مستوى له خصم دائم</li>
                   <li>→ تحدي شهري: اشترِ 2 عطور واحصل على عطر صغير مجاني</li>
@@ -949,7 +949,7 @@ export function MainContent() {
               <div className="space-y-2 text-sm text-gray-700">
                 <p><strong>المشكلة:</strong> مبيعات موسمية فقط</p>
                 <p><strong>الحل المطبق:</strong></p>
-                <ul className="mr-4 space-y-1 text-gray-600">
+                <ul className="mr-4 space-y-1 text-gray-700">
                   <li>→ تحديات موسمية (رمضان، العيد، الشتاء)</li>
                   <li>→ نقاط لا تنتهي صلاحيتها</li>
                   <li>→ برنامج إحالة بمكافأة 100 نقطة للطرفين</li>
@@ -963,7 +963,7 @@ export function MainContent() {
               <div className="space-y-2 text-sm text-gray-700">
                 <p><strong>المشكلة:</strong> منافسة سعرية شديدة</p>
                 <p><strong>الحل المطبق:</strong></p>
-                <ul className="mr-4 space-y-1 text-gray-600">
+                <ul className="mr-4 space-y-1 text-gray-700">
                   <li>→ نقاط على كل كيس قهوة</li>
                   <li>→ استبدال النقاط بأكياس مجانية</li>
                   <li>→ مستوى VIP: شحن مجاني دائم</li>
@@ -984,18 +984,18 @@ export function MainContent() {
             <div className="grid md:grid-cols-3 gap-4 mt-6">
               <div className="bg-white p-4 rounded-none text-center">
                 <p className="text-2xl font-bold text-blue-600 mb-1">3x</p>
-                <p className="text-sm text-gray-600">زيادة متوسطة في تكرار الشراء</p>
+                <p className="text-sm text-gray-700">زيادة متوسطة في تكرار الشراء</p>
               </div>
               <div className="bg-white p-4 rounded-none text-center">
                 <p className="text-2xl font-bold text-green-600 mb-1">25%</p>
-                <p className="text-sm text-gray-600">زيادة في متوسط قيمة الطلب</p>
+                <p className="text-sm text-gray-700">زيادة في متوسط قيمة الطلب</p>
               </div>
               <div className="bg-white p-4 rounded-none text-center">
                 <p className="text-2xl font-bold text-purple-600 mb-1">70%</p>
-                <p className="text-sm text-gray-600">تقليل في تكلفة اكتساب عملاء جدد</p>
+                <p className="text-sm text-gray-700">تقليل في تكلفة اكتساب عملاء جدد</p>
               </div>
             </div>
-            <p className="text-center mt-6 text-sm text-gray-600">
+            <p className="text-center mt-6 text-sm text-gray-700">
               ابدأ بسيط، وطوّر استراتيجيتك مع الوقت بناءً على بيانات عملائك الفعلية.
             </p>
           </div>

@@ -2,7 +2,7 @@
 
 :root {
   --font-size: 16px;
-  --background: #F7F7F7;
+  --background: #FAFAFA;
   --foreground: #000000;
   --card: #ffffff;
   --card-foreground: #000000;
@@ -10,34 +10,34 @@
   --popover-foreground: #000000;
   --primary: #3B82F6;
   --primary-foreground: #ffffff;
-  --secondary: #939393;
+  --secondary: #6B7280;
   --secondary-foreground: #000000;
-  --muted: #F7F7F7;
-  --muted-foreground: #939393;
+  --muted: #F9FAFB;
+  --muted-foreground: #6B7280;
   --accent: #3B82F6;
   --accent-foreground: #ffffff;
   --destructive: #d4183d;
   --destructive-foreground: #ffffff;
-  --border: transparent;
-  --input: transparent;
+  --border: #E5E7EB;
+  --input: #E5E7EB;
   --input-background: #ffffff;
   --switch-background: #cbced4;
   --font-weight-medium: 500;
   --font-weight-normal: 400;
   --ring: transparent;
   --chart-1: #3B82F6;
-  --chart-2: #939393;
+  --chart-2: #6B7280;
   --chart-3: #000000;
-  --chart-4: #F7F7F7;
+  --chart-4: #F9FAFB;
   --chart-5: #ffffff;
-  --radius: 9999px;
+  --radius: 8px;
   --sidebar: #ffffff;
   --sidebar-foreground: #000000;
   --sidebar-primary: #3B82F6;
   --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #F7F7F7;
+  --sidebar-accent: #F9FAFB;
   --sidebar-accent-foreground: #000000;
-  --sidebar-border: transparent;
+  --sidebar-border: #E5E7EB;
   --sidebar-ring: transparent;
 }
 
