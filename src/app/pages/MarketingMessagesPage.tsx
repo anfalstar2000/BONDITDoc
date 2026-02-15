@@ -1,4 +1,4 @@
-import { Mail, Send, Bell, MessageSquare, Award, CheckCircle2, Play, Lightbulb, Sparkles, TrendingUp, Shield, Edit3 } from 'lucide-react';
+import { Mail, Send, Bell, MessageSquare, Award, CheckCircle2, Lightbulb, Sparkles, TrendingUp, Shield, Edit3 } from 'lucide-react';
 export default function MarketingMessagesPage() {
  return (
  <div className="w-full">
@@ -357,18 +357,19 @@ export default function MarketingMessagesPage() {
  </div>
  </div>
  </div>
- {/* Video Placeholder */}
+ {/* Video Section */}
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors overflow-hidden my-8 not-prose">
- <div className="aspect-video bg-gray-50 flex items-center justify-center relative">
- <div className="text-center">
- <div className="size-20 bg-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-4">
- <Play className="size-10 text-white mr-[-4px]" />
- </div>
- <p className="text-black font-semibold text-lg">شرح فيديو: إعداد الرسائل التسويقية</p>
- <p className="text-gray-500 text-sm mt-2">سيتم إضافة الفيديو قريبًا</p>
- </div>
+ <div className="aspect-video w-full">
+ <iframe
+ className="w-full h-full"
+ src="https://www.youtube.com/embed/MeaGqVR8OZg"
+ title="شرح فيديو: إعداد الرسائل التسويقية"
+ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+ allowFullScreen
+ />
  </div>
  <div className="p-5 bg-white">
+ <p className="text-black font-semibold text-lg mb-2">شرح فيديو: إعداد الرسائل التسويقية</p>
  <p className="text-gray-500 text-sm text-center">
  شاهد شرح عملي خطوة بخطوة لإنشاء وتخصيص الرسائل التسويقية في متجرك
  </p>
