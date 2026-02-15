@@ -89,14 +89,14 @@ export default function AIAssistantPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-lg p-5">
+ <div className="bg-gray-50 rounded p-5">
  <p className="text-black font-semibold mb-3">النتيجة:</p>
  <p className="text-black">
  ويقوم المساعد باقتراح وصف احترافي مناسب للبيع الإلكتروني.
  </p>
  </div>
 
- <div className="bg-gray-50 rounded-lg p-5">
+ <div className="bg-gray-50 rounded p-5">
  <p className="font-semibold mb-3 text-black"> هذا مفيد إذا كنت:</p>
  <div className="space-y-2 text-sm">
  <div className="flex items-start gap-2">
@@ -141,7 +141,7 @@ export default function AIAssistantPage() {
  <p className="text-black">اقتراح كلمات مفتاحية</p>
  </div>
 
- <div className="bg-gray-50 rounded-lg p-4">
+ <div className="bg-gray-50 rounded p-4">
  <p className="font-semibold text-black"> الهدف:</p>
  <p className="text-black text-sm">
  دعم ظهور متجرك في نتائج البحث بطريقة منظمة.
@@ -177,7 +177,7 @@ export default function AIAssistantPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-lg p-4">
+ <div className="bg-gray-50 rounded p-4">
  <p className="text-black text-sm">
  يمكنك إدخال فكرة بسيطة ويقوم المساعد بإعادة صياغتها بشكل أكثر جاذبية.
  </p>
@@ -214,7 +214,7 @@ export default function AIAssistantPage() {
  <p className="text-black">اقتراح حملات موسمية.</p>
  </div>
 
- <div className="bg-gray-50 rounded-lg p-4">
+ <div className="bg-gray-50 rounded p-4">
  <p className="text-black text-sm">
  هذا يوفر عليك الوقت والجهد في التفكير الإبداعي.
  </p>
@@ -313,7 +313,7 @@ export default function AIAssistantPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-lg p-4 mt-4">
+ <div className="bg-gray-50 rounded p-4 mt-4">
  <p className="text-black text-sm">
  في الباقات الأعلى، قد يكون هناك حد أعلى لعدد الطلبات الشهرية.
  </p>

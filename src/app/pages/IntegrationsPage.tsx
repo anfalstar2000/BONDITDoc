@@ -51,7 +51,7 @@ export default function IntegrationsPage() {
  <p className="text-black">تحديث البيانات بشكل مستمر.</p>
  </div>
 
- <div className="bg-gray-50 rounded-lg p-4">
+ <div className="bg-gray-50 rounded p-4">
  <p className="font-semibold text-black"> ملاحظة:</p>
  <p className="text-black text-sm">
  يُعد تفعيل التكامل خطوة أساسية لتشغيل معظم مزايا النظام.
@@ -129,7 +129,7 @@ export default function IntegrationsPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-lg p-4 mt-4">
+ <div className="bg-gray-50 rounded p-4 mt-4">
  <p className="font-semibold text-black">🧠 كيف يعمل؟</p>
  <p className="text-black text-sm">
  يعمل المساعد بناءً على بيانات متجرك بالإضافة إلى البرومبت الذي تكتبه.

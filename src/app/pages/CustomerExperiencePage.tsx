@@ -69,7 +69,7 @@ export default function CustomerExperiencePage() {
  <p className="text-black italic mb-3">
  "حلو، كل عملية شراء تعطيني نقاط. خلني أتابع كم أجمع."
  </p>
- <div className="bg-gray-50 rounded-lg p-3">
+ <div className="bg-gray-50 rounded p-3">
  <p className="text-sm text-black font-semibold">
  النتيجة: أصبح لديه سبب للعودة.
  </p>
@@ -106,7 +106,7 @@ export default function CustomerExperiencePage() {
  <p className="text-black italic mb-3">
  "باقي لي عدد بسيط من النقاط وأوصل للمكافأة."
  </p>
- <div className="bg-gray-50 rounded-lg p-3">
+ <div className="bg-gray-50 rounded p-3">
  <p className="text-sm text-black font-semibold">
  النتيجة: يبدأ يفكر في الطلب التالي من نفس المتجر بدل البحث عن منافس.
  </p>
@@ -147,7 +147,7 @@ export default function CustomerExperiencePage() {
  </div>
 
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-5">
- <div className="bg-gray-50 rounded-lg p-3">
+ <div className="bg-gray-50 rounded p-3">
  <p className="text-sm text-black font-semibold">
  النتيجة: ارتفاع متوسط الطلب بطريقة طبيعية.
  </p>
@@ -195,7 +195,7 @@ export default function CustomerExperiencePage() {
  <p className="text-black italic mb-3">
  "رجعت اشتريت واستفدت من نقاطي."
  </p>
- <div className="bg-gray-50 rounded-lg p-3">
+ <div className="bg-gray-50 rounded p-3">
  <p className="text-sm text-black font-semibold">
  النتيجة: دورة شراء جديدة تبدأ.
  </p>
@@ -249,7 +249,7 @@ export default function CustomerExperiencePage() {
  <h2 id="what-changed">ماذا تغيّر في الرحلة؟</h2>
 
  <div className="grid md:grid-cols-2 gap-6 my-8 not-prose">
- <div className="bg-gray-50 rounded-lg p-6">
+ <div className="bg-gray-50 rounded p-6">
  <h3 className="text-lg font-bold text-black mb-4">قبل برنامج الولاء:</h3>
  <div className="space-y-3">
  <div className="flex items-start gap-2 text-gray-500">
@@ -304,7 +304,7 @@ export default function CustomerExperiencePage() {
  <p className="text-black font-semibold text-lg mb-6">
  هي نظام يبني تكرار الشراء تدريجيًا، دون الحاجة لخصومات عشوائية مستمرة.
  </p>
- <div className="bg-gray-50 rounded-lg p-5">
+ <div className="bg-gray-50 rounded p-5">
  <p className="text-black mb-2">
  وأنت لا تحتاج إدارة يومية معقدة.
  </p>

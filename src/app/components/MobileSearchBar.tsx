@@ -80,7 +80,7 @@ export function MobileSearchBar({ onNavigate }: MobileSearchBarProps) {
       </div>
 
       {results.length > 0 && (
-        <div className="mt-2 bg-gray-50 rounded-lg border border-gray-200">
+        <div className="mt-2 bg-gray-50 rounded border border-gray-200">
           {results.map((result, index) => (
             <button
               key={index}

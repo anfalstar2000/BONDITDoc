@@ -119,7 +119,7 @@ export default function CustomersPage() {
  <p className="text-black">آخر نشاط.</p>
  </div>
 
- <div className="bg-gray-50 rounded-lg p-4">
+ <div className="bg-gray-50 rounded p-4">
  <p className="font-semibold text-black">🔍 إمكانية البحث:</p>
  <p className="text-black text-sm">
  يمكنك البحث عن أي عميل والدخول إلى ملفه التفصيلي.
@@ -161,7 +161,7 @@ export default function CustomersPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-lg p-4 mt-4">
+ <div className="bg-gray-50 rounded p-4 mt-4">
  <p className="font-semibold text-black"> تعديل يدوي:</p>
  <p className="text-black text-sm">
  كما يمكنك تعديل النقاط يدويًا عند الحاجة (لأغراض الدعم أو التصحيح).
@@ -282,7 +282,7 @@ export default function CustomersPage() {
  <h3 className="text-2xl font-bold text-black">استخدم البيانات بذكاء</h3>
  </div>
  
- <div className="bg-gray-50 rounded-lg p-6">
+ <div className="bg-gray-50 rounded p-6">
  <div className="space-y-4">
  <div className="flex items-start gap-3">
  <div className="size-8 shrink-0 bg-[#3B82F6] rounded-none flex items-center justify-center">

@@ -224,7 +224,7 @@ export default function WhyLoyaltyPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-lg p-6 space-y-3">
+ <div className="bg-gray-50 rounded p-6 space-y-3">
  <p className="text-black">
  العميل يعرف أن كل طلب يقربه من مكافأة.
  </p>
