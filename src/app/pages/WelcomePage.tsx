@@ -18,7 +18,7 @@ export default function WelcomePage() {
  وبناء علاقة طويلة المدى مع عملائك.
  </p>
 
- <div className="bg-white rounded-none border border-gray-200 p-6 my-6">
+ <div className="bg-white rounded-lg border border-gray-200 p-6 my-6">
  <p className="text-black font-semibold mb-2"> الفكرة الأساسية:</p>
  <p className="text-black">
  لا يعتمد النظام على الخصومات العشوائية، بل يمنحك أدوات منظمة لتحفيز العملاء
@@ -30,7 +30,7 @@ export default function WelcomePage() {
  <p>من خلال النظام يمكنك:</p>
 
  <div className="grid md:grid-cols-2 gap-6 my-8 not-prose">
- <div className="p-6 bg-white rounded-none border border-gray-200">
+ <div className="p-6 bg-white rounded-lg border border-gray-200">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mb-4">
  <Gift className="size-6 text-white" />
  </div>
@@ -42,7 +42,7 @@ export default function WelcomePage() {
  </p>
  </div>
 
- <div className="p-6 bg-white rounded-none border border-gray-200">
+ <div className="p-6 bg-white rounded-lg border border-gray-200">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mb-4">
  <TrendingUp className="size-6 text-white" />
  </div>
@@ -54,7 +54,7 @@ export default function WelcomePage() {
  </p>
  </div>
 
- <div className="p-6 bg-white rounded-none border border-gray-200">
+ <div className="p-6 bg-white rounded-lg border border-gray-200">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mb-4">
  <Target className="size-6 text-white" />
  </div>
@@ -66,7 +66,7 @@ export default function WelcomePage() {
  </p>
  </div>
 
- <div className="p-6 bg-white rounded-none border border-gray-200">
+ <div className="p-6 bg-white rounded-lg border border-gray-200">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mb-4">
  <UserPlus className="size-6 text-white" />
  </div>
@@ -78,7 +78,7 @@ export default function WelcomePage() {
  </p>
  </div>
 
- <div className="p-6 bg-white rounded-none border border-gray-200">
+ <div className="p-6 bg-white rounded-lg border border-gray-200">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mb-4">
  <Zap className="size-6 text-white" />
  </div>
@@ -90,7 +90,7 @@ export default function WelcomePage() {
  </p>
  </div>
 
- <div className="p-6 bg-white rounded-none border border-gray-200">
+ <div className="p-6 bg-white rounded-lg border border-gray-200">
  <div className="size-12 bg-[#3B82F6] rounded-full flex items-center justify-center mb-4">
  <Lightbulb className="size-6 text-white" />
  </div>
@@ -108,7 +108,7 @@ export default function WelcomePage() {
  الحصول على عميل جديد يكلفك أكثر من الاحتفاظ بعميل حالي.
  </p>
 
- <div className="bg-white rounded-none border border-gray-200 p-6 my-6">
+ <div className="bg-white rounded-lg border border-gray-200 p-6 my-6">
  <p className="text-black font-semibold mb-2">⚠ حقيقة مهمة:</p>
  <p className="text-black">
  تكلفة جذب عميل جديد أعلى بكثير من تكلفة الاحتفاظ بعميل حالي.
@@ -119,19 +119,19 @@ export default function WelcomePage() {
  <p className="font-semibold text-black">برنامج الولاء يساعدك على:</p>
 
  <div className="grid md:grid-cols-2 gap-4 my-6 not-prose">
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200">
  <div className="size-6 bg-[#3B82F6] rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0"></div>
  <span className="text-black">تشجيع العملاء على العودة مرة أخرى</span>
  </div>
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200">
  <div className="size-6 bg-[#3B82F6] rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0"></div>
  <span className="text-black">رفع متوسط قيمة الطلب</span>
  </div>
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200">
  <div className="size-6 bg-[#3B82F6] rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0"></div>
  <span className="text-black">مكافأة العملاء الأكثر شراءً</span>
  </div>
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200">
  <div className="size-6 bg-[#3B82F6] rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0"></div>
  <span className="text-black">خلق سبب دائم للرجوع إلى متجرك</span>
  </div>
@@ -142,7 +142,7 @@ export default function WelcomePage() {
  الفكرة بسيطة، لكن النتائج استراتيجية:
  </p>
 
- <div className="bg-white rounded-none border border-gray-200 p-6 my-6">
+ <div className="bg-white rounded-lg border border-gray-200 p-6 my-6">
  <div className="space-y-3 text-black">
  <div className="flex items-start gap-3">
  <div className="size-6 bg-[#3B82F6] rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0">1</div>
@@ -170,7 +170,7 @@ export default function WelcomePage() {
  <li>مكافأته عند دعوة أصدقائه</li>
  </ul>
 
- <div className="bg-white rounded-none border border-gray-200 p-4 my-6">
+ <div className="bg-white rounded-lg border border-gray-200 p-4 my-6">
  <p className="text-sm text-black font-semibold mb-2"> مميز:</p>
  <p className="text-sm text-black">
  كل ذلك يتم بشكل تلقائي داخل النظام.
@@ -180,7 +180,7 @@ export default function WelcomePage() {
  <h2 id="example">مثال عملي</h2>
  <p>لنفترض أنك حددت:</p>
 
- <div className="bg-white rounded-none border border-gray-200 p-6 my-6">
+ <div className="bg-white rounded-lg border border-gray-200 p-6 my-6">
  <div className="space-y-4 mb-6">
  <div className="flex items-center justify-between p-4 bg-gray-50 rounded-none">
  <span className="text-black">معدل النقاط</span>
@@ -192,7 +192,7 @@ export default function WelcomePage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-6">
+ <div className="bg-gray-50 rounded-lg p-6">
  <p className="text-black font-semibold mb-3"> النتيجة:</p>
  <p className="text-black">
  عند إنفاق العميل <strong>1000 ريال</strong>، يحصل على خصم <strong>50 ريال</strong> يشجعه للعودة مرة أخرى.
@@ -216,7 +216,7 @@ export default function WelcomePage() {
  <p className="text-white/80 mb-6">
  ابدأ بتفعيل برنامج النقاط، ثم انتقل لبناء مستويات أو إطلاق أول تحدي.
  </p>
- <button className="px-6 py-3 bg-white rounded-none border border-gray-200 text-[#3B82F6] font-semibold hover:bg-gray-50 transition-colors">
+ <button className="px-6 py-3 bg-white rounded-lg border border-gray-200 text-[#3B82F6] font-semibold hover:bg-gray-50 transition-colors">
  ابدأ الآن
  </button>
  </div>

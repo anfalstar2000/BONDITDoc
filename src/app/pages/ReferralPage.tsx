@@ -51,7 +51,7 @@ export default function ReferralPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4 mt-4">
+ <div className="bg-gray-50 rounded-lg p-4 mt-4">
  <p className="font-semibold text-center text-black">
  يمكنك أيضًا منح مكافأة للعميل الجديد لزيادة معدل التحويل.
  </p>
@@ -99,7 +99,7 @@ export default function ReferralPage() {
  <p className="text-white/80">يمكنك تحديد المكافأة التي يحصل عليها العميل عند نجاح الإحالة.</p>
  </div>
  <div className="p-6 space-y-4">
- <div className="bg-gray-50 rounded-none p-5">
+ <div className="bg-gray-50 rounded-lg p-5">
  <p className="text-black font-semibold mb-3">أنواع المكافآت الممكنة:</p>
  <div className="space-y-2">
  <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
@@ -121,7 +121,7 @@ export default function ReferralPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4">
+ <div className="bg-gray-50 rounded-lg p-4">
  <p className="font-semibold text-black"> تلقائي:</p>
  <p className="text-black text-sm">
  المكافأة يتم إصدارها تلقائيًا عند تحقق الشروط.
@@ -155,7 +155,7 @@ export default function ReferralPage() {
  <p className="text-black">بعد حد أدنى لقيمة الطلب.</p>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4">
+ <div className="bg-gray-50 rounded-lg p-4">
  <p className="font-semibold text-black"> حماية:</p>
  <p className="text-black text-sm">
  هذا يمنع استغلال النظام دون تحقيق مبيعات فعلية.
@@ -177,17 +177,17 @@ export default function ReferralPage() {
  </div>
  <div className="p-6 space-y-4">
  <div className="grid md:grid-cols-2 gap-4">
- <div className="bg-gray-50 rounded-none p-5 text-center">
+ <div className="bg-gray-50 rounded-lg p-5 text-center">
  <Award className="size-8 text-[#3B82F6] mx-auto mb-3" />
  <p className="text-black font-semibold">منح خصم ترحيبي</p>
  </div>
- <div className="bg-gray-50 rounded-none p-5 text-center">
+ <div className="bg-gray-50 rounded-lg p-5 text-center">
  <Gift className="size-8 text-[#3B82F6] mx-auto mb-3" />
  <p className="text-black font-semibold">نقاط بداية عند التسجيل</p>
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4">
+ <div className="bg-gray-50 rounded-lg p-4">
  <p className="font-semibold text-center text-black">
  بهذا يصبح العرض جذابًا للطرفين.
  </p>
@@ -298,7 +298,7 @@ export default function ReferralPage() {
  <h4 className="text-lg font-bold text-black mb-4 text-center">سيناريو كامل</h4>
  
  <div className="space-y-4">
- <div className="bg-gray-50 rounded-none p-5">
+ <div className="bg-gray-50 rounded-lg p-5">
  <div className="flex items-center gap-3 mb-3">
  <div className="size-8 bg-[#3B82F6] rounded-full flex items-center justify-center text-white font-bold">1</div>
  <p className="text-black font-semibold">عميل حالي يشارك رابطه</p>
@@ -306,7 +306,7 @@ export default function ReferralPage() {
  <p className="text-gray-500 text-sm">أحمد (عميل حالي) يحصل على رابط إحالة خاص من لوحة الولاء.</p>
  </div>
 
- <div className="bg-gray-50 rounded-none p-5">
+ <div className="bg-gray-50 rounded-lg p-5">
  <div className="flex items-center gap-3 mb-3">
  <div className="size-8 bg-[#3B82F6] rounded-full flex items-center justify-center text-white font-bold">2</div>
  <p className="text-black font-semibold">صديقه يستخدم الرابط</p>
@@ -314,7 +314,7 @@ export default function ReferralPage() {
  <p className="text-gray-500 text-sm">خالد (صديق أحمد) يدخل المتجر عبر رابط الإحالة.</p>
  </div>
 
- <div className="bg-gray-50 rounded-none p-5">
+ <div className="bg-gray-50 rounded-lg p-5">
  <div className="flex items-center gap-3 mb-3">
  <div className="size-8 bg-[#3B82F6] rounded-full flex items-center justify-center text-white font-bold">3</div>
  <p className="text-black font-semibold">يحصل على خصم ترحيبي</p>
@@ -322,7 +322,7 @@ export default function ReferralPage() {
  <p className="text-gray-500 text-sm">خالد يحصل على 10% خصم على أول طلب.</p>
  </div>
 
- <div className="bg-gray-50 rounded-none p-5">
+ <div className="bg-gray-50 rounded-lg p-5">
  <div className="flex items-center gap-3 mb-3">
  <div className="size-8 bg-[#3B82F6] rounded-full flex items-center justify-center text-white font-bold">4</div>
  <p className="text-black font-semibold">إتمام الطلب</p>
@@ -349,7 +349,7 @@ export default function ReferralPage() {
  </div>
  
  <div className="grid md:grid-cols-2 gap-4">
- <div className="bg-gray-50 rounded-none p-5">
+ <div className="bg-gray-50 rounded-lg p-5">
  <p className="text-black font-semibold mb-3">الإعلانات التقليدية</p>
  <div className="space-y-2 text-sm text-black">
  <p>• تكلفة النقرة: 2-5 ريال</p>
@@ -368,7 +368,7 @@ export default function ReferralPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4 mt-4">
+ <div className="bg-gray-50 rounded-lg p-4 mt-4">
  <p className="text-black text-sm text-center font-semibold">
  برنامج الإحالة يوفر 50-70% من تكلفة الاكتساب
  </p>

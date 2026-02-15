@@ -13,7 +13,7 @@ export default function SuccessStoriesPage() {
  </div>
 
  <div className="prose prose-lg max-w-none">
- <div className="bg-white rounded-none border border-gray-200 p-6 my-8 not-prose">
+ <div className="bg-white rounded-lg border border-gray-200 p-6 my-8 not-prose">
  <p className="text-black text-lg">
  نوفر لك ثلاث باقات مصممة لتناسب احتياجات متجرك حسب حجم النشاط وعدد الطلبات الشهرية.
  اختار الباقة اللي تناسب طموحاتك، وترقّى وقتما تحتاج!
@@ -25,7 +25,7 @@ export default function SuccessStoriesPage() {
  {/* Pricing Cards */}
  <div className="grid md:grid-cols-3 gap-6 my-8 not-prose">
  {/* Lite Plan */}
- <div className="bg-white rounded-none border border-gray-200 overflow-hidden">
+ <div className="bg-white rounded-lg border border-gray-200 overflow-hidden">
  <div className="bg-white p-6">
  <div className="inline-block bg-gray-50 rounded-none text-black px-4 py-1 text-sm font-semibold mb-4">
  متاجر صغيرة
@@ -42,7 +42,7 @@ export default function SuccessStoriesPage() {
  </div>
 
  <div className="p-6">
- <div className="bg-gray-50 rounded-none p-4 mb-6 text-center">
+ <div className="bg-gray-50 rounded-lg p-4 mb-6 text-center">
  <p className="text-sm text-gray-500 mb-1">ونش نقدم لك فيها:</p>
  <p className="text-2xl font-bold text-black">250 طلب شهرياً</p>
  </div>
@@ -102,7 +102,7 @@ export default function SuccessStoriesPage() {
  </div>
 
  {/* Plus Plan - Recommended */}
- <div className="bg-white rounded-none border border-gray-200 overflow-hidden relative">
+ <div className="bg-white rounded-lg border border-gray-200 overflow-hidden relative">
  <div className="bg-[#3B82F6] p-6 text-white">
  <div className="inline-block bg-white/20 rounded-none text-white px-4 py-1 text-sm font-semibold mb-4">
  ننصح بها
@@ -119,7 +119,7 @@ export default function SuccessStoriesPage() {
  </div>
 
  <div className="p-6">
- <div className="bg-gray-50 rounded-none p-4 mb-6 text-center">
+ <div className="bg-gray-50 rounded-lg p-4 mb-6 text-center">
  <p className="text-sm text-gray-500 mb-1">ونش نقدم لك فيها:</p>
  <p className="text-2xl font-bold text-black">1,000 طلب شهرياً</p>
  </div>
@@ -171,7 +171,7 @@ export default function SuccessStoriesPage() {
  </div>
 
  {/* Pro Plan */}
- <div className="bg-white rounded-none border border-gray-200 overflow-hidden">
+ <div className="bg-white rounded-lg border border-gray-200 overflow-hidden">
  <div className="bg-white p-6">
  <div className="inline-block bg-gray-50 rounded-none text-black px-4 py-1 text-sm font-semibold mb-4">
  متاجر كبيرة
@@ -188,7 +188,7 @@ export default function SuccessStoriesPage() {
  </div>
 
  <div className="p-6">
- <div className="bg-gray-50 rounded-none p-4 mb-6 text-center">
+ <div className="bg-gray-50 rounded-lg p-4 mb-6 text-center">
  <p className="text-sm text-gray-500 mb-1">ونش نقدم لك فيها:</p>
  <p className="text-2xl font-bold text-black">5,000 طلب شهرياً</p>
  </div>
@@ -417,7 +417,7 @@ export default function SuccessStoriesPage() {
  </div>
  </div>
 
- <div className="bg-gradient-to-br from-[#3B82F6] to-[#2563EB] text-white p-10 my-8 not-prose rounded-none">
+ <div className="bg-gradient-to-br from-[#3B82F6] to-[#2563EB] text-white p-10 my-8 not-prose rounded-lg">
  <h3 className="text-3xl font-bold mb-4">محتار؟ نساعدك! </h3>
  <p className="text-white/90 text-lg mb-6">
  إذا ما زلت محتار أي باقة تناسبك، فريق الدعم جاهز لمساعدتك في اختيار الباقة المثالية بناءً على حجم متجرك وأهدافك.

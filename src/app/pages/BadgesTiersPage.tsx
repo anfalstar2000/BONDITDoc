@@ -126,7 +126,7 @@ export default function BadgesTiersPage() {
  <p className="text-black">طريقة احتساب الترقية.</p>
  </div>
 
- <div className="bg-gray-50 rounded-none p-5 mt-4">
+ <div className="bg-gray-50 rounded-lg p-5 mt-4">
  <p className="text-black font-semibold mb-4">طرق احتساب الترقية المتاحة</p>
  <p className="text-black mb-3">يمكنك اختيار الترقية بناءً على:</p>
  <div className="space-y-2 mb-4">
@@ -168,7 +168,7 @@ export default function BadgesTiersPage() {
  <p className="text-white/80">في هذه الخطوة تحدد الشرط الذي يجب أن يحققه العميل ليتم ترقيته تلقائيًا.</p>
  </div>
  <div className="p-6 space-y-4">
- <div className="bg-gray-50 rounded-none p-5">
+ <div className="bg-gray-50 rounded-lg p-5">
  <p className="text-black font-semibold mb-3">أمثلة:</p>
  <div className="space-y-3">
  <div className="flex items-start gap-3 p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
@@ -186,7 +186,7 @@ export default function BadgesTiersPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4">
+ <div className="bg-gray-50 rounded-lg p-4">
  <p className="font-semibold text-black"> تلقائي بالكامل:</p>
  <p className="text-black text-sm">
  عند تحقيق الشرط، يتم نقل العميل تلقائيًا دون تدخل يدوي.
@@ -235,7 +235,7 @@ export default function BadgesTiersPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4">
+ <div className="bg-gray-50 rounded-lg p-4">
  <p className="text-black text-sm">
  تظهر هذه المزايا داخل تجربة العميل، مما يعزز شعوره بالتقدير والانتماء.
  </p>
@@ -271,7 +271,7 @@ export default function BadgesTiersPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4">
+ <div className="bg-gray-50 rounded-lg p-4">
  <p className="font-semibold mb-2 text-black"> الهدف من الرسالة:</p>
  <p className="text-black text-sm">
  تعزيز الشعور بالإنجاز وتشجيع الاستمرار.
@@ -363,7 +363,7 @@ export default function BadgesTiersPage() {
  </div>
  </div>
 
- <div className="mt-6 bg-gray-50 rounded-none p-5">
+ <div className="mt-6 bg-gray-50 rounded-lg p-5">
  <p className="text-black font-semibold mb-3">بهذا الأسلوب:</p>
  <div className="space-y-2 text-black">
  <div className="flex items-start gap-2">

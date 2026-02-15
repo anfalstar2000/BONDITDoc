@@ -131,7 +131,7 @@ export default function SettingsPage() {
  <p className="text-black">روابط سياسة الخصوصية وشروط الخدمة.</p>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4">
+ <div className="bg-gray-50 rounded-lg p-4">
  <p className="font-semibold text-black"> الهدف:</p>
  <p className="text-black text-sm">
  يساعد هذا القسم على ضبط هوية الشركة وطريقة عرض البيانات داخل النظام.
@@ -181,7 +181,7 @@ export default function SettingsPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4 mt-4">
+ <div className="bg-gray-50 rounded-lg p-4 mt-4">
  <p className="font-semibold text-black"> تحديث مستمر:</p>
  <p className="text-black text-sm">
  يمكنك تحديث بياناتك في أي وقت لضمان صحة معلومات التواصل.
@@ -285,7 +285,7 @@ export default function SettingsPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4 mt-4">
+ <div className="bg-gray-50 rounded-lg p-4 mt-4">
  <p className="font-semibold text-black"> تحكم كامل:</p>
  <p className="text-black text-sm">
  يمكن تفعيل أو إيقاف كل نوع حسب تفضيلك.
@@ -352,7 +352,7 @@ export default function SettingsPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4">
+ <div className="bg-gray-50 rounded-lg p-4">
  <p className="font-semibold text-black"> التنظيم:</p>
  <p className="text-black text-sm">
  يساعد هذا في تنظيم العمل وتوزيع المسؤوليات.
@@ -402,7 +402,7 @@ export default function SettingsPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4 mt-4">
+ <div className="bg-gray-50 rounded-lg p-4 mt-4">
  <p className="font-semibold text-black"> المتابعة:</p>
  <p className="text-black text-sm">
  كما يمكنك متابعة استهلاك الخدمات المختلفة داخل خطتك.

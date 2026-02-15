@@ -58,7 +58,7 @@ export default function MarketingMessagesPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4 mt-4">
+ <div className="bg-gray-50 rounded-lg p-4 mt-4">
  <p className="font-semibold text-center text-black">
  كل رسالة يمكن تخصيصها لتناسب هوية متجرك.
  </p>
@@ -135,7 +135,7 @@ export default function MarketingMessagesPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4">
+ <div className="bg-gray-50 rounded-lg p-4">
  <p className="font-semibold text-black"> ملاحظة مهمة:</p>
  <p className="text-black text-sm">
  كل رسالة تعمل عند تحقق الحدث المرتبط بها فقط.
@@ -171,7 +171,7 @@ export default function MarketingMessagesPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-5">
+ <div className="bg-gray-50 rounded-lg p-5">
  <div className="flex items-center gap-2 mb-4">
  <Sparkles className="size-5 text-[#3B82F6]" />
  <p className="text-black font-semibold">أمثلة للعناصر الديناميكية:</p>
@@ -198,7 +198,7 @@ export default function MarketingMessagesPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4">
+ <div className="bg-gray-50 rounded-lg p-4">
  <p className="text-black text-sm">
  هذه العناصر تُملأ تلقائيًا ببيانات حقيقية عند إرسال الرسالة، مما يعطي طابعًا شخصيًا.
  </p>
@@ -218,14 +218,14 @@ export default function MarketingMessagesPage() {
  <p className="text-white/80">رسالة ترقية مستوى:</p>
  </div>
  <div className="p-6 space-y-4">
- <div className="bg-gray-50 rounded-none p-5">
+ <div className="bg-gray-50 rounded-lg p-5">
  <p className="text-black font-semibold mb-3">العنوان:</p>
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-4">
  <p className="text-black"> مبروك! وصلت لمستوى جديد</p>
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-5">
+ <div className="bg-gray-50 rounded-lg p-5">
  <p className="text-black font-semibold mb-3">النص:</p>
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-4">
  <p className="text-black leading-relaxed">
@@ -237,7 +237,7 @@ export default function MarketingMessagesPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4">
+ <div className="bg-gray-50 rounded-lg p-4">
  <p className="text-black text-sm">
  الكلمات بين [] سيتم استبدالها تلقائيًا ببيانات العميل الحقيقية.
  </p>

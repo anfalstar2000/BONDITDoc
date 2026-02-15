@@ -51,7 +51,7 @@ export default function ChallengesPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4 mt-4">
+ <div className="bg-gray-50 rounded-lg p-4 mt-4">
  <p className="font-semibold text-center text-black">
  عند تحقيق الهدف، يحصل العميل على نقاط إضافية أو مكافأة محددة.
  </p>
@@ -106,16 +106,16 @@ export default function ChallengesPage() {
  </div>
  <div className="p-6 space-y-5">
  {/* Title */}
- <div className="bg-gray-50 rounded-none p-5">
+ <div className="bg-gray-50 rounded-lg p-5">
  <h5 className="text-black font-bold mb-3">عنوان التحدي</h5>
  <p className="text-black mb-3">اسم واضح ومباشر يشرح المطلوب.</p>
  
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-4 mb-3">
  <p className="text-black font-semibold mb-2">أمثلة:</p>
  <div className="space-y-2">
- <div className="bg-gray-50 rounded-none p-3 text-black">أكمل 3 طلبات</div>
- <div className="bg-gray-50 rounded-none p-3 text-black">أنفق 2000 ريال</div>
- <div className="bg-gray-50 rounded-none p-3 text-black">تحدي الإطلاق الجديد</div>
+ <div className="bg-gray-50 rounded-lg p-3 text-black">أكمل 3 طلبات</div>
+ <div className="bg-gray-50 rounded-lg p-3 text-black">أنفق 2000 ريال</div>
+ <div className="bg-gray-50 rounded-lg p-3 text-black">تحدي الإطلاق الجديد</div>
  </div>
  </div>
 
@@ -125,7 +125,7 @@ export default function ChallengesPage() {
  </div>
 
  {/* Type */}
- <div className="bg-gray-50 rounded-none p-5">
+ <div className="bg-gray-50 rounded-lg p-5">
  <h5 className="text-black font-bold mb-3">نوع التحدي</h5>
  <p className="text-black mb-3">تحدد هنا طريقة احتساب التقدم، مثل:</p>
  
@@ -150,7 +150,7 @@ export default function ChallengesPage() {
  </div>
 
  {/* Description */}
- <div className="bg-gray-50 rounded-none p-5">
+ <div className="bg-gray-50 rounded-lg p-5">
  <h5 className="text-black font-bold mb-3">الوصف</h5>
  <p className="text-black">
  نص مختصر يشرح التحدي والمكافأة بشكل أوضح للعميل.
@@ -171,7 +171,7 @@ export default function ChallengesPage() {
  <p className="text-white/80">هنا تحدد الشرط المطلوب والمكافأة التي يحصل عليها العميل.</p>
  </div>
  <div className="p-6 space-y-4">
- <div className="bg-gray-50 rounded-none p-5">
+ <div className="bg-gray-50 rounded-lg p-5">
  <p className="text-black font-semibold mb-3">الهدف المطلوب</p>
  <p className="text-black mb-3">مثال:</p>
  <div className="space-y-2">
@@ -186,7 +186,7 @@ export default function ChallengesPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-5">
+ <div className="bg-gray-50 rounded-lg p-5">
  <p className="text-black font-semibold mb-3">المكافأة</p>
  <p className="text-black mb-3">يمكنك منح:</p>
  <div className="space-y-2">
@@ -228,7 +228,7 @@ export default function ChallengesPage() {
  <p className="text-black">تاريخ النهاية.</p>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4 mt-4">
+ <div className="bg-gray-50 rounded-lg p-4 mt-4">
  <p className="text-black text-sm">
  ⏱ اختر مدة مناسبة: لا قصيرة جدًا ولا طويلة جدًا. المدة المثالية غالبًا بين أسبوع وشهر.
  </p>
@@ -264,7 +264,7 @@ export default function ChallengesPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4">
+ <div className="bg-gray-50 rounded-lg p-4">
  <p className="text-black text-sm">
  استهداف دقيق يعني نتائج أفضل وتكلفة أقل.
  </p>

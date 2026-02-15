@@ -42,7 +42,7 @@ export default function ProgramTypesPage() {
  يمكن استبدال النقاط بمكافآت على شكل كوبونات.
  </p>
 
- <div className="bg-gray-50 rounded-none p-5 mb-4">
+ <div className="bg-gray-50 rounded-lg p-5 mb-4">
  <p className="font-semibold text-black mb-3">متى تستخدمها؟</p>
  <div className="space-y-2">
  <div className="flex items-start gap-2 text-black">
@@ -60,7 +60,7 @@ export default function ProgramTypesPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4">
+ <div className="bg-gray-50 rounded-lg p-4">
  <p className="font-semibold mb-2 text-black">لماذا تعتبر الأساس؟</p>
  <p className="text-black text-sm">
  لأنها تربط كل عملية شراء بمكافأة مستقبلية، مما يمنح العميل سببًا دائمًا للعودة.
@@ -97,11 +97,11 @@ export default function ProgramTypesPage() {
  </div>
  </div>
 
- <p className="text-sm text-gray-500 mb-4 bg-gray-50 rounded-none p-3">
+ <p className="text-sm text-gray-500 mb-4 bg-gray-50 rounded-lg p-3">
  كل مستوى يمنح مزايا إضافية.
  </p>
 
- <div className="bg-gray-50 rounded-none p-5 mb-4">
+ <div className="bg-gray-50 rounded-lg p-5 mb-4">
  <p className="font-semibold text-black mb-3">متى تستخدمها؟</p>
  <div className="space-y-2">
  <div className="flex items-start gap-2 text-black">
@@ -119,7 +119,7 @@ export default function ProgramTypesPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4">
+ <div className="bg-gray-50 rounded-lg p-4">
  <p className="font-semibold mb-2 text-black">الهدف منها</p>
  <p className="text-black text-sm">
  تحفيز العملاء على الوصول للمستوى التالي وزيادة إنفاقهم تدريجيًا.
@@ -144,7 +144,7 @@ export default function ProgramTypesPage() {
  التحديات أداة مخصصة لحملات محددة بفترة زمنية.
  </p>
 
- <div className="bg-gray-50 rounded-none p-5 mb-4">
+ <div className="bg-gray-50 rounded-lg p-5 mb-4">
  <p className="font-semibold text-black mb-3">مثال:</p>
  <div className="space-y-2">
  <div className="flex items-start gap-2 text-black p-3 bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200">
@@ -158,7 +158,7 @@ export default function ProgramTypesPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-5 mb-4">
+ <div className="bg-gray-50 rounded-lg p-5 mb-4">
  <p className="font-semibold text-black mb-3">متى تستخدمها؟</p>
  <div className="space-y-2">
  <div className="flex items-start gap-2 text-black">
@@ -176,7 +176,7 @@ export default function ProgramTypesPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4">
+ <div className="bg-gray-50 rounded-lg p-4">
  <p className="font-semibold mb-2 text-black">الهدف منها</p>
  <p className="text-black text-sm">
  توجيه السلوك الشرائي نحو هدف محدد خلال فترة معينة.
@@ -202,7 +202,7 @@ export default function ProgramTypesPage() {
  عند إتمام أول طلب من شخص مدعو، يحصل على مكافأة.
  </p>
 
- <div className="bg-gray-50 rounded-none p-5 mb-4">
+ <div className="bg-gray-50 rounded-lg p-5 mb-4">
  <p className="font-semibold text-black mb-3">متى تستخدمه؟</p>
  <div className="space-y-2">
  <div className="flex items-start gap-2 text-black">
@@ -216,7 +216,7 @@ export default function ProgramTypesPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4">
+ <div className="bg-gray-50 rounded-lg p-4">
  <p className="font-semibold mb-2 text-black">الهدف منه</p>
  <p className="text-black text-sm">
  تحويل عملائك إلى مسوقين لك بطريقة طبيعية.
@@ -256,7 +256,7 @@ export default function ProgramTypesPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4">
+ <div className="bg-gray-50 rounded-lg p-4">
  <p className="font-semibold mb-2 text-black">الهدف منها</p>
  <p className="text-black text-sm">
  الحفاظ على تفاعل العميل وعدم نسيان متجرك.
@@ -301,7 +301,7 @@ export default function ProgramTypesPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4">
+ <div className="bg-gray-50 rounded-lg p-4">
  <p className="font-semibold mb-2 text-black">الهدف منه</p>
  <p className="text-black text-sm">
  دعمك تسويقيًا إلى جانب نظام الولاء.

@@ -55,7 +55,7 @@ export default function PointsRewardsPage() {
  <div className="bg-white rounded-none hover:bg-gray-50 transition-colors border border-gray-200 p-6 my-8 not-prose">
  <h4 className="text-lg font-bold text-black mb-4">مثال عملي</h4>
  
- <div className="bg-gray-50 rounded-none p-5 mb-4">
+ <div className="bg-gray-50 rounded-lg p-5 mb-4">
  <p className="text-black mb-3">إذا قمت بتحديد:</p>
  <p className="text-2xl font-bold text-[#3B82F6] text-center py-3">
  1 نقطة لكل 1 ريال
@@ -109,7 +109,7 @@ export default function PointsRewardsPage() {
  <p className="text-black mb-3">
  هذا خيار ذكي يمنع تضاعف التحفيز عندما تكون هناك تحديات تمنح نقاطًا إضافية، ويضمن عدم تراكم نقاط زائدة قد تؤثر على ربحية المتجر.
  </p>
- <div className="bg-gray-50 rounded-none p-3">
+ <div className="bg-gray-50 rounded-lg p-3">
  <p className="text-black text-sm font-semibold">
  هذا الخيار يحميك من تضخم النقاط خلال الحملات المكثفة
  </p>
@@ -193,7 +193,7 @@ export default function PointsRewardsPage() {
  <span className="size-6 shrink-0 bg-[#3B82F6] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
  <p className="text-black">عدد النقاط المطلوبة للاستبدال.</p>
  </div>
- <div className="bg-gray-50 rounded-none p-4 text-sm">
+ <div className="bg-gray-50 rounded-lg p-4 text-sm">
  <p className="font-semibold text-black"> ملاحظة مهمة:</p>
  <p className="text-black">يتم إصدار المكافأة على شكل كوبون للعميل بعد الاستبدال.</p>
  </div>
@@ -224,7 +224,7 @@ export default function PointsRewardsPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-5">
+ <div className="bg-gray-50 rounded-lg p-5">
  <p className="text-black font-semibold mb-3">مثال:</p>
  <div className="space-y-2 text-black">
  <div className="flex items-start gap-2">
@@ -263,7 +263,7 @@ export default function PointsRewardsPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4 text-sm">
+ <div className="bg-gray-50 rounded-lg p-4 text-sm">
  <p className="font-semibold mb-2 text-black"> متى يكون هذا مفيدًا؟</p>
  <p className="text-black">
  عندما ترغب بتوجيه الاستبدال نحو منتجات محددة، أو حماية منتجات هامش ربحها منخفض.
@@ -299,7 +299,7 @@ export default function PointsRewardsPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-none p-4 text-sm">
+ <div className="bg-gray-50 rounded-lg p-4 text-sm">
  <p className="font-semibold mb-2 text-black"> مرونة إضافية:</p>
  <p className="text-black">
  يمكنك إيقاف المكافأة مؤقتًا دون حذفها، ثم إعادة تفعيلها لاحقًا.

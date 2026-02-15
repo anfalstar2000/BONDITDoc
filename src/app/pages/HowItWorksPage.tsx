@@ -13,7 +13,7 @@ export default function HowItWorksPage() {
  </div>
 
  <div className="prose prose-lg max-w-none">
- <div className="bg-white rounded-none border border-gray-200 p-6 my-6">
+ <div className="bg-white rounded-lg border border-gray-200 p-6 my-6">
  <p className="text-black font-semibold mb-2"> نقطة مهمة:</p>
  <p className="text-black">
  تم تصميم BOND IT ليعمل بسلاسة بعد تثبيت التطبيق، دون الحاجة لأي تدخل يدوي في كل عملية.
@@ -37,20 +37,20 @@ export default function HowItWorksPage() {
  بعد تثبيت BOND IT من متجر تطبيقات سلة:
  </p>
  <div className="space-y-3 mb-4">
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span className="text-black">يتم ربط متجرك تلقائيًا بالنظام</span>
  </div>
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span className="text-black">يتم مزامنة الطلبات</span>
  </div>
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span className="text-black">يتم احتساب النقاط بشكل آلي بعد كل عملية شراء</span>
  </div>
  </div>
- <div className="bg-white rounded-none border border-gray-200 p-4">
+ <div className="bg-white rounded-lg border border-gray-200 p-4">
  <p className="text-sm text-black">
  <strong>مهم:</strong> لا يحتاج العميل إلى تسجيل منفصل أو إدخال بيانات إضافية خارج متجرك.
  </p>
@@ -75,21 +75,21 @@ export default function HowItWorksPage() {
  عند إتمام أي طلب في متجرك:
  </p>
  <div className="space-y-3 mb-4">
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span className="text-black">يتم احتساب النقاط تلقائيًا</span>
  </div>
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span className="text-black">تُضاف النقاط إلى حساب العميل</span>
  </div>
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span className="text-black">يمكن للعميل متابعة رصيده من خلال صفحة الولاء</span>
  </div>
  </div>
  
- <div className="bg-white rounded-none border border-gray-200 p-6">
+ <div className="bg-white rounded-lg border border-gray-200 p-6">
  <p className="font-semibold text-black mb-4">مثال:</p>
  <p className="text-black mb-3">إذا حددت 1 نقطة لكل 1 ريال:</p>
  <div className="space-y-3">
@@ -126,21 +126,21 @@ export default function HowItWorksPage() {
  عندما يصل العميل إلى عدد النقاط المطلوب:
  </p>
  <div className="space-y-3 mb-4">
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span className="text-black">يمكنه استبدالها بمكافأة</span>
  </div>
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span className="text-black">يتم إصدار كوبون تلقائيًا</span>
  </div>
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200">
  <CheckCircle2 className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span className="text-black">يستخدم الكوبون في طلبه القادم</span>
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-200 p-6">
+ <div className="bg-white rounded-lg border border-gray-200 p-6">
  <p className="font-semibold text-black mb-4">أمثلة للمكافآت:</p>
  <div className="grid md:grid-cols-2 gap-3">
  <div className="p-3 bg-gray-50 rounded-none">
@@ -180,29 +180,29 @@ export default function HowItWorksPage() {
  من لوحة التحكم يمكنك معرفة:
  </p>
  <div className="grid md:grid-cols-2 gap-3 mb-4">
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200">
  <TrendingUp className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span className="text-black">عدد العملاء المشاركين في البرنامج</span>
  </div>
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200">
  <TrendingUp className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span className="text-black">إجمالي النقاط الموزعة</span>
  </div>
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200">
  <TrendingUp className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span className="text-black">معدل الاستبدال</span>
  </div>
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200">
  <TrendingUp className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span className="text-black">أداء المكافآت</span>
  </div>
- <div className="flex items-start gap-3 p-4 bg-white rounded-none border border-gray-200 md:col-span-2">
+ <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200 md:col-span-2">
  <TrendingUp className="size-5 text-[#3B82F6] shrink-0 mt-0.5" />
  <span className="text-black">العملاء الأكثر نشاطًا</span>
  </div>
  </div>
 
- <div className="bg-white rounded-none border border-gray-200 p-6">
+ <div className="bg-white rounded-lg border border-gray-200 p-6">
  <p className="font-semibold text-black mb-4">بناءً على هذه البيانات يمكنك:</p>
  <div className="space-y-2">
  <div className="flex items-start gap-2 text-black">
@@ -238,19 +238,19 @@ export default function HowItWorksPage() {
  <h2 id="what-makes-different">ماذا يميز BOND IT؟</h2>
 
  <div className="grid md:grid-cols-2 gap-4 my-6 not-prose">
- <div className="flex items-start gap-3 p-5 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-5 bg-white rounded-lg border border-gray-200">
  <div className="size-6 bg-[#3B82F6] rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0"></div>
  <span className="text-black font-semibold">يعمل تلقائيًا بعد التثبيت</span>
  </div>
- <div className="flex items-start gap-3 p-5 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-5 bg-white rounded-lg border border-gray-200">
  <div className="size-6 bg-[#3B82F6] rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0"></div>
  <span className="text-black font-semibold">لا يحتاج إدارة يدوية يومية</span>
  </div>
- <div className="flex items-start gap-3 p-5 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-5 bg-white rounded-lg border border-gray-200">
  <div className="size-6 bg-[#3B82F6] rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0"></div>
  <span className="text-black font-semibold">يمكنك تعديل الإعدادات في أي وقت</span>
  </div>
- <div className="flex items-start gap-3 p-5 bg-white rounded-none border border-gray-200">
+ <div className="flex items-start gap-3 p-5 bg-white rounded-lg border border-gray-200">
  <div className="size-6 bg-[#3B82F6] rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0"></div>
  <span className="text-black font-semibold">مصمم خصيصًا للمتاجر الإلكترونية</span>
  </div>
